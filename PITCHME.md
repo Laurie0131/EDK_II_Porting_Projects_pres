@@ -91,7 +91,6 @@ Note:
 <br>
 <br>
 <br>
-<br>
 <p style="line-height:50%" ><br>&nbsp;</p>
 @box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:70%" ><span style="font-size:0.9em; font-weight: bold;" > Library Class Name &rarr; Instance <br>&nbsp;</span></p>)
 <br>
