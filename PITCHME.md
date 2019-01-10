@@ -316,7 +316,7 @@ Note:
 <br>
 <br>
 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;@fa[book fa-3x  gp-bullet-ltgreen]
+&nbsp;&nbsp;&nbsp;@fa[book fa-3x  gp-bullet-ltgreen]
 @snapend
 
 @snap[north-east span-80 fragment ]
@@ -342,6 +342,11 @@ Note:
 <br>
 @snapend
 
+
+@snap[south-west span-80 fragment ]
+@box[bg-purple-pp text-white rounded  my-box-pad2 ](<span style="font-size:01.25em" >Search INF files for string:&nbsp;&nbsp; "`LIBRARY_CLASS  =`"&nbsp;<br>&nbsp;</span>)
+@snapend
+
 Note:
 
 - DSC maps library-class to library-instances
@@ -357,7 +362,7 @@ Note:
   
 - another Note; Workspace relative paths!
   -  Check for existing library instances.
-  - Search INF for string: LIBRARY_CLASS  =
+  - Search workspace INF files for string: "LIBRARY_CLASS  ="
 
 
 
