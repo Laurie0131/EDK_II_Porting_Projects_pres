@@ -304,7 +304,7 @@ Note:
 <br>
 <br>
 <br>
-@fa[book-open fa-3x  gp-bullet-ltgreen]
+@fa[book fa-3x  gp-bullet-ltgreen]
 @snapend
 
 @snap[north-west span-25 ]
@@ -316,6 +316,7 @@ Note:
 <br>
 <br>
 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;@fa[book fa-3x  gp-bullet-ltgreen]
 @snapend
 
 @snap[north-east span-80 fragment ]
@@ -342,8 +343,8 @@ Note:
 @snapend
 
 
-@snap[south span-90 fragment ]
-@box[bg-purple-pp text-white rounded  my-box-pad2 ](<span style="font-size:0.9em" >Search INF files for string:&nbsp;&nbsp; "`LIBRARY_CLASS  =`"&nbsp;<br>&nbsp;</span>)
+@snap[south span-85 fragment ]
+@box[bg-purple-pp text-white rounded   ](<span style="font-size:01.0em" >Search INF files for string:&nbsp;&nbsp; "`LIBRARY_CLASS  =`"&nbsp;<br>&nbsp;</span>)
 <br>
 @snapend
 
