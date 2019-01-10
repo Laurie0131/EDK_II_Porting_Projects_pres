@@ -199,7 +199,7 @@ Infrastructure Summary <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Library/ <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; . . . <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; PlatformDrivers/ <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="blue">NewProjectPkg.DSC</font><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
 </span></p>
@@ -211,17 +211,21 @@ Infrastructure Summary <br>
 @box[bg-yellow text-black my-box-pad2  ](<p style="line-height:75%" align="left"><span style="font-size:0.85em">&nbsp;&nbsp;<font color="blue"><b>DSC</b></font></span><span style="font-size:0.75em"><br>&nbsp;&nbsp;Only one to build against <br>&nbsp;&nbsp;Contains PCD platform values <br>&nbsp;&nbsp;Defines library classes<br>&nbsp;&nbsp;Includes other modules<br>&nbsp;&nbsp;</span></p>)
 @snapend
 
-
-@snap[north-east span-45 fragment ]
+@snap[north-west span-50 fragment]
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-@box[bg-yellow text-black my-box-pad2  ](<p style="line-height:75%" align="left"><span style="font-size:0.85em">&nbsp;&nbsp;<font color="red"><b>FDF</b></font></span><span style="font-size:0.75em"><br>&nbsp;&nbsp;File to define flash layout<br>&nbsp;&nbsp;</span></p>)
+<p style="line-height:85%" align="left"><span style="font-size:0.65em; font-family:Consolas;" > 
+&nbsp;&nbsp; MyWorkSpace/ <br>
+&nbsp;&nbsp;&nbsp;&nbsp; . . . <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; NewProjectPkg/ <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Include/ <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Library/ <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; . . . <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; PlatformDrivers/ <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="blue">NewProjectPkg.DSC</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="red">NewProjectPkg.FDF</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+</span></p>
 @snapend
 
 
@@ -232,13 +236,41 @@ Infrastructure Summary <br>
 <br>
 <br>
 <br>
+<p style="line-height:75%" align="left"> <br><br>&nbsp;&nbsp;</p>
+@box[bg-yellow text-black my-box-pad2  ](<p style="line-height:75%" align="left"><span style="font-size:0.85em">&nbsp;&nbsp;<font color="red"><b>FDF</b></font></span><span style="font-size:0.75em"><br>&nbsp;&nbsp;File to define flash layout<br>&nbsp;&nbsp;</span></p>)
+@snapend
+
+@snap[north-west span-50 fragment]
+<br>
+<br>
+<p style="line-height:85%" align="left"><span style="font-size:0.65em; font-family:Consolas;" > 
+&nbsp;&nbsp; MyWorkSpace/ <br>
+&nbsp;&nbsp;&nbsp;&nbsp; . . . <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; NewProjectPkg/ <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Include/ <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Library/ <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; . . . <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; PlatformDrivers/ <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="blue">NewProjectPkg.DSC</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="red">NewProjectPkg.FDF</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="green">NewProjectPkg.DEC</font><br>
+</span></p>
+@snapend
+
+@snap[north-east span-45 fragment ]
 <br>
 <br>
 <br>
 <br>
 <br>
 <br>
-@box[bg-yellow text-black my-box-pad2  ](<p style="line-height:75%" align="left"><span style="font-size:0.85em">&nbsp;&nbsp;<font color="white"><b>DEC</b></font></span><span style="font-size:0.75em"><br>&nbsp;&nbsp;File to define PCDS within the Platform Package <br>&nbsp;&nbsp;</span></p>)
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+@box[bg-yellow text-black my-box-pad2  ](<p style="line-height:75%" align="left"><span style="font-size:0.85em">&nbsp;&nbsp;<font color="green"><b>DEC</b></font></span><span style="font-size:0.75em"><br>&nbsp;&nbsp;File to define PCDS within the<br>&nbsp;&nbsp; Platform Package <br>&nbsp;&nbsp;</span></p>)
 @snapend
 
 
