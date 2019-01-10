@@ -208,7 +208,7 @@ Infrastructure Summary <br>
 @snap[north-east span-45 fragment ]
 <br>
 <br>
-@box[bg-yellow text-black my-box-pad2  ](<p style="line-height:85%" align="left"><span style="font-size:0.85em">&nbsp;&nbsp;<font color="lt-blue-pp"><b>DSC</b></font></span><span style="font-size:0.75em"><br>&nbsp;&nbsp;Only one to build against <br>&nbsp;&nbsp;Contains PCD platform values <br>&nbsp;&nbsp;Defines library classes<br>&nbsp;&nbsp;Includes other modules<br>&nbsp;&nbsp;</span></p>)
+@box[bg-yellow text-black my-box-pad2  ](<p style="line-height:75%" align="left"><span style="font-size:0.85em">&nbsp;&nbsp;<font color="blue"><b>DSC</b></font></span><span style="font-size:0.75em"><br>&nbsp;&nbsp;Only one to build against <br>&nbsp;&nbsp;Contains PCD platform values <br>&nbsp;&nbsp;Defines library classes<br>&nbsp;&nbsp;Includes other modules<br>&nbsp;&nbsp;</span></p>)
 @snapend
 
 Note:
