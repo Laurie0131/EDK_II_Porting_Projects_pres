@@ -297,7 +297,7 @@ Note:
 <p align="center"><span class="gold" ><b>Libraries</b></span></p>
 
 
-@snap[north-west span-30 ]
+@snap[north-west span-25 ]
 <br>
 <br>
 @fa[book fa-3x  gp-bullet-yellow]
@@ -307,15 +307,25 @@ Note:
 @fa[book fa-3x  gp-bullet-ltgreen]
 @snapend
 
-@snap[north-east span-90 fragment ]
+@snap[north-west span-25 ]
 <br>
 <br>
-<p style="line-height:75%" align="left"><span style="font-size:0.85em">DSC maps library class to library-instances</span></p>
+&nbsp;&nbsp;@fa[book fa-3x  gp-bullet-yellow]
+<br>
+<br>
+<br>
+&nbsp;&nbsp;@fa[book fa-3x  gp-bullet-ltgreen]
+@snapend
+
+@snap[north-east span-85 fragment ]
+<br>
+<br>
+<p style="line-height:75%" align="left"><span style="font-size:0.9em">DSC maps library class to library-instances</span></p>
 <br>
 @snapend
 
 
-@snap[north-east span-90 fragment ]
+@snap[north-east span-85 fragment ]
 <br>
 <br>
 <br>
@@ -323,8 +333,7 @@ Note:
 <br>
 <br>
 <br>
-<br>
-<p style="line-height:75%" align="left"><span style="font-size:0.85em">Syntax in DSC File</span><br>
+<p style="line-height:75%" align="left"><span style="font-size:0.9em">Syntax in DSC File</span><br>
 <span style="font-size:0.65em; font-family:Consolas;">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[libraryclasses] <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LibraryClassName|Path/To/@color[#00ffff](LibInstanceNameInstance1).inf  </span> </p>  
