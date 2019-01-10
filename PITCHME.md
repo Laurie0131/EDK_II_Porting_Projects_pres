@@ -300,11 +300,11 @@ Note:
 @snap[north-west span-25 ]
 <br>
 <br>
-@fa[book fa-3x  gp-bullet-yellow]
+@fa[book fa-3x  gp-bullet-cream]
 <br>
 <br>
 <br>
-@fa[book fa-3x  gp-bullet-ltgreen]
+@fa[book fa-3x  gp-bullet-cream]
 @snapend
 
 @snap[north-west span-25 ]
@@ -337,14 +337,14 @@ Note:
 <br>
 <p style="line-height:75%" align="left"><span style="font-size:0.9em">Syntax in DSC File</span><br>
 <span style="font-size:0.65em; font-family:Consolas;">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[libraryclasses] <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LibraryClassName|Path/To/@color[#00ffff](LibInstanceNameInstance1).inf  </span> </p>  
+&nbsp;&nbsp;&nbsp;&nbsp;[libraryclasses] <br>
+&nbsp;&nbsp;&nbsp;&nbsp;LibraryClassName|Path/To/@color[#00ffff](LibInstanceNameInstance1).inf  </span> </p>  
 <br>
 @snapend
 
 
 @snap[south span-85 fragment ]
-@box[bg-purple-pp text-white rounded   ](<span style="font-size:01.0em" >Search INF files for string:&nbsp;&nbsp; "`LIBRARY_CLASS  =`"&nbsp;<br>&nbsp;</span>)
+@box[bg-purple-pp text-white rounded   ](<span style="font-size:01.0em" >Search INF files for string:&nbsp;&nbsp; "`LIBRARY_CLASS  =`"&nbsp;</span>)
 <br>
 @snapend
 
