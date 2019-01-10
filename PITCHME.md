@@ -295,25 +295,35 @@ Note:
 ---
 @title[Libraries]
 <p align="center"><span class="gold" ><b>Libraries</b></span></p>
-@snap[north-west span-100 fragment ]
+
+
+@snap[north-west span-30 ]
 <br>
 <br>
-<p style="line-height:75%" align="left">@fa[book fa-3x  gp-bullet-yellow](<span style="font-size:0.85em">DSC maps library class to library-instances</span>)</p>
+@fa[book fa-3x  gp-bullet-yellow]
+<br>
+@fa[book fa-3x  gp-bullet-ltgreen]
+@snapend
+
+@snap[north span-90 fragment ]
+<br>
+<br>
+<p style="line-height:75%" align="left"><span style="font-size:0.85em">DSC maps library class to library-instances</span></p>
 <br>
 @snapend
 
 
-@snap[north-west span-100 fragment ]
+@snap[north-west span-90 fragment ]
 <br>
 <br>
 <br>
 <br>
 <br>
 <br>
-<p style="line-height:75%" align="left">@fa[book fa-3x  gp-bullet-yellow](<span style="font-size:0.85em">Syntax in DSC File</span>)</p>
-<p style="line-height:75%" align="left"><span style="font-size:0.85em; font-family:Consolas;">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[libraryclasses] <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LibraryClassName|Path/To/@color[#00b0f0](LibInstanceNameInstance1).inf  </span> </p>  
+<p style="line-height:75%" align="left"><span style="font-size:0.85em">Syntax in DSC File</span><br>
+<span style="font-size:0.85em; font-family:Consolas;">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[libraryclasses] <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LibraryClassName|Path/To/@color[#00b0f0](LibInstanceNameInstance1).inf  </span> </p>  
 <br>
 @snapend
 
