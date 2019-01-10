@@ -310,14 +310,16 @@ Note:
 @snap[north-west span-25 ]
 <br>
 <br>
-&nbsp;&nbsp;@fa[book fa-3x  gp-bullet-yellow]
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;@fa[book fa-3x  gp-bullet-yellow]
 <br>
 <br>
 <br>
-&nbsp;&nbsp;@fa[book fa-3x  gp-bullet-ltgreen]
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;@fa[book fa-3x  gp-bullet-ltgreen]
 @snapend
 
-@snap[north-east span-85 fragment ]
+@snap[north-east span-80 fragment ]
 <br>
 <br>
 <p style="line-height:75%" align="left"><span style="font-size:0.9em">DSC maps library class to library-instances</span></p>
@@ -325,7 +327,7 @@ Note:
 @snapend
 
 
-@snap[north-east span-85 fragment ]
+@snap[north-east span-80 fragment ]
 <br>
 <br>
 <br>
