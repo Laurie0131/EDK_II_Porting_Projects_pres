@@ -292,37 +292,49 @@ Infrastructure Summary <br>
 
 Note:
 
+---
+@title[Libraries]
+<p align="center"><span class="gold" ><b>Libraries</b></span></p>
+@snap[north-west span-100 fragment ]
+<br>
+<br>
+<p style="line-height:75%" align="left">@fa[book fa-3x  gp-bullet-yellow](<span style="font-size:0.85em">DSC maps library class to library-instances</span>)</p>
+<br>
+@snapend
 
 
----?image=/assets/images/slides/Slide13.JPG
-<!-- .slide: data-transition="none" -->
-@title[New Package Directory]
-<p align="right"><span class="gold" >New Package Directory</span></p>
-
-
-Note:
-
-
-
-+++?image=/assets/images/slides/Slide14.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[New Package Directory 02]
-<p align="right"><span class="gold" >New Package Directory</span></p>
-
-
-Note:
-
-
-
-+++?image=/assets/images/slides/Slide15.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[New Package Directory 03]
-<p align="right"><span class="gold" >New Package Directory</span></p>
-
+@snap[north-west span-100 fragment ]
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p style="line-height:75%" align="left">@fa[book fa-3x  gp-bullet-yellow](<span style="font-size:0.85em">Syntax in DSC File</span>)</p>
+<p style="line-height:75%" align="left"><span style="font-size:0.85em; font-family:Consolas;">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[libraryclasses] <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LibraryClassName|Path/To/@color[#00b0f0](LibInstanceNameInstance1).inf  </span> </p>  
+<br>
+@snapend
 
 Note:
+
+- DSC maps library-class to library-instances
+- Global, by type, individual override based on desired implimentation
+- Effected by size, speed, built in, binary distribution 
+- PCI example
+  - PciCfg – Protocol function call by GUID (PEI)
+  - PciRootBridgeIo – Protocol function call by GUID (DXE)
+  - Syntax in DSC file
+  - 	[libraryclasses] 
+  - 	LibraryClassName|Path/To/LibInstanceNameInstance1.inf
+  
+  
+- another Note; Workspace relative paths!
+  -  Check for existing library instances.
+  - Search INF for string: LIBRARY_CLASS  =
+
+
 
 
 
@@ -352,7 +364,7 @@ Note:
 
 ---?image=/assets/images/slides/Slide19.JPG
 @title[Library Classes in DSC ]
-<p align="right"><span class="gold" >Library Classes Section in DSC</span></p>
+<p align="right"><span class="gold" ><b>Library Classes Section in DSC<b></span></p>
 
 
 Note:
