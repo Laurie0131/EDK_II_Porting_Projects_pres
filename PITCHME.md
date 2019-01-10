@@ -137,114 +137,44 @@ Note:
 - PCD – PCD helps with porting, and may mean not changing any of the source code
 
 
-
----?image=/assets/images/slides/Slide4.JPG
-<!-- .slide: data-transition="none" -->
-@title[EDK II Infrastructure]
-<p align="right"><span class="gold" >EDK II Infrastructure</span></p>
+---
+@title[EDK II Infrastructure Review]
+<p align="right"><span class="gold" ><b>EDK II Infrastructure - review</b></span></p>
 
 
-Note:
-
-- First off we have the infrastructure.
-- So the infrastructure is what are the new things added for EDK II?
-
-- First, the directory structure, the directory structure for EDK II is now structured so that all of the platform package contents are in subdirectories under the platform package. So we will have a new platform package, and in that directory there will be subdirectories where we will have all of the reported modules and code for our new platform. Anything we update will be in this directory package. So what we will see is our build description files.
-
-- The other thing that is different is the libraries. We see with EDK II we have a library class and library instances. If we take our existing platform and look at the library instances we may have to update those for our new platform package.
-
-- The third thing that is different is the new platform configuration database or PCD. What we will see with this is to port our new platform we may only be changing a PCD value and we may not even change the source code.
-
-- Directory Structure
-  - The package for the platform contains subdirectories for ported modules
-  - Text files: FDF, DSC, DEC
-
-- Libraries – Library class and library instances may need to be ported for the platform
-
-- PCD – PCD helps with porting, and may mean not changing any of the source code
+@snap[west span-30 ]
+@box[bg-royal text-white waved fragment](<span style="font-size:01.25em" >@color[yellow](<b>Packages</b>)</span><br>List of related modules )
+@snapend
 
 
-+++?image=/assets/images/slides/Slide5.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[EDK II Infrastructure 02]
-<p align="right"><span class="gold" >EDK II Infrastructure</span></p>
+@snap[north-west span-45 fragment]
+@css[text-yellow]( <br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size:03.25em" >+</span>)
+@snapend
+
+
+@snap[midpoint span-30 ]
+@box[bg-royal text-white waved fragment](<span style="font-size:01.25em" >@color[yellow](<b>Libraries</b>)</span> Same name & interface)
+@snapend
+
+@snap[north span-45 fragment]
+@css[text-yellow]( <br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size:03.25em" >+</span>)
+@snapend
+
+@snap[east span-30]
+@box[bg-royal text-white waved fragment](<span style="font-size:01.25em" >@color[yellow](<b>PCDs</b>) </span><br> Platform Config. DB )
+@snapend
 
 
 Note:
 
-- First off we have the infrastructure.
-- So the infrastructure is what are the new things added for EDK II?
+Summary <br>
+- Packages<br>
+  - list of modules<br>
+- Libraries<br>
+   - Same Names with different implementation but same interface<br>
+- PCD
+  - Platform configuration database
 
-- First, the directory structure, the directory structure for EDK II is now structured so that all of the platform package contents are in subdirectories under the platform package. So we will have a new platform package, and in that directory there will be subdirectories where we will have all of the reported modules and code for our new platform. Anything we update will be in this directory package. So what we will see is our build description files.
-
-- The other thing that is different is the libraries. We see with EDK II we have a library class and library instances. If we take our existing platform and look at the library instances we may have to update those for our new platform package.
-
-- The third thing that is different is the new platform configuration database or PCD. What we will see with this is to port our new platform we may only be changing a PCD value and we may not even change the source code.
-
-- Directory Structure
-  - The package for the platform contains subdirectories for ported modules
-  - Text files: FDF, DSC, DEC
-
-- Libraries – Library class and library instances may need to be ported for the platform
-
-- PCD – PCD helps with porting, and may mean not changing any of the source code
-
-
-
-+++?image=/assets/images/slides/Slide6.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[EDK II Infrastructure 03]
-<p align="right"><span class="gold" >EDK II Infrastructure</span></p>
-
-
-Note:
-
-- First off we have the infrastructure.
-- So the infrastructure is what are the new things added for EDK II?
-
-- First, the directory structure, the directory structure for EDK II is now structured so that all of the platform package contents are in subdirectories under the platform package. So we will have a new platform package, and in that directory there will be subdirectories where we will have all of the reported modules and code for our new platform. Anything we update will be in this directory package. So what we will see is our build description files.
-
-- The other thing that is different is the libraries. We see with EDK II we have a library class and library instances. If we take our existing platform and look at the library instances we may have to update those for our new platform package.
-
-- The third thing that is different is the new platform configuration database or PCD. What we will see with this is to port our new platform we may only be changing a PCD value and we may not even change the source code.
-
-- Directory Structure
-  - The package for the platform contains subdirectories for ported modules
-  - Text files: FDF, DSC, DEC
-
-- Libraries – Library class and library instances may need to be ported for the platform
-
-- PCD – PCD helps with porting, and may mean not changing any of the source code
-
-
-
-+++?image=/assets/images/slides/Slide7.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[EDK II Infrastructure 04]
-<p align="right"><span class="gold" >EDK II Infrastructure</span></p>
-
-
-Note:
-
-- First off we have the infrastructure.
-- So the infrastructure is what are the new things added for EDK II?
-
-- First, the directory structure, the directory structure for EDK II is now structured so that all of the platform package contents are in subdirectories under the platform package. So we will have a new platform package, and in that directory there will be subdirectories where we will have all of the reported modules and code for our new platform. Anything we update will be in this directory package. So what we will see is our build description files.
-
-- The other thing that is different is the libraries. We see with EDK II we have a library class and library instances. If we take our existing platform and look at the library instances we may have to update those for our new platform package.
-
-- The third thing that is different is the new platform configuration database or PCD. What we will see with this is to port our new platform we may only be changing a PCD value and we may not even change the source code.
-
-- Directory Structure
-  - The package for the platform contains subdirectories for ported modules
-  - Text files: FDF, DSC, DEC
-
-- Libraries – Library class and library instances may need to be ported for the platform
-
-- PCD – PCD helps with porting, and may mean not changing any of the source code
 
 
 ---?image=/assets/images/slides/Slide9.JPG
