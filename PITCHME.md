@@ -184,14 +184,14 @@ Infrastructure Summary <br>
 @snap[north-west span-50 ]
 <br>
 <br>
-@box[bg-black text-white rounded my-box-pad2  ](<p style="line-height:70%" ><span style="font-size:0.9em; font-weight: bold;" > <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>&nbsp;</span></p>)
+@box[bg-black text-white rounded my-box-pad2  ](<p style="line-height:70%" ><span style="font-size:0.9em; font-weight: bold;" > <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>&nbsp;</span></p>)
 <br>
 @snapend
 
 @snap[north-west span-50 ]
 <br>
 <br>
-<p style="line-height:85%" align="left"><span style="font-size:0.9em; font-family:Consolas;" > 
+<p style="line-height:85%" align="left"><span style="font-size:0.65em; font-family:Consolas;" > 
 &nbsp;&nbsp; MyWorkSpace/ <br>
 &nbsp;&nbsp;&nbsp;&nbsp; . . . <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; NewProjectPkg/ <br>
@@ -205,10 +205,10 @@ Infrastructure Summary <br>
 </span></p>
 @snapend
 
-@snap[north-east span-50 fragment ]
+@snap[north-east span-45 fragment ]
 <br>
 <br>
-@box[bg-yellow text-black my-box-pad2  ](<p style="line-height:85%" align="left"><span style="font-size:0.9em">&nbsp;&nbsp;<font color="cyan"><b>DSC</b></font><br>&nbsp;&nbsp;Only one to build against <br>&nbsp;&nbsp;Contains PCD platform values <br>&nbsp;&nbsp;Defines library classes<br>&nbsp;&nbsp;Includes other modules<br>&nbsp;&nbsp;</span></p>)
+@box[bg-yellow text-black my-box-pad2  ](<p style="line-height:85%" align="left"><span style="font-size:0.85em">&nbsp;&nbsp;<font color="lt-blue-pp"><b>DSC</b></font></span><span style="font-size:0.75em"><br>&nbsp;&nbsp;Only one to build against <br>&nbsp;&nbsp;Contains PCD platform values <br>&nbsp;&nbsp;Defines library classes<br>&nbsp;&nbsp;Includes other modules<br>&nbsp;&nbsp;</span></p>)
 @snapend
 
 Note:
