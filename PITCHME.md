@@ -167,7 +167,7 @@ Note:
 
 Note:
 
-Summary <br>
+Infrastructure Summary <br>
 - Packages<br>
   - list of modules<br>
 - Libraries<br>
@@ -177,34 +177,42 @@ Summary <br>
 
 
 
----?image=/assets/images/slides/Slide9.JPG
-<!-- .slide: data-transition="none" -->
-@title[EDK II Infrastructure Review]
-<p align="right"><span class="gold" >EDK II Infrastructure - review</span></p>
+---
+@title[New Package Directory]
+<p align="right"><span class="gold" ><b>New Package Directory</b></span></p>
 
+@snap[north-west span-50 ]
+<br>
+<br>
+@box[bg-black text-white rounded my-box-pad2  ](<p style="line-height:70%" ><span style="font-size:0.9em; font-weight: bold;" > <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>&nbsp;</span></p>)
+<br>
+@snapend
+
+@snap[north-west span-50 ]
+<br>
+<br>
+<p style="line-height:85%" align="left"><span style="font-size:0.9em; font-family:Consolas;" > 
+&nbsp;&nbsp; MyWorkSpace/ <br>
+&nbsp;&nbsp;&nbsp;&nbsp; . . . <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; NewProjectPkg/ <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Include/ <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Library/ <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; . . . <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; PlatformDrivers/ <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+</span></p>
+@snapend
+
+@snap[north-east span-50 fragment ]
+<br>
+<br>
+@box[bg-yellow text-black my-box-pad2  ](<p style="line-height:85%" align="left"><span style="font-size:0.9em">&nbsp;&nbsp;<font color="cyan"><b>DSC</b></font><br>&nbsp;&nbsp;Only one to build against <br>&nbsp;&nbsp;Contains PCD platform values <br>&nbsp;&nbsp;Defines library classes<br>&nbsp;&nbsp;Includes other modules<br>&nbsp;&nbsp;</span></p>)
+@snapend
 
 Note:
 
-
-+++?image=/assets/images/slides/Slide10.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[EDK II Infrastructure Review 02]
-<p align="right"><span class="gold" >EDK II Infrastructure - review</span></p>
-
-
-Note:
-
-
-
-+++?image=/assets/images/slides/Slide11.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[EDK II Infrastructure Review 03]
-<p align="right"><span class="gold" >EDK II Infrastructure - review</span></p>
-
-
-Note:
 
 
 ---?image=/assets/images/slides/Slide13.JPG
