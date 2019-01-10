@@ -1,6 +1,9 @@
 ---?image=assets/images/gitpitch-audience.jpg
 @title[EDK_II_Porting_Projects_pres]
-<br><br><br><br><br>
+<br><br><br>
+<span style="font-size:0.75em" >This slide deck has moved to:  https://gitpitch.com/tianocore-training/EDK_II_Porting_Projects_pres/master#/
+</span>
+<br><br>
 ## <span class="gold"   >UEFI & EDK II Training</span>
 
 #### Porting an Existing Project 
@@ -56,6 +59,80 @@ Note:
 <br><br><br><br><br><br><br>
 ### <span class="gold"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;EDK II Infrastructure </span>
 <span style="font-size:0.9em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Review of EDK II</span>
+
+
+---
+@title[EDK II Infrastructure]
+<p align="right"><span class="gold" >EDK II Infrastructure</span></p>
+
+@snap[north-west span-60 fragment]
+<br>
+<br>
+@box[bg-gold2 text-white rounded my-box-pad2  ](<p style="line-height:70%" ><span style="font-size:0.9em; font-weight: bold;" >Directory Structure<br>&nbsp;</span></p>)
+<br>
+@snapend
+
+
+@snap[north-east span-65 fragment]
+<br>
+<br>
+<p style="line-height:50%" ><br><br>&nbsp;</p>
+@box[bg-royal text-white rounded my-box-pad2  ](<p style="line-height:70%" ><span style="font-size:0.9em; font-weight: bold;" >Platform/Projects in Packages<br>&nbsp;</span></p>)
+<br>
+@snapend
+
+
+@snap[north-west span-70 fragment]
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:70%" ><span style="font-size:0.9em; font-weight: bold;" > Library Class Name &rarr; Instance <br>&nbsp;</span></p>)
+<br>
+@snapend
+
+
+
+@snap[north-east span-90 fragment]
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p style="line-height:50%" ><br>&nbsp;<br>&nbsp;</p>
+@box[bg-navy text-white rounded my-box-pad2  ](<p style="line-height:70%" ><span style="font-size:0.9em; font-weight: bold;" >Platform Configuration Database PCD<br>&nbsp;</span></p>)
+<br>
+@snapend
+
+
+
+
+
+
+Note:
+
+- First off we have the infrastructure.
+- So the infrastructure is what are the new things added for EDK II?
+
+- First, the directory structure, the directory structure for EDK II is now structured so that all of the platform package contents are in subdirectories under the platform package. So we will have a new platform package, and in that directory there will be subdirectories where we will have all of the reported modules and code for our new platform. Anything we update will be in this directory package. So what we will see is our build description files.
+
+- The other thing that is different is the libraries. We see with EDK II we have a library class and library instances. If we take our existing platform and look at the library instances we may have to update those for our new platform package.
+
+- The third thing that is different is the new platform configuration database or PCD. What we will see with this is to port our new platform we may only be changing a PCD value and we may not even change the source code.
+
+- Directory Structure
+  - The package for the platform contains subdirectories for ported modules
+  - Text files: FDF, DSC, DEC
+
+- Libraries – Library class and library instances may need to be ported for the platform
+
+- PCD – PCD helps with porting, and may mean not changing any of the source code
+
 
 
 ---?image=/assets/images/slides/Slide4.JPG
