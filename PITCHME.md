@@ -211,6 +211,37 @@ Infrastructure Summary <br>
 @box[bg-yellow text-black my-box-pad2  ](<p style="line-height:75%" align="left"><span style="font-size:0.85em">&nbsp;&nbsp;<font color="blue"><b>DSC</b></font></span><span style="font-size:0.75em"><br>&nbsp;&nbsp;Only one to build against <br>&nbsp;&nbsp;Contains PCD platform values <br>&nbsp;&nbsp;Defines library classes<br>&nbsp;&nbsp;Includes other modules<br>&nbsp;&nbsp;</span></p>)
 @snapend
 
+
+@snap[north-east span-45 fragment ]
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+@box[bg-yellow text-black my-box-pad2  ](<p style="line-height:75%" align="left"><span style="font-size:0.85em">&nbsp;&nbsp;<font color="red"><b>FDF</b></font></span><span style="font-size:0.75em"><br>&nbsp;&nbsp;File to define flash layout<br>&nbsp;&nbsp;</span></p>)
+@snapend
+
+
+@snap[north-east span-45 fragment ]
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+@box[bg-yellow text-black my-box-pad2  ](<p style="line-height:75%" align="left"><span style="font-size:0.85em">&nbsp;&nbsp;<font color="white"><b>DEC</b></font></span><span style="font-size:0.75em"><br>&nbsp;&nbsp;File to define PCDS within the Platform Package <br>&nbsp;&nbsp;</span></p>)
+@snapend
+
+
 Note:
 
 
