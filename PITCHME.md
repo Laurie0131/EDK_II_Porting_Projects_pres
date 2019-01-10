@@ -63,9 +63,10 @@ Note:
 
 ---
 @title[EDK II Infrastructure]
-<p align="right"><span class="gold" >EDK II Infrastructure</span></p>
+<p align="right"><span class="gold" ><b>EDK II Infrastructure</b></span></p>
 
 @snap[north-west span-60 fragment]
+<br>
 <br>
 <br>
 @box[bg-gold2 text-white rounded my-box-pad2  ](<p style="line-height:70%" ><span style="font-size:0.9em; font-weight: bold;" >Directory Structure<br>&nbsp;</span></p>)
@@ -74,6 +75,7 @@ Note:
 
 
 @snap[north-east span-65 fragment]
+<br>
 <br>
 <br>
 <p style="line-height:50%" ><br><br>&nbsp;</p>
@@ -90,13 +92,15 @@ Note:
 <br>
 <br>
 <br>
+<br>
 @box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:70%" ><span style="font-size:0.9em; font-weight: bold;" > Library Class Name &rarr; Instance <br>&nbsp;</span></p>)
 <br>
 @snapend
 
 
 
-@snap[north-east span-90 fragment]
+@snap[north-east span-80 fragment]
+<br>
 <br>
 <br>
 <br>
