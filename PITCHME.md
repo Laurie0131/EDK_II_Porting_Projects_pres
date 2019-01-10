@@ -107,7 +107,7 @@ Note:
 <br>
 <br>
 <br>
-<p style="line-height:50%" ><br><br><br>&nbsp;<br>&nbsp;</p>
+<p style="line-height:50%" ><br><br><br><br>&nbsp;<br>&nbsp;</p>
 @box[bg-navy text-white rounded my-box-pad2  ](<p style="line-height:70%" ><span style="font-size:0.9em; font-weight: bold;" >Platform Configuration Database PCD<br>&nbsp;</span></p>)
 <br>
 @snapend
