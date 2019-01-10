@@ -344,7 +344,7 @@ Note:
 
 
 @snap[south-west span-80 fragment ]
-@box[bg-purple-pp text-white rounded  my-box-pad2 ](<span style="font-size:01.25em" >Search INF files for string:&nbsp;&nbsp; "`LIBRARY_CLASS  =`"&nbsp;<br>&nbsp;</span>)
+@box[bg-purple-pp text-white rounded  my-box-pad2 ](<span style="font-size:0.9em" >Search INF files for string:&nbsp;&nbsp; "`LIBRARY_CLASS  =`"&nbsp;<br>&nbsp;</span>)
 @snapend
 
 Note:
