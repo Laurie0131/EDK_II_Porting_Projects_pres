@@ -632,7 +632,7 @@ Porting_task_list.gif
 <br>
 <br>
 <br>
-@box[bg-black text-white rounded my-box-pad2  ](<p style="line-height:70%" ><span style="font-size:0.9em; font-weight: bold;" > <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>&nbsp;</span></p>)
+@box[bg-grey-15 text-white rounded my-box-pad2  ](<p style="line-height:70%" ><span style="font-size:0.9em; font-weight: bold;" > <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>&nbsp;</span></p>)
 @snapend
 
 
@@ -645,14 +645,6 @@ Porting_task_list.gif
 <br>
 <br>
 <p style="line-height:60%" align="left"><span style="font-size:02.0em" ><font color="#808080"><br>&#10102;<br><br>&#10103;<br><br>&#10104;<br><br>&#10105;<br><br>&#10106;<br><br>&#10107;  </font></span></p>
-@snapend
-
-@snap[north-east span-90 ]
-<br>
-<br>
-<br>
-@box[bg-grey-15 text-white my-box-pad2  ](<p style="line-height:60%" align="left"><span style="font-size:0.90em" ><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>
-&nbsp;<br><br>&nbsp;<br><br>&nbsp;  </font></span></p>
 @snapend
 
 
