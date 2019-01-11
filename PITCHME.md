@@ -311,7 +311,7 @@ Note:
 <br>
 <br>
 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;@fa[book fa-3x  gp-bullet-orange]
+&nbsp;&nbsp;&nbsp;&nbsp;@fa[book fa-3x  gp-bullet-yellow]
 <br>
 <br>
 <br>
@@ -322,7 +322,7 @@ Note:
 @snap[north-east span-80 fragment ]
 <br>
 <br>
-<p style="line-height:75%" align="left"><span style="font-size:0.9em">@color[#e49436](DSC maps library class to library-instances)</span></p>
+<p style="line-height:75%" align="left"><span style="font-size:0.9em">@color[yellow](DSC maps library class to library-instances)</span></p>
 <br>
 @snapend
 
