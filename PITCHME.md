@@ -957,7 +957,7 @@ Note:
 
 ---?image=assets/images/binary-strings-black2.jpg
 <!-- .slide: data-transition="none" -->
-@title[Porting Task List Section 02]
+@title[Porting Task List Section 04]
 <p align="center"><span style="font-size:01.25em"><font color="#e49436"><b>Porting Task List</b></span></p>
 
 @snap[north-east span-90 ]
@@ -1008,7 +1008,7 @@ Note:
 +++?image=assets/images/binary-strings-black2.jpg
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
-@title[Porting Task List Section 04]
+@title[Porting Task List Section 04-2]
 <p align="center"><span style="font-size:01.25em"><font color="#e49436"><b>Porting Task List</b></span></p>
 
 @snap[north-east span-90 ]
@@ -1050,7 +1050,7 @@ Note:
 @snapend
 
 @snap[south span-100 fragment]
-@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:80%"><span style="font-size:0.80em" >Port all required modules for your project through<br> all UEFI Platform initialization phases<br>&nbsp;</span></p>)
+@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:80%"><span style="font-size:0.80em" >Port all required modules for your project using UEFI Platform initialization phases as a guide<br>&nbsp;</span></p>)
 @snapend
 
 Note:
@@ -1063,26 +1063,6 @@ Note:
 6. Minimums for UEFI Shell
 
 ### This will be the longest task and depending on the project may take several weeks
-
-
-
----?image=/assets/images/slides/Slide45.JPG
-<!-- .slide: data-transition="none" -->
-@title[Porting Task List Section 04]
-<p align="center"><span class="gold" ><b>Porting Task List</b></span></p>
-
-
-
-
-+++?image=/assets/images/slides/Slide46.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Porting Task List Section 04 - 2]
-<p align="center"><span class="gold" ><b>Porting Task List</b></span></p>
-
-Note:
-
-This will be the longest task and depending on the project may take several weeks
 
 
 
