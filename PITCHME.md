@@ -595,7 +595,9 @@ Note:
 @snap[north-east span-40 fragment]
 <br>
 <br>
-@box[bg-lt-orange text-white my-box-pad2  ](<p style="line-height:40%"<span style="font-size:01.1em" > Search Work Space<b>&nbsp;</span></p>)
+<br>
+<br>
+@box[bg-lt-gold2 text-white my-box-pad2  ](<p style="line-height:40%"<span style="font-size:01.1em" > <b>Search Work Space</b><br>&nbsp;</span></p>)
 @snapend
 
 
@@ -603,15 +605,14 @@ Note:
 <br>
 <br>
 <br>
-@box[bg-green-pp text-white my-box-pad2  ](<p style="line-height:40%"<span style="font-size:01.1em" > Find sSimilar EDK II Projects<b>&nbsp;</span></p>)
+@box[bg-green-pp text-white my-box-pad2  ](<p style="line-height:40%"<span style="font-size:01.1em" ><b>Find Similar EDK II Projects</b><br>&nbsp;</span></p>)
 @snapend
 
 
 @snap[south span-45 fragment]
+@box[bg-purple-pp text-white my-box-pad2  ](<p style="line-height:40%"<span style="font-size:01.1em" > <b>Boot to UEFI Shell</b><br>&nbsp;</span></p>)
 <br>
 <br>
-<br>
-@box[bg-purple-pp text-white my-box-pad2  ](<p style="line-height:40%"<span style="font-size:01.1em" > Boot to UEFI Shell<b>&nbsp;</span></p>)
 @snapend
 
 Note:
