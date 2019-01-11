@@ -554,17 +554,7 @@ Note:
 <br>
 <br>
 <br>
-@box[bg-black text-white my-box-pad2  ](<p style="line-height:40%" align="left"><span style="font-size:0.850em;" >&nbsp;&nbsp;Example used in @color[yellow](`NewProjectPkg.dsc`)<br>&nbsp;</span></p>)
-```
- [PcdsPatchableInModule.common] 
-  gEfiMdePkgTokenSpaceGuid.PcdPciExpressBaseAddress|0x0E0000000
-   . . .
-  gNewProjectTokenSpaceGuid.PcdTCSmbaIoBaseAddress|0x1040
-  gEfiCpuTokenSpaceGuid.PcdTemporaryRamBase|0xFEF80000
-  gEfiCpuTokenSpaceGuid.PcdTemporaryRamSize|0x00010000 
-
-```
-
+@box[bg-black text-white my-box-pad2  ](<p style="line-height:40%" align="left"><span style="font-size:0.850em;" >&nbsp;&nbsp;Example used in @color[yellow](`NewProjectPkg.dsc`)</span><br>&nbsp;&nbsp;<span style="font-size:0.450em; font-family:Consolas; " > [PcdsPatchableInModule.common] <br>&nbsp;&nbsp;  gEfiMdePkgTokenSpaceGuid.PcdPciExpressBaseAddress|0x0E0000000<br>&nbsp;&nbsp;   . . .<br>&nbsp;&nbsp;  gNewProjectTokenSpaceGuid.PcdTCSmbaIoBaseAddress|0x1040<br>&nbsp;&nbsp;  gEfiCpuTokenSpaceGuid.PcdTemporaryRamBase|0xFEF80000<br>&nbsp;&nbsp;  gEfiCpuTokenSpaceGuid.PcdTemporaryRamSize|0x00010000 <br>&nbsp;&nbsp;<br>&nbsp;</span></p>)
 @snapend
 
 Note:
