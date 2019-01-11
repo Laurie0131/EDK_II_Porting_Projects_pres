@@ -398,13 +398,13 @@ Note:
 @snap[north-east span-30 fragment ]
 <br>
 <br>
-@box[bg-purple-pp text-white my-box-pad2  ](<span style="font-size:0.6em;> Library Class Section</span>)
+@box[bg-purple-pp text-white my-box-pad2  ](<span style="font-size:0.6em;"> Library Class Section</span>)
 <br>
 <br>
 <br>
 <br>
 <br>
-@box[bg-green text-white my-box-pad2  ](<span style="font-size:0.6em;> Components Section</span>)
+@box[bg-green text-white my-box-pad2  ](<span style="font-size:0.6em;"> Components Section</span>)
 @snapend
 
 
