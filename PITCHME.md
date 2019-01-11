@@ -498,6 +498,96 @@ Note:
 - Syntax Examples
 	- [pcdsFeatureFlag.common] [pcdsFixedAtBuild.IA32] [pcdsFixedAtBuild.X64]   [pcdsFixedAtBuild.IPF] [pcdsFixedAtBuild.EBC]   [pcdsDynamic.IA32] [pcdsDynamicEx.X64] 
 
+---?image=/assets/images/slides/Slide10_1.JPG
+@title[PCD Syntax]
+<p align="right"><span class="gold" ><b>PCD Syntax</b></span></p>
+@snap[north-east span-90 fragment]
+<br>
+<br>
+<p align="left" style="line-height:80%"><span style="font-size:0.9em; ">PCD defined in the DEC file from any package</span></p>
+@box[bg-black text-white my-box-pad2  ](<p style="line-height:40%" align="left"><span style="font-size:0.450em; font-family:Consolas; " >&nbsp;&nbsp;[Guids.common]<br>&nbsp;&nbsp;@color[red](PcdTokenSpaceGuidName)={ 0xXXXXXXXX, 0xXXXX, 0xXXXX, { 0xXX, . . .}}<br>&nbsp;&nbsp;. . .<br>&nbsp;&nbsp;[Pcds...]<br>&nbsp;&nbsp;PcdTokenSpaceGuidName.PcdTokenName|Value[|DatumType[|MaxSize]]|Token<br>&nbsp;&nbsp;</span></p>)
+<br>
+@snapend
+
+@snap[north-east span-90 fragment]
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p align="left" style="line-height:80%"><span style="font-size:0.9em; ">PCD usage listed in INF file for module</span></p>
+@box[bg-black text-white my-box-pad2  ](<p style="line-height:40%" align="left"><span style="font-size:0.450em; font-family:Consolas; " >&nbsp;&nbsp;[...Pcds...]<br>&nbsp;&nbsp;PcdTokenSpaceGuidName.@color[red](PcdTokenName)|[Value]<br>&nbsp;&nbsp;</span></p>)
+<br>
+@snapend
+
+
+@snap[north-east span-90 fragment]
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p align="left" style="line-height:80%"><span style="font-size:0.9em; ">Value of PCD set in @color[yellow](`NewProject.dsc`)</span></p>
+@box[bg-black text-white my-box-pad2  ](<p style="line-height:40%" align="left"><span style="font-size:0.450em; font-family:Consolas; " >&nbsp;&nbsp;[Pcds...]<br>&nbsp;&nbsp;PcdTokenSpaceGuidName.@color[red](PcdTokenName)|Value[|DatumType[|MaximumDatumSize]]</span><br>&nbsp;&nbsp;</p>)
+<br>
+@snapend
+
+
+@snap[north-east span-90 fragment]
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+@box[bg-black text-white my-box-pad2  ](<p style="line-height:40%" align="left"><span style="font-size:0.850em;" >&nbsp;&nbsp;Example used in @color[yellow](`NewProjectPkg.dsc`)<br>&nbsp;</span></p>)
+```
+ [PcdsPatchableInModule.common] 
+  gEfiMdePkgTokenSpaceGuid.PcdPciExpressBaseAddress|0x0E0000000
+   . . .
+  gNewProjectTokenSpaceGuid.PcdTCSmbaIoBaseAddress|0x1040
+  gEfiCpuTokenSpaceGuid.PcdTemporaryRamBase|0xFEF80000
+  gEfiCpuTokenSpaceGuid.PcdTemporaryRamSize|0x00010000 
+
+```
+
+@snapend
+
+Note:
+
+
+- PCD defined in the DEC file from any package
+- [Guids.common]
+   - PcdTokenSpaceGuidName={ 0x914AEBE7, 0x4635, 0x459b, { 0xAA, . . .}}
+
+- [Pcds...]
+  - PcdTokenSpaceGuidName.PcdTokenName|Value[|DatumType[|MaxSize]]|Token
+  - PCD usage listed in INF file for module
+- […Pcd…] 
+  - PcdTokenSpaceGuidName.PcdTokenName|[Value]
+  - Value of PCD set in NewPlatform.dsc
+- [Pcds...]
+  - PcdTokenSpaceGuidName.PcdTokenName|Value[|DatumType[|MaximumDatumSize]]
+- Example used in NewProject.dsc
+- [PcdsFixedAtBuild.IA32]
+  -  gEfiIchTokenSpaceGuid.PcdIchAcpiIoPortBaseAddress|0x400
+  -  gNewProjectTokenSpaceGuid.PcdFlashAreaBaseAddress|0xFFF00000
+  - gNewProjectTokenSpaceGuid.PcdFlashAreaSize|0x100000
+ 
 	
 
 
