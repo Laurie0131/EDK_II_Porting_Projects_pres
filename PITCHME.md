@@ -620,6 +620,19 @@ Note:
 - Find a similar package or platform or project that meets target project needs
 -  Build description files are text files using basic text editor to update – no GUI with the goal of booting to the UEFI Shell
 
+Porting_task_list.gif
+
+
+
+---?image=assets/images/binary-strings-black2.jpg
+@title[Porting Task List Section]
+<p align="center"><span style="font-size:01.25em"><font color="#e49436"><b>Porting Task List</b></span></p>
+@snap[north-east span-20 fragment]
+![Porting_task_list.gif](/assets/images/Porting_task_list.gif)
+@snapend
+
+
+
 
 ---?image=/assets/images/slides/Slide32.JPG
 <!-- .slide: data-transition="none" -->
