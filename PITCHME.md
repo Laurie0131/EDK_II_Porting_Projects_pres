@@ -445,14 +445,14 @@ Example -
 @title[PCD Types]
 <p align="right"><span class="gold" ><b>PCD Types</b></span></p>
 @snap[east span-35]
-@box[bg-lt-blue-pp text-white rounded my-box-pad  ](<p style="line-height:80%" ><span style="font-size:0.80em; font-family: Courier New; font-weight: bold;" > FeatureFlag</span></p>)
+@box[bg-lt-blue-pp text-white rounded my-box-pad2  ](<p style="line-height:80%" ><span style="font-size:0.80em; font-family: Courier New; font-weight: bold;" > FeatureFlag</span></p>)
 <br>
 @snapend
 
 @snap[north-west span-35]
 <br>
 <br>
-@box[bg-yellow text-blue rounded my-box-pad  ](<p style="line-height:80%" ><span style="font-size:0.80em; font-family: Courier New; font-weight: bold;" > FixedAtBuild</span></p>)
+@box[bg-yellow text-blue rounded my-box-pad2  ](<p style="line-height:80%" ><span style="font-size:0.80em; font-family: Courier New; font-weight: bold;" > FixedAtBuild</span></p>)
 @snapend
 
 
@@ -461,20 +461,20 @@ Example -
 <br>
 <br>
 <br>
-@box[bg-green-pp text-white rounded my-box-pad  ](<p style="line-height:80%" ><span style="font-size:0.80em; font-family: Courier New; font-weight: bold;" > Dynamic</span></p>)
+@box[bg-green-pp text-white rounded my-box-pad2  ](<p style="line-height:80%" ><span style="font-size:0.80em; font-family: Courier New; font-weight: bold;" > Dynamic</span></p>)
 @snapend
 
 
 @snap[north-east span-30]
 <br>
 <br>
-@box[bg-green-pp text-white rounded my-box-pad  ](<p style="line-height:80%" ><span style="font-size:0.80em; font-family: Courier New; font-weight: bold;" > DynamicEx</span></p>)
+@box[bg-green-pp text-white rounded my-box-pad2  ](<p style="line-height:80%" ><span style="font-size:0.80em; font-family: Courier New; font-weight: bold;" > DynamicEx</span></p>)
 @snapend
 
 
 
 @snap[south-west span-30]
-@box[bg-green-pp text-white rounded my-box-pad  ](<p style="line-height:80%" ><span style="font-size:0.80em; font-family: Courier New; font-weight: bold;" > DynamicHii</span></p>)
+@box[bg-green-pp text-white rounded my-box-pad2  ](<p style="line-height:80%" ><span style="font-size:0.80em; font-family: Courier New; font-weight: bold;" > DynamicHii</span></p>)
 <br>
 <br>
 <br>
@@ -483,7 +483,7 @@ Example -
 @snapend
 
 @snap[south-east span-30]
-@box[bg-green-pp text-white rounded my-box-pad  ](<p style="line-height:80%" ><span style="font-size:0.80em; font-family: Courier New; font-weight: bold;" > DynamicVpd</span></p>)
+@box[bg-green-pp text-white rounded my-box-pad2  ](<p style="line-height:80%" ><span style="font-size:0.80em; font-family: Courier New; font-weight: bold;" > DynamicVpd</span></p>)
 <br>
 <br>
 <br>
@@ -493,13 +493,13 @@ Example -
 
 
 @snap[west span-45]
-@box[bg-purple-pp text-white rounded my-box-pad  ](<p style="line-height:80%" ><span style="font-size:0.80em; font-family: Courier New; font-weight: bold;" > PatchableInModule</span></p>)
+@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:80%" ><span style="font-size:0.80em; font-family: Courier New; font-weight: bold;" > PatchableInModule</span></p>)
 <br>
 @snapend
 
 
 @snap[south-west span-100]
-@box[bg-navy text-white rounded  my-box-pad fragment ](<p style="line-height:80%" ><span style="font-size:0.80em; font-weight: bold;" > Syntax Examples<br></span><span style="font-size:0.50em;" >`[pcdsFeatureFlag.common] [pcdsFixedAtBuild.IA32]`&nbsp;<br>`[PcdsFixedAtBuild, PcdsPatchableInModule, PcdsDynamic, PcdsDynamicEx]`<br>&nbsp;</span></p>)
+@box[bg-navy text-white rounded  my-box-pad2 fragment ](<p style="line-height:80%" ><span style="font-size:0.80em; font-weight: bold;" > Syntax Examples<br></span><span style="font-size:0.50em;" >`[pcdsFeatureFlag.common] [pcdsFixedAtBuild.IA32]`&nbsp;<br>`[PcdsFixedAtBuild, PcdsPatchableInModule, PcdsDynamic, PcdsDynamicEx]`<br>&nbsp;</span></p>)
 @snapend
 
 Note:
@@ -519,46 +519,51 @@ Note:
 	
 
 
----?image=/assets/images/slides/Slide23.JPG
-<!-- .slide: data-transition="none" -->
+---?image=/assets/images/slides/Slide10_1.JPG
 @title[PCD Syntax]
-<p align="right"><span class="gold" >PCD Syntax</span></p>
+<p align="right"><span class="gold" ><b>PCD Syntax</b></span></p>
+@snap[north-east span-90 fragment]
+<br>
+<br>
+<p align="left" style="line-height:80%"><span style="font-size:0.9em; ">PCD defined in the DEC file from any package</span></p>
+@box[bg-black text-white my-box-pad2  ](<p style="line-height:40%" align="left"><span style="font-size:0.450em; font-family:Consolas; " >&nbsp;&nbsp;[Guids.common]<br>&nbsp;&nbsp;@color[red](PcdTokenSpaceGuidName)={ 0xXXXXXXXX, 0xXXXX, 0xXXXX, { 0xXX, . . .}}<br>&nbsp;&nbsp;. . .<br>&nbsp;&nbsp;[Pcds...]<br>&nbsp;&nbsp;PcdTokenSpaceGuidName.PcdTokenName|Value[|DatumType[|MaxSize]]|Token<br>&nbsp;&nbsp;</span></p>)
+<br>
+@snapend
 
+@snap[north-east span-90 fragment]
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p align="left" style="line-height:80%"><span style="font-size:0.9em; ">PCD usage listed in INF file for module</span></p>
+@box[bg-black text-white my-box-pad2  ](<p style="line-height:40%" align="left"><span style="font-size:0.450em; font-family:Consolas; " >&nbsp;&nbsp;[...Pcds...]<br>&nbsp;&nbsp;PcdTokenSpaceGuidName.@color[red](PcdTokenName)|[Value]<br>&nbsp;&nbsp;</span></p>)
+<br>
+@snapend
+
+
+@snap[north-east span-90 fragment]
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p align="left" style="line-height:80%"><span style="font-size:0.9em; ">Value of PCD set in @color[yellow](`NewProject.dsc`)</span></p>
+@box[bg-black text-white my-box-pad2  ](<p style="line-height:40%" align="left"><span style="font-size:0.450em; font-family:Consolas; " >&nbsp;&nbsp;[Pcds...]<br>&nbsp;&nbsp;PcdTokenSpaceGuidName.@color[red](PcdTokenName)|Value[|DatumType[|MaximumDatumSize]]</span><br>&nbsp;&nbsp;</p>)
+<br>
+@snapend
 
 Note:
-
-- Use slide in another lesson for the template and then build the red and green text
-
-
-- PCD defined in the DEC file from any package
-- [Guids.common]
-   - PcdTokenSpaceGuidName={ 0x914AEBE7, 0x4635, 0x459b, { 0xAA, . . .}}
-
-- [Pcds...]
-  - PcdTokenSpaceGuidName.PcdTokenName|Value[|DatumType[|MaxSize]]|Token
-  - PCD usage listed in INF file for module
-- […Pcd…] 
-  - PcdTokenSpaceGuidName.PcdTokenName|[Value]
-  - Value of PCD set in NewPlatform.dsc
-- [Pcds...]
-  - PcdTokenSpaceGuidName.PcdTokenName|Value[|DatumType[|MaximumDatumSize]]
-- Example used in NewProject.dsc
-- [PcdsFixedAtBuild.IA32]
-  -  gEfiIchTokenSpaceGuid.PcdIchAcpiIoPortBaseAddress|0x400
-  -  gNewProjectTokenSpaceGuid.PcdFlashAreaBaseAddress|0xFFF00000
-  - gNewProjectTokenSpaceGuid.PcdFlashAreaSize|0x100000
- 
-
-+++?image=/assets/images/slides/Slide24.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[PCD Syntax 02]
-<p align="right"><span class="gold" >PCD Syntax</span></p>
-
-
-Note:
-
-- Use slide in another lesson for the template and then build the red and green text
 
 
 - PCD defined in the DEC file from any package
