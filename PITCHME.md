@@ -1046,11 +1046,11 @@ Note:
 @snap[midpoint span-80 ]
 <br>
 <br>
-![boot-flow](/assets/images/boot-flow.png)
+![boot-flow](/assets/images/boot-flow2.png)
 @snapend
 
 @snap[south span-100 fragment]
-@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:80%"><span style="font-size:0.80em" >Port all required modules for your project using UEFI Platform initialization phases as a guide<br>&nbsp;</span></p>)
+@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:80%"><span style="font-size:0.80em" >Port all required modules for your project using UEFI Platform Initialization phases as a guide<br>&nbsp;</span></p>)
 @snapend
 
 Note:
