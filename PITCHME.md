@@ -1144,41 +1144,21 @@ Note:
 <br>
 <br>
 <br>
-<p style="line-height:70%" align="left"><span style="font-size:0.60em" ><br>Entry point&nbsp;&nbsp;<br> </span><span style="font-size:02.20em" >@color[yellow](&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&rdca;)</span></p>
+<p style="line-height:70%" align="left"><span style="font-size:0.60em" ><br>Entry point&nbsp;&nbsp;<br> </span><span style="font-size:02.25em" >@color[yellow](&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&rdca;)</span></p>
 @snapend
 
 
 @snap[south-west span-20 fragment]
 <p style="line-height:70%" align="left"><span style="font-size:0.60em" >Binary of the compiled Firmware image at 4GB<br><br> </span>
-<span style="font-size:02.20em" >@color[yellow](&nbsp;&nbsp;&nbsp;&rdca;)</span><br>&nbsp;</p>
+<span style="font-size:02.25em" >@color[yellow](&nbsp;&nbsp;&nbsp;&rdca;)</span><br>&nbsp;</p>
 
 
 @snapend
 
 Note:
 
+Example: IA32FamilyCpuPkg/SecCore/Ia32/ResetVec.nasmb
 <pre>
-/**
-  This routine is invoked by main entry of PeiMain module during transition
-  from SEC to PEI. After switching stack in the PEI core, it will restart
-  with the old core data.
-
-  @param SecCoreData     Points to a data structure containing information about the PEI core's operating
-                         environment, such as the size and location of temporary RAM, the stack location and
-                         the BFV location.
-  @param PpiList         Points to a list of one or more PPI descriptors to be installed initially by the PEI core.
-                         An empty PPI list consists of a single descriptor with the end-tag
-                         EFI_PEI_PPI_DESCRIPTOR_TERMINATE_LIST. As part of its initialization
-                         phase, the PEI Foundation will add these SEC-hosted PPIs to its PPI database such
-                         that both the PEI Foundation and any modules can leverage the associated service
-                         calls and/or code in these early PPIs
-  @param Data            Pointer to old core data that is used to initialize the
-                         core's data areas.
-                         If NULL, it is first PeiCore entering.
-						 
-						 
-						 
-
 ;
 ; For IA32, the reset vector must be at 0xFFFFFFF0, i.e., 4G-16 byte
 ; Execution starts here upon power-on/platform-reset.
@@ -1201,34 +1181,77 @@ ApStartup:
 </pre>
 
 
+---
+@title[Platform SEC Lib for MinnowBoard MAX]
+<p align="right"><span class="gold" ><b>Platform SEC Lib for MinnowBoard MAX</b></span></p>
 
----?image=/assets/images/slides/Slide52.JPG
-@title[SEC Code Start]
-<p align="right"><span class="gold" >SEC Code Start</span></p>
+@snap[north-west span-100 ]
+<br>
+<br>
+<br>
+<br>
+@box[bg-gold2 text-white rounded my-box-pad2  ](<p style="line-height:60%" ><span style="font-size:0.9em; font-weight: bold;" > <br><br> <br><br><br><br><br><br><br><br><br><br><br><br><br>&nbsp;</span></p>)
+@snapend
+
+@snap[north-west span-100 ]
+<br>
+<br>
+<br>
+<br>
+<p style="line-height:60%" align="left"><span style="font-size:0.85em; font-family:Consolas;" ><br>&nbsp; &nbsp; 
+&nbsp;&nbsp;NewProjectPkg/<br>&nbsp; &nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp; Library/<br>&nbsp; &nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    PlatformSecLib/<br>&nbsp; &nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    PlatformSecLib.c<br>&nbsp; &nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    PlatformSecLib.h<br>&nbsp; &nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    PlatformSecLib.inf<br>&nbsp; &nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    IA32/<br>&nbsp; &nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     	Chipset.inc<br>&nbsp; &nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		Flat32.asm<br>&nbsp; &nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		Platform.inc<br>&nbsp; &nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		SecCore.inc<br>&nbsp; &nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		Ia32.inc<br>&nbsp; &nbsp; 
+</span></p>
+@snapend
+
+@snap[north-east span-60 fragment]
+<br>
+<br>
+<br>
+<br>
+<p style="line-height:70%" align="left"><span style="font-size:0.60em" >`_ModuleEntryPoint` or `Flat32Start`<br><br> </span>
+<span style="font-size:02.25em" >@color[yellow](&nbsp;&nbsp;&nbsp;&ldca;)</span><br>&nbsp;</p>
+@snapend
 
 
 Note:
 
-<pre>
-/**
-  This routine is invoked by main entry of PeiMain module during transition
-  from SEC to PEI. After switching stack in the PEI core, it will restart
-  with the old core data.
+-  Entry point after reset vector is platform specific
+  -  SecEntry.asm
+  -  ModuleEntryPoint
+-  SecNewProject.asm calls entry for setting up temporary memory and APs
+  -  SecPlatformInitTram
+  -  SecPlatformApEntryPoint
+-  SecCPU.Asm sets cache for no eviction mode
+  -  CPU & MTRR register defines
+  -  Ia32.inc
+-  NewProjectSecLib.c SEC platform main (i.e. enable FWH decode)
 
-  @param SecCoreData     Points to a data structure containing information about the PEI core's operating
-                         environment, such as the size and location of temporary RAM, the stack location and
-                         the BFV location.
-  @param PpiList         Points to a list of one or more PPI descriptors to be installed initially by the PEI core.
-                         An empty PPI list consists of a single descriptor with the end-tag
-                         EFI_PEI_PPI_DESCRIPTOR_TERMINATE_LIST. As part of its initialization
-                         phase, the PEI Foundation will add these SEC-hosted PPIs to its PPI database such
-                         that both the PEI Foundation and any modules can leverage the associated service
-                         calls and/or code in these early PPIs
-  @param Data            Pointer to old core data that is used to initialize the
-                         core's data areas.
-                         If NULL, it is first PeiCore entering.
-						 
-</pre>
+-  Of this slide we have what we need to port our new package platform for the SEC  phase.
+-  We find this code in our new platform package directory under the library directory under the directory called something like new platform SEC lib. Under this directory we see that we have a “C”, “H” and Inf files, And we also see another directory, in our case for our example platform, we have an IA32 directory. This directory would have assembly language source files for our port.
+
+-  Let’s take a look at the details of these files:
+  -  After the reset vector and after those initial architecture specific instructions, a jump will be made into the new platform SEC library code. The Entry point after common reset vector is platform specific in SecEntry.asm  with the label ModuleEntryPoint.
+
+-  The file SecNewProject.asm – calls the entry for setting up our temporary memory and the Application Processors
+-  We will need to look at the code at the label SecPlatformInitTram where we would  make a call to set up our temporary memory. Probably the cache as RAM. But, it could be something different.
+-  The label SecPlatformApEntryPoint is where we be setting up the entry point for our application processors.
+-  The file SecCPU.Asm – is the actual code that Sets the Cache for no eviction mode or cache as RAM.
+-  The include file  Ia32.inc – has Defines for the MTRR registers and processor specific defines  
+
+-  Finally, the C. source code file NewProjectSecLib.c – and this file would have the Sec Platform MAIN entry– and it would be responsible for things like to Enable FWH decoding etc.
+
+
 
 
 ---?image=/assets/images/slides/Slide54.JPG
