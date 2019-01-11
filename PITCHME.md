@@ -685,11 +685,16 @@ Create Build Files &lpar;DSC, DEC, and FDF&rpar;
 ![Porting_task_list.gif](/assets/images/tenor.gif)
 @snapend
 
+<!---  col of numbers  -->
+
 @snap[north-west span-10]
 <br>
 <br>
 <p style="line-height:60%" align="left"><span style="font-size:02.0em" ><font color="#808080"><br>&#10102;<br><br>&#10103;<br><br>&#10104;<br><br>&#10105;<br><br>&#10106;<br><br>&#10107;  </font></span></p>
 @snapend
+<!---  
+1
+-->
 
 
 @snap[north-west span-10 fragment]
@@ -704,6 +709,9 @@ Create Build Files &lpar;DSC, DEC, and FDF&rpar;
 <br>
 <p style="line-height:60%" align="left"><span style="font-size:0.85em" ><br>&nbsp;@color[white](Create a New Project package directory)<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;  </font></span></p>
 @snapend
+<!---  
+2
+-->
 
 
 @snap[north-west span-10 fragment]
@@ -718,6 +726,9 @@ Create Build Files &lpar;DSC, DEC, and FDF&rpar;
 <p style="line-height:60%" align="left"><span style="font-size:0.85em" ><br>&nbsp;@color[white](Create a New Project package directory)<br><br><br>&nbsp;@color[white](Create Build Files &lpar;DSC, DEC, and FDF&rpar;)<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;  </font></span></p>
 @snapend
 
+<!---  
+3
+-->
 
 @snap[north-west span-10 fragment]
 <br>
@@ -734,6 +745,9 @@ Create Build Files &lpar;DSC, DEC, and FDF&rpar;
 @snapend
 
 
+<!---  
+4
+-->
 
 @snap[north-west span-10 fragment]
 <br>
@@ -750,6 +764,9 @@ Create Build Files &lpar;DSC, DEC, and FDF&rpar;
 <br><br><br>&nbsp;@color[white](Use UEFI PI phases to Port all project modules)
 <br><br>&nbsp;  </font></span></p>
 @snapend
+<!---  
+5
+-->
 
 @snap[north-west span-10 fragment]
 <br>
@@ -768,7 +785,9 @@ Create Build Files &lpar;DSC, DEC, and FDF&rpar;
 <br><br><br>&nbsp;</font></span></p>
 @snapend
 
-
+<!---  
+6 Minimums for UEFI Shell
+-->
 
 @snap[north-west span-10 fragment]
 <br>
@@ -780,7 +799,7 @@ Create Build Files &lpar;DSC, DEC, and FDF&rpar;
 @snap[north-east span-90 fragment]
 <br>
 <br>
-<p style="line-height:55%" align="left"><span style="font-size:0.85em" ><br>&nbsp;@color[white](Create a New Project package directory)
+<p style="line-height:60%" align="left"><span style="font-size:0.85em" ><br>&nbsp;@color[white](Create a New Project package directory)
 <br><br><br>&nbsp;@color[white](Create Build Files &lpar;DSC, DEC, and FDF&rpar;)
 <br><br><br>&nbsp;@color[white](Update target.txt to make your Project the default)
 <br><br><br>&nbsp;@color[white](Use UEFI PI phases to Port all project modules)
