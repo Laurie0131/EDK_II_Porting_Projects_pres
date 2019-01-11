@@ -1095,7 +1095,9 @@ Note:
 <br><br><br>&nbsp;@color[gray](Minimums for UEFI Shell)</font></span></p>
 @snapend
 
-@snap[midpoint span-80 fragment]
+@snap[midpoint span-85 ]
+<br>
+<br>
 ![boot-flow](/assets/images/boot-flow.png)
 @snapend
 
