@@ -441,42 +441,66 @@ Example -
 
 
 
----?image=/assets/images/slides/Slide19.JPG
-@title[Library Classes in DSC ]
-<p align="right"><span class="gold" ><b>Library Classes Section in DSC<b></span></p>
-
-
-Note:
-
-Example - 
-
-<pre>
- DebugLib class in NewProjectPkg.dsc
-
- [LibraryClasses]
-     DebugLib|MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull.inf
-     • • •
- [LibraryClasses.common.DXE_CORE]
-         • • •
-    DebugLib|IntelFrameworkModulePkg/Library/PeiDxeDebugLibReportStatusCode/
-           PeiDxeDebugLibReportStatusCode.inf  
-        • • •
- [LibraryClasses.common.DXE_SMM_DRIVER]
-    DebugLib|MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull.inf
-
- [Components]
-      • • •
- MyPath/MyModule.inf {
-  <LibraryClasses>
-    DebugLib|MdePkg/Library/BaseDebugLibSerialPort.inf
- }
-</pre>
-
-
----?image=/assets/images/slides/Slide21.JPG
+---
 @title[PCD Types]
-<p align="right"><span class="gold" >PCD Types</span></p>
+<p align="right"><span class="gold" ><b>PCD Types</b></span></p>
+@snap[east span-35]
+@box[bg-lt-blue-pp text-white rounded my-box-pad  ](<p style="line-height:80%" ><span style="font-size:0.80em; font-family: Courier New; font-weight: bold;" > FeatureFlag</span></p>)
+<br>
+@snapend
 
+@snap[north-west span-35]
+<br>
+<br>
+@box[bg-yellow text-blue rounded my-box-pad  ](<p style="line-height:80%" ><span style="font-size:0.80em; font-family: Courier New; font-weight: bold;" > FixedAtBuild</span></p>)
+@snapend
+
+
+@snap[north span-30]
+<br>
+<br>
+<br>
+<br>
+@box[bg-green-pp text-white rounded my-box-pad  ](<p style="line-height:80%" ><span style="font-size:0.80em; font-family: Courier New; font-weight: bold;" > Dynamic</span></p>)
+@snapend
+
+
+@snap[north-east span-30]
+<br>
+<br>
+@box[bg-green-pp text-white rounded my-box-pad  ](<p style="line-height:80%" ><span style="font-size:0.80em; font-family: Courier New; font-weight: bold;" > DynamicEx</span></p>)
+@snapend
+
+
+
+@snap[south-west span-30]
+@box[bg-green-pp text-white rounded my-box-pad  ](<p style="line-height:80%" ><span style="font-size:0.80em; font-family: Courier New; font-weight: bold;" > DynamicHii</span></p>)
+<br>
+<br>
+<br>
+<br>
+<br>
+@snapend
+
+@snap[south-east span-30]
+@box[bg-green-pp text-white rounded my-box-pad  ](<p style="line-height:80%" ><span style="font-size:0.80em; font-family: Courier New; font-weight: bold;" > DynamicVpd</span></p>)
+<br>
+<br>
+<br>
+<br>
+<br>
+@snapend
+
+
+@snap[west span-45]
+@box[bg-purple-pp text-white rounded my-box-pad  ](<p style="line-height:80%" ><span style="font-size:0.80em; font-family: Courier New; font-weight: bold;" > PatchableInModule</span></p>)
+<br>
+@snapend
+
+
+@snap[south-west span-100]
+@box[bg-navy text-white rounded  my-box-pad fragment ](<p style="line-height:80%" ><span style="font-size:0.80em; font-weight: bold;" > Syntax Examples<br></span><span style="font-size:0.50em;" >`[pcdsFeatureFlag.common] [pcdsFixedAtBuild.IA32]`&nbsp;<br>`[PcdsFixedAtBuild, PcdsPatchableInModule, PcdsDynamic, PcdsDynamicEx]`<br>&nbsp;</span></p>)
+@snapend
 
 Note:
 
