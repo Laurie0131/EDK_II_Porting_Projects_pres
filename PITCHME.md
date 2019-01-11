@@ -632,7 +632,7 @@ Porting_task_list.gif
 <br>
 <br>
 <br>
-@box[bg-grey-15 text-white rounded my-box-pad2  ](<p style="line-height:70%" ><span style="font-size:0.9em; font-weight: bold;" > <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>&nbsp;</span></p>)
+@box[bg-grey-15 text-white rounded my-box-pad2  ](<p style="line-height:70%" ><span style="font-size:0.9em; font-weight: bold;" > <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>&nbsp;</span></p>)
 @snapend
 
 
@@ -705,7 +705,7 @@ Create Build Files &lpar;DSC, DEC, and FDF&rpar;
 <br>
 <br>
 <br>
-<p style="line-height:60%" align="left"><span style="font-size:0.90em" ><br>&nbsp;@color[white](Create a New Project package directory)<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;  </font></span></p>
+<p style="line-height:60%" align="left"><span style="font-size:0.85em" ><br>&nbsp;@color[white](Create a New Project package directory)<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;  </font></span></p>
 @snapend
 
 
@@ -720,7 +720,7 @@ Create Build Files &lpar;DSC, DEC, and FDF&rpar;
 <br>
 <br>
 <br>
-<p style="line-height:60%" align="left"><span style="font-size:0.90em" ><br>&nbsp;@color[white](Create a New Project package directory)<br><br><br>&nbsp;@color[white](Create Build Files &lpar;DSC, DEC, and FDF&rpar;)<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;  </font></span></p>
+<p style="line-height:60%" align="left"><span style="font-size:0.85em" ><br>&nbsp;@color[white](Create a New Project package directory)<br><br><br>&nbsp;@color[white](Create Build Files &lpar;DSC, DEC, and FDF&rpar;)<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;  </font></span></p>
 @snapend
 
 
@@ -735,7 +735,7 @@ Create Build Files &lpar;DSC, DEC, and FDF&rpar;
 <br>
 <br>
 <br>
-<p style="line-height:60%" align="left"><span style="font-size:0.90em" ><br>&nbsp;@color[white](Create a New Project package directory)
+<p style="line-height:60%" align="left"><span style="font-size:0.85em" ><br>&nbsp;@color[white](Create a New Project package directory)
 <br><br><br>&nbsp;@color[white](Create Build Files &lpar;DSC, DEC, and FDF&rpar;)
 <br><br><br>&nbsp;@color[white](Update target.txt to make your Project the default)<br><br>&nbsp;<br><br>&nbsp;  </font></span></p>
 @snapend
@@ -753,7 +753,7 @@ Create Build Files &lpar;DSC, DEC, and FDF&rpar;
 <br>
 <br>
 <br>
-<p style="line-height:60%" align="left"><span style="font-size:0.90em" ><br>&nbsp;@color[white](Create a New Project package directory)
+<p style="line-height:60%" align="left"><span style="font-size:0.85em" ><br>&nbsp;@color[white](Create a New Project package directory)
 <br><br><br>&nbsp;@color[white](Create Build Files &lpar;DSC, DEC, and FDF&rpar;)
 <br><br><br>&nbsp;@color[white](Update target.txt to make your Project the default)
 <br><br><br>&nbsp;@color[white](Use UEFI PI phases to Port all project modules)
@@ -776,15 +776,39 @@ Create Build Files &lpar;DSC, DEC, and FDF&rpar;
 <br><br><br>&nbsp;@color[white](Update target.txt to make your Project the default)
 <br><br><br>&nbsp;@color[white](Use UEFI PI phases to Port all project modules)
 <br><br><br>&nbsp;@color[white](Update DSC w/ new libraries, modules, and PCDs values)
-<br><br><br>&nbsp;@color[white](Minimums for UEFI Shell)
-<br><br>&nbsp;  </font></span></p>
+<br><br><br>&nbsp;</font></span></p>
 @snapend
+
+
+
+@snap[north-west span-10 fragment]
+<br>
+<br>
+<br>
+<p style="line-height:60%" align="left"><span style="font-size:02.0em" ><font color="#808080"><br>@color[yellow](&#10102;<br><br>&#10103;<br><br>&#10104;<br><br>&#10105;<br><br>&#10106;<br><br>&#10107);  </font></span></p>
+@snapend
+
+
+@snap[north-east span-90 fragment]
+<br>
+<br>
+<br>
+<p style="line-height:60%" align="left"><span style="font-size:0.85em" ><br>&nbsp;@color[white](Create a New Project package directory)
+<br><br><br>&nbsp;@color[white](Create Build Files &lpar;DSC, DEC, and FDF&rpar;)
+<br><br><br>&nbsp;@color[white](Update target.txt to make your Project the default)
+<br><br><br>&nbsp;@color[white](Use UEFI PI phases to Port all project modules)
+<br><br><br>&nbsp;@color[white](Update DSC w/ new libraries, modules, and PCDs values)
+<br><br><br>&nbsp;@color[white](Minimums for UEFI Shell)</font></span></p>
+@snapend
+
+Note:
 
 1. Create a New Project package directory
 2. Create Build Files (DSC, DEC, and FDF)
 3. Update conf/target.txt to make your Project the default build (optional)  
 4. Port all required modules for your project through all UEFI Platform initialization phases
 5. Update build text (DSC, DEC, FDF) files with libraries, ported modules, and PCD values to configure modules
+6. Minimums for UEFI Shell
 
 
 
