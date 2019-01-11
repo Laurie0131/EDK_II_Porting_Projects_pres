@@ -592,11 +592,11 @@ Note:
 @title[Porting Approach]
 ### <p align="center"><font color="yellow"><b>Approach – Porting EDK II</b></font></p>
 
-@snap[north-east span-40 fragment]
+@snap[north-east span-45 fragment]
 <br>
 <br>
 <br>
-@box[bg-gold2 text-white my-box-pad2  ](<p style="line-height:40%"<span style="font-size:01.1em" > <b>Search Work Space</b><br>&nbsp;</span></p>)
+@box[bg-gold2 text-white my-box-pad2  ](<p style="line-height:40%"><span style="font-size:01.1em" > <b>Search Work Space</b><br>&nbsp;</span></p>)
 @snapend
 
 
@@ -604,13 +604,12 @@ Note:
 <br>
 <br>
 <br>
-@box[bg-royal text-white my-box-pad2  ](<p style="line-height:40%"<span style="font-size:01.1em" ><b>Find Similar EDK II Projects</b><br>&nbsp;</span></p>)
+@box[bg-royal text-white my-box-pad2  ](<p style="line-height:40%"><span style="font-size:01.1em" ><b>Find Similar EDK II Projects</b><br>&nbsp;</span></p>)
 @snapend
 
 
 @snap[south span-50 fragment]
-@box[bg-purple-pp text-white my-box-pad2  ](<p style="line-height:40%"<span style="font-size:01.1em" > <b>Boot to UEFI Shell</b><br>&nbsp;</span></p>)
-<br>
+@box[bg-purple-pp text-white my-box-pad2  ](<p style="line-height:40%"><span style="font-size:01.1em" > <b>Boot to UEFI Shell</b><br>&nbsp;</span></p>)
 <br>
 @snapend
 
@@ -619,27 +618,6 @@ Note:
 - Many examples of packages in the UDK / EDK II source base 
 - Find a similar package or platform or project that meets target project needs
 -  Build description files are text files using basic text editor to update – no GUI with the goal of booting to the UEFI Shell
-
-
-
----?image=/assets/images/slides/Slide27_1.JPG
-@title[Porting Approach]
-### <p align="center"><font color="yellow"<b>Approach – Porting EDK II</b></font></p>
-<br>
-@ul[no-bullet]
-- <span style="font-size:01.1em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="background-color: #fdb819"><b>&nbsp;&nbsp;&nbsp;&nbsp;Search Work Space&nbsp;&nbsp;</b></span></span></p><br><br><br><br><br>
-- <span style="font-size:01.1em" >&nbsp;<span style="background-color: #92d050">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Find Similar EDK II Projects</b>&nbsp;&nbsp;&nbsp;</span></span><br><br><br>
-- <span style="font-size:01.1em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="background-color: #7030a0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Boot to UEFI Shell&nbsp;</b>&nbsp;&nbsp;</span></span>
-@ulend
-
-
-Note:
-
-- Many examples of packages in the UDK / EDK II source base 
-- Find a similar package or platform or project that meets target project needs
--  Build description files are text files using basic text editor to update – no GUI 
-
-
 
 
 ---?image=/assets/images/slides/Slide32.JPG
