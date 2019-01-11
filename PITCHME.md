@@ -1144,13 +1144,13 @@ Note:
 <br>
 <br>
 <br>
-<p style="line-height:70%" align="left"><span style="font-size:0.60em" >Entry point<br> </span><span style="font-size:01.90em" >@color[yellow](&rdca;)</span></p>
+<p style="line-height:70%" align="left"><span style="font-size:0.60em" ><br>Entry point&nbsp;&nbsp; </span><span style="font-size:02.20em" >@color[yellow](&rdca;)</span></p>
 @snapend
 
 
 @snap[south-west span-20 fragment]
-<p style="line-height:70%" align="left"><span style="font-size:0.60em" >Binary of the compiled Firmware image at 4GB<br> </span>
-<span style="font-size:01.90em" >@color[yellow](&rdca;)</span><br><br>&nbsp;</p>
+<p style="line-height:70%" align="left"><span style="font-size:0.60em" >Binary of the compiled Firmware image at 4GB<br><br> </span>
+<span style="font-size:02.20em" >@color[yellow](&nbsp;&nbsp;&rdca;)</span><br>&nbsp;</p>
 
 
 @snapend
