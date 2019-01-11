@@ -372,6 +372,7 @@ Note:
 <p align="right"><span class="gold" ><b>Library Classes Section in DSC<b></span></p>
 
 <p style="line-height:70%" ><span style="font-size:0.9em; font-weight: bold;" >`DebugLib` class in `NewProjectPkg.dsc` </span></p>
+<br>
 ```
  [LibraryClasses]
      DebugLib|MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull.inf
@@ -396,6 +397,7 @@ Note:
  
 ``` 
 @snap[north-east span-30 fragment ]
+<br>
 <br>
 <br>
 @box[bg-purple-pp text-white my-box-pad2  ](<span style="font-size:0.6em;"> Library Class Section</span>)
