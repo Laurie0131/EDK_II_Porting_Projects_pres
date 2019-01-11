@@ -984,9 +984,9 @@ Note:
 @snap[north-east span-90 ]
 <br>
 <br>
-<p style="line-height:60%" align="left"><span style="font-size:0.85em" ><br>&nbsp;@color[white](Create a New Project package directory)
-<br><br><br>&nbsp;@color[white](Create Build Files &lpar;DSC, DEC, and FDF&rpar;)
-<br><br><br>&nbsp;@color[white](Update target.txt to make your Project the default)
+<p style="line-height:60%" align="left"><span style="font-size:0.85em" ><br>&nbsp;@color[gray](Create a New Project package directory)
+<br><br><br>&nbsp;@color[gray](Create Build Files &lpar;DSC, DEC, and FDF&rpar;)
+<br><br><br>&nbsp;@color[gray](Update target.txt to make your Project the default)
 <br><br><br>&nbsp;@color[yellow](Use UEFI PI phases to Port all project modules)
 <br><br><br>&nbsp;@color[gray](Update DSC w/ new libraries, modules, and PCDs values)
 <br><br><br>&nbsp;@color[gray](Minimums for UEFI Shell)</font></span></p>
@@ -1035,9 +1035,9 @@ Note:
 @snap[north-east span-90 ]
 <br>
 <br>
-<p style="line-height:60%" align="left"><span style="font-size:0.85em" ><br>&nbsp;@color[white](Create a New Project package directory)
-<br><br><br>&nbsp;@color[white](Create Build Files &lpar;DSC, DEC, and FDF&rpar;)
-<br><br><br>&nbsp;@color[white](Update target.txt to make your Project the default)
+<p style="line-height:60%" align="left"><span style="font-size:0.85em" ><br>&nbsp;@color[gray](Create a New Project package directory)
+<br><br><br>&nbsp;@color[gray](Create Build Files &lpar;DSC, DEC, and FDF&rpar;)
+<br><br><br>&nbsp;@color[gray](Update target.txt to make your Project the default)
 <br><br><br>&nbsp;@color[yellow](Use UEFI PI phases to Port all project modules)
 <br><br><br>&nbsp;@color[gray](Update DSC w/ new libraries, modules, and PCDs values)
 <br><br><br>&nbsp;@color[gray](Minimums for UEFI Shell)</font></span></p>
