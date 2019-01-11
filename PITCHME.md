@@ -998,7 +998,7 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[PCD Example with New Project 02]
-<p align="right"><span class="gold" >PCD Example with New Project   </span></p>
+<p align="right"><span class="gold" ><b>PCD Example with New Project   </b></span></p>
 
 Note:
 
@@ -1029,7 +1029,7 @@ Note:
 @snap[north-west span-10 ]
 <br>
 <br>
-<p style="line-height:60%" align="left"><span style="font-size:02.0em" ><font color="#808080"><br>@color[yellow](&#10102;<br><br>&#10103;<br><br>&#10104;<br><br>)@color[red](&#10105;)@color[yellow](<br><br>&#10106;<br><br>&#10107;)  </font></span></p>
+<p style="line-height:60%" align="left"><span style="font-size:02.0em" ><font color="#808080"><br>@color[yellow](&#10102;<br><br>&#10103;<br><br>&#10104;<br><br>)@color[red](&#10105;)@color[#808080](<br><br>&#10106;<br><br>&#10107;)  </font></span></p>
 @snapend
 
 
@@ -1040,8 +1040,8 @@ Note:
 <br><br><br>&nbsp;@color[white](Create Build Files &lpar;DSC, DEC, and FDF&rpar;)
 <br><br><br>&nbsp;@color[white](Update target.txt to make your Project the default)
 <br><br><br>&nbsp;@color[yellow](Use UEFI PI phases to Port all project modules)
-<br><br><br>&nbsp;@color[white](Update DSC w/ new libraries, modules, and PCDs values)
-<br><br><br>&nbsp;@color[white](Minimums for UEFI Shell)</font></span></p>
+<br><br><br>&nbsp;@color[gray](Update DSC w/ new libraries, modules, and PCDs values)
+<br><br><br>&nbsp;@color[gray](Minimums for UEFI Shell)</font></span></p>
 @snapend
 
 
@@ -1080,7 +1080,7 @@ Note:
 @snap[north-west span-10 ]
 <br>
 <br>
-<p style="line-height:60%" align="left"><span style="font-size:02.0em" ><font color="#808080"><br>@color[yellow](&#10102;<br><br>&#10103;<br><br>&#10104;<br><br>)@color[red](&#10105;)@color[yellow](<br><br>&#10106;<br><br>&#10107;)  </font></span></p>
+<p style="line-height:60%" align="left"><span style="font-size:02.0em" ><font color="#808080"><br>@color[yellow](&#10102;<br><br>&#10103;<br><br>&#10104;<br><br>)@color[red](&#10105;)@color[#808080](<br><br>&#10106;<br><br>&#10107;)  </font></span></p>
 @snapend
 
 
@@ -1091,11 +1091,11 @@ Note:
 <br><br><br>&nbsp;@color[white](Create Build Files &lpar;DSC, DEC, and FDF&rpar;)
 <br><br><br>&nbsp;@color[white](Update target.txt to make your Project the default)
 <br><br><br>&nbsp;@color[yellow](Use UEFI PI phases to Port all project modules)
-<br><br><br>&nbsp;@color[white](Update DSC w/ new libraries, modules, and PCDs values)
-<br><br><br>&nbsp;@color[white](Minimums for UEFI Shell)</font></span></p>
+<br><br><br>&nbsp;@color[gray](Update DSC w/ new libraries, modules, and PCDs values)
+<br><br><br>&nbsp;@color[gray](Minimums for UEFI Shell)</font></span></p>
 @snapend
 
-@snap[midpoint span-50 fragment]
+@snap[midpoint span-80 fragment]
 ![boot-flow](/assets/images/boot-flow.png)
 @snapend
 
