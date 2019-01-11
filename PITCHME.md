@@ -1144,7 +1144,7 @@ Note:
 <br>
 <br>
 <br>
-<p style="line-height:70%" align="left"><span style="font-size:0.60em" ><br>Entry point&nbsp;&nbsp;<br> </span><span style="font-size:02.20em" >@color[yellow](&nbsp;&nbsp;&nbsp;&rdca;)</span></p>
+<p style="line-height:70%" align="left"><span style="font-size:0.60em" ><br>Entry point&nbsp;&nbsp;<br> </span><span style="font-size:02.20em" >@color[yellow](&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&rdca;)</span></p>
 @snapend
 
 
