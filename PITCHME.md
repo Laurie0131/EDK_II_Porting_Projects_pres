@@ -1071,10 +1071,10 @@ Note:
 <p align="right"><span class="gold" ><b>Platform Initialization: SEC Phase</b></span></p>
 
 
-@snap[north-east span-90 fragment]
+@snap[north span-40 fragment]
 <br>
 <br>
-@box[bg-royal text-white my-box-pad2  ](<p style="line-height:40%" align="left"><span style="font-size:0.80em" >&nbsp;&nbsp;x86 &lpar;IA32 &amp; x64&rpar;</span><br><span style="font-size:0.450em; font-family:Consolas; " >&nbsp;&nbsp;MyWorkDir<br>&nbsp;&nbsp;&nbsp;&nbsp;  /IA32FamilyCpuPkg<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /SecCore/Ia32<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /ResetVec.asm16<br>&nbsp;&nbsp;</span></p>)
+@box[bg-royal text-black my-box-pad2  ](<p style="line-height:40%" align="left"><span style="font-size:0.80em" >@color[white](&nbsp;&nbsp;x86 &lpar;IA32 &amp; x64&rpar;)</span><br><br><span style="font-size:0.450em; font-family:Consolas; " >&nbsp;&nbsp;&nbsp;&nbsp;/MyWorkDir<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  /IA32FamilyCpuPkg<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /SecCore/Ia32<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /ResetVec.asm16<br>&nbsp;&nbsp;</span></p>)
 @snapend
 
 
