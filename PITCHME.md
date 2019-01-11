@@ -632,7 +632,7 @@ Porting_task_list.gif
 <br>
 <br>
 <br>
-@box[bg-grey-15 text-white my-box-pad2  ](<p style="line-height:60%" align="left"><span style="font-size:0.90em" ><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;  </font></span></p>)
+@box[bg-gre-15 text-white rounded my-box-pad2  ](<p style="line-height:70%" ><span style="font-size:0.9em; font-weight: bold;" > <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>&nbsp;</span></p>)
 @snapend
 
 
