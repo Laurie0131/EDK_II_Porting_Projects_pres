@@ -1098,8 +1098,8 @@ Note:
 @snap[midpoint span-85 ]
 <br>
 <br>
-<br>
 ![boot-flow](/assets/images/boot-flow.png)
+<p style="line-height:60%" align="left"><span style="font-size:0.85em" >@color[yellow](Use UEFI PI phases to Port all project modules)</span></p>
 @snapend
 
 Note:
