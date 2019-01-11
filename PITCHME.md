@@ -627,10 +627,14 @@ Porting_task_list.gif
 ---?image=assets/images/binary-strings-black2.jpg
 @title[Porting Task List Section]
 <p align="center"><span style="font-size:01.25em"><font color="#e49436"><b>Porting Task List</b></span></p>
-@snap[north-east span-10]
+@snap[north-east span-15]
 ![Porting_task_list.gif](/assets/images/tenor.gif)
 @snapend
 
+@snap[north-west span-15]
+<br>
+<p style="line-height:40%"><span style="font-size:01.1em" ><font color="#808080">&#10102;<br><br>&#10103;<br><br>&#10104;<br><br>&#10105;<br><br>&#10106;<br><br>&#10107;  </font></span></p>
+@snapend
 
 
 
