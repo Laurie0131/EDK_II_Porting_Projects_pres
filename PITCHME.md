@@ -652,7 +652,7 @@ Porting_task_list.gif
 <br>
 <br>
 <br>
-<p style="line-height:60%" align="left"><span style="font-size:02.0em" ><font color="#808080"><br>@color[yellow](&#10102;&nbsp; Create a New Project package directory)<br><br>&#10103;<br><br>&#10104;<br><br>&#10105;<br><br>&#10106;<br><br>&#10107;  </font></span></p>
+<p style="line-height:60%" align="left"><font color="yellow"><span style="font-size:02.0em" ><br>&#10102;&nbsp; </span><span style="font-size:0.90em" >Create a New Project package directory</span><br><br></font></p>
 @snapend
 
 
@@ -660,9 +660,12 @@ Porting_task_list.gif
 <br>
 <br>
 <br>
-<p style="line-height:60%" align="left"><span style="font-size:02.0em" ><font color="#808080"><br>
-@color[yellow](&#10102;&nbsp; Create a New Project package directory<br><br>&#10103;&nbsp;Create Build Files &lpar;DSC, DEC, and FDF&rpar;)<br><br>&#10104;<br><br>&#10105;<br><br>&#10106;<br><br>&#10107;  </font></span></p>
+<p style="line-height:60%" align="left"><font color="yellow"><span style="font-size:02.0em" ><br>&#10102;&nbsp; </span><span style="font-size:0.90em" >Create a New Project package directory</span><br><br>
+<span style="font-size:02.0em" ><br>&#10102;&nbsp; </span><span style="font-size:0.90em" > 
+Create Build Files &lpar;DSC, DEC, and FDF&rpar;
+</span><br><br></font></p>
 @snapend
+
 
 
 
