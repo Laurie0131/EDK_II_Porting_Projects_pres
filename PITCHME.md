@@ -372,8 +372,6 @@ Note:
 <p align="right"><span class="gold" ><b>Library Classes Section in DSC<b></span></p>
 <br>
 <p style="line-height:70%" ><span style="font-size:0.9em; font-weight: bold;" >`DebugLib` class in `NewProjectPkg.dsc` </span></p>
-<br>
-
 ```
  [LibraryClasses]
      DebugLib|MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull.inf
@@ -386,6 +384,9 @@ Note:
  [LibraryClasses.common.DXE_SMM_DRIVER]
     DebugLib|MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull.inf
 
+```
+<hr>
+```
  [Components]
       • • •
  MyPath/MyModule.inf {
