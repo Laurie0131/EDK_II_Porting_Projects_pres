@@ -1136,15 +1136,15 @@ Note:
 ---?image=/assets/images/slides/Slide25_1.JPG
 @title[SEC Code Start]
 <p style="line-height:80%" align="right"><span class="gold" ><b>SEC Code Start</b><br></span><span style="font-size:0.80em" >@color[white]( - Source Code Example)</span></p>
-<p style="line-height:80%" align="left"><span style="font-size:0.90em" >Location for MinnowBoard MAX:<br></span><span style="font-size:0.70em" >&nbsp;&nbsp;&nbsp;&nbsp;`IA32FamilyCpuPkg/SecCore/Ia32/ResetVec.asm16`</span></p>
+<p style="line-height:80%" align="left"><span style="font-size:0.90em" >Location for MinnowBoard MAX:<br></span><span style="font-size:0.70em" >&nbsp;&nbsp;&nbsp;&nbsp;`IA32FamilyCpuPkg/SecCore/Ia32/ResetVec.nasmb`</span></p>
 
-@snap[north-west span-30 fragment]
+@snap[north-west span-35 fragment]
 <br>
 <br>
 <br>
 <br>
 <br>
-<p style="line-height:70%" align="left"><span style="font-size:0.60em" ><br>Entry point&nbsp;&nbsp;<br> </span><span style="font-size:02.20em" >@color[yellow](&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&rdca;)</span></p>
+<p style="line-height:70%" align="left"><span style="font-size:0.60em" ><br>Entry point&nbsp;&nbsp;<br> </span><span style="font-size:02.20em" >@color[yellow](&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&rdca;)</span></p>
 @snapend
 
 
