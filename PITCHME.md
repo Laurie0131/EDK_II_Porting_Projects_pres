@@ -1189,16 +1189,15 @@ ApStartup:
 <br>
 <br>
 <br>
-<br>
-@box[bg-gold2 text-white rounded my-box-pad2  ](<p style="line-height:60%" ><span style="font-size:0.9em; font-weight: bold;" > <br><br> <br><br><br><br><br><br><br><br><br><br><br><br><br>&nbsp;</span></p>)
+
+@box[bg-gold2 text-white rounded my-box-pad2  ](<p style="line-height:60%" ><span style="font-size:0.9em; font-weight: bold;" > <br><br><br> <br><br><br><br><br><br><br><br><br><br><br><br><br>&nbsp;</span></p>)
 @snapend
 
 @snap[north-west span-100 ]
 <br>
 <br>
 <br>
-<br>
-<p style="line-height:70%" align="left"><span style="font-size:0.75em; font-family:Consolas; ;color:black" ><br>&nbsp; &nbsp; 
+<p style="line-height:75%" align="left"><span style="font-size:0.75em; font-family:Consolas; ;color:black" ><br>&nbsp; &nbsp; 
 &nbsp;&nbsp;NewProjectPkg/<br>&nbsp; &nbsp; 
 &nbsp;&nbsp;&nbsp;&nbsp; Library/<br>&nbsp; &nbsp; 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    PlatformSecLib/<br>&nbsp; &nbsp; 
@@ -1210,7 +1209,7 @@ ApStartup:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		Flat32.asm<br>&nbsp; &nbsp; 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		Platform.inc<br>&nbsp; &nbsp; 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		SecCore.inc<br>&nbsp; &nbsp; 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		Ia32.inc<br>&nbsp; &nbsp; </font>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		Ia32.inc<br>&nbsp; <br>&nbsp; </font>
 </span></p>
 @snapend
 
@@ -1219,8 +1218,13 @@ ApStartup:
 <br>
 <br>
 <br>
-<p style="line-height:70%" align="left"><span style="font-size:0.60em; ;color:green" >`_ModuleEntryPoint` or `Flat32Start`<br><br> </span>
-<span style="font-size:02.25em" >@color[#0558ff](&nbsp;&nbsp;&nbsp;&ldca;)</span><br>&nbsp;</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p style="line-height:70%" align="left"><span style="font-size:0.80em; ;color:green" ><b>`_ModuleEntryPoint` or `Flat32Start`</b><br><br> </span>
+<span style="font-size:03.25em" >@color[red](&nbsp;&nbsp;&nbsp;&ldca;)</span><br>&nbsp;</p>
 @snapend
 
 
