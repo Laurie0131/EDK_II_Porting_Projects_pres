@@ -1144,13 +1144,13 @@ Note:
 <br>
 <br>
 <br>
-<p style="line-height:70%" align="left"><span style="font-size:0.60em" ><br>Entry point&nbsp;&nbsp; </span><span style="font-size:02.20em" >@color[yellow](&rdca;)</span></p>
+<p style="line-height:70%" align="left"><span style="font-size:0.60em" ><br>Entry point&nbsp;&nbsp;<br> </span><span style="font-size:02.20em" >@color[yellow](&nbsp;&nbsp;&nbsp;&rdca;)</span></p>
 @snapend
 
 
 @snap[south-west span-20 fragment]
 <p style="line-height:70%" align="left"><span style="font-size:0.60em" >Binary of the compiled Firmware image at 4GB<br><br> </span>
-<span style="font-size:02.20em" >@color[yellow](&nbsp;&nbsp;&rdca;)</span><br>&nbsp;</p>
+<span style="font-size:02.20em" >@color[yellow](&nbsp;&nbsp;&nbsp;&rdca;)</span><br>&nbsp;</p>
 
 
 @snapend
@@ -1176,6 +1176,28 @@ Note:
                          core's data areas.
                          If NULL, it is first PeiCore entering.
 						 
+						 
+						 
+
+;
+; For IA32, the reset vector must be at 0xFFFFFFF0, i.e., 4G-16 byte
+; Execution starts here upon power-on/platform-reset.
+;
+ResetHandler:
+    nop
+    nop
+ApStartup:
+    ;
+    ; Jmp Rel16 instruction
+    ; Use machine code directly in case of the assembler optimization
+    ; SEC entry point relatvie address will be fixed up by some build tool.
+    ;
+    ; Typically, SEC entry point is the function _ModuleEntryPoint() defined in
+    ; SecEntry.asm
+    ;
+    DB      0e9h
+    DW      -3
+
 </pre>
 
 
