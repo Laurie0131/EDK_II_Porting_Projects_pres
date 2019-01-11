@@ -1099,7 +1099,10 @@ Note:
 <br>
 <br>
 ![boot-flow](/assets/images/boot-flow.png)
-<p style="line-height:60%" align="left"><span style="font-size:0.85em" >@color[yellow](Use UEFI PI phases to Port all project modules)</span></p>
+@snapend
+
+@snap[south span-100 ]
+<p style="line-height:80%" align="left"><span style="font-size:0.85em" >@color[yellow](Port all required modules for your project through all UEFI Platform initialization phases)</span></p>
 @snapend
 
 Note:
