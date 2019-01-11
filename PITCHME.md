@@ -1138,7 +1138,7 @@ Note:
 <p style="line-height:80%" align="right"><span class="gold" ><b>SEC Code Start</b><br>@color[white]( - Source Code Example)</span></p>
 <p style="line-height:80%" align="left"><span style="font-size:0.90em" >Location for MinnowBoard MAX:<br>&nbsp;&nbsp;`IA32FamilyCpuPkg/SecCore/Ia32/ResetVec.asm16`</span></p>
 
-@snap[north span-40 fragment]
+@snap[north-west span-30 fragment]
 <br>
 <br>
 <br>
@@ -1146,12 +1146,12 @@ Note:
 <br>
 <br>
 <br>
-<p style="line-height:80%" align="left"><span style="font-size:0.90em" >Entry point </span><span style="font-size:01.90em" >&#10144;</span></p>
+<p style="line-height:80%" align="left"><span style="font-size:0.60em" >Entry point </span><span style="font-size:01.90em" >&#10144;</span></p>
 @snapend
 
 
-@snap[south span-20 fragment]
-<p style="line-height:80%" align="left"><span style="font-size:0.90em" >Binary of the compiled Firmware image at 4GB
+@snap[south-west span-20 fragment]
+<p style="line-height:80%" align="left"><span style="font-size:0.60em" >Binary of the compiled Firmware image at 4GB
  </span><span style="font-size:01.90em" >&#10144;</span></p>
 @snapend
 
