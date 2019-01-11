@@ -590,7 +590,7 @@ Note:
 
 ---?image=/assets/images/slides/Slide27_1.JPG
 @title[Porting Approach]
-### <p align="center"><font color="yellow"<b>Approach – Porting EDK II</b></font></p>
+### <p align="center"><font color="yellow"><b>Approach – Porting EDK II</b></font></p>
 
 @snap[north-east span-40 fragment]
 <br>
@@ -604,11 +604,11 @@ Note:
 <br>
 <br>
 <br>
-@box[bg-green-pp text-white my-box-pad2  ](<p style="line-height:40%"<span style="font-size:01.1em" ><b>Find Similar EDK II Projects</b><br>&nbsp;</span></p>)
+@box[bg-royal text-white my-box-pad2  ](<p style="line-height:40%"<span style="font-size:01.1em" ><b>Find Similar EDK II Projects</b><br>&nbsp;</span></p>)
 @snapend
 
 
-@snap[south span-45 fragment]
+@snap[south span-50 fragment]
 @box[bg-purple-pp text-white my-box-pad2  ](<p style="line-height:40%"<span style="font-size:01.1em" > <b>Boot to UEFI Shell</b><br>&nbsp;</span></p>)
 <br>
 <br>
