@@ -705,8 +705,24 @@ Create Build Files &lpar;DSC, DEC, and FDF&rpar;
 <br>
 <br>
 <br>
-<p style="line-height:60%" align="left"><span style="font-size:0.90em" ><br><font color="#808080">Create a New Project package directory</font><br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;  </font></span></p>
+<p style="line-height:60%" align="left"><span style="font-size:0.90em" ><br>&nbsp;@color[white](Create a New Project package directory)<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;  </font></span></p>
 @snapend
+
+
+@snap[north-west span-10 fragment]
+<br>
+<br>
+<br>
+<p style="line-height:60%" align="left"><span style="font-size:02.0em" ><font color="#808080"><br>@color[yellow](&#10102;<br><br>&#10103;)<br><br>&#10104;<br><br>&#10105;<br><br>&#10106;<br><br>&#10107;  </font></span></p>
+@snapend
+
+@snap[north-east span-90 fragment]
+<br>
+<br>
+<br>
+<p style="line-height:60%" align="left"><span style="font-size:0.90em" ><br>&nbsp;@color[white](Create a New Project package directory)<br><br>&nbsp;<br><br>&nbsp;@color[white](Create Build Files &lpar;DSC, DEC, and FDF&rpar;)<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;  </font></span></p>
+@snapend
+
 
 
 
