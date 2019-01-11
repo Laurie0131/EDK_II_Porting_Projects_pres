@@ -807,6 +807,51 @@ Create Build Files &lpar;DSC, DEC, and FDF&rpar;
 <br><br><br>&nbsp;@color[white](Minimums for UEFI Shell)</font></span></p>
 @snapend
 
+
+
+<!---  
+   After row 6
+-->
+
+
+@snap[north-west span-10 fragment]
+<br>
+<br>
+<p style="line-height:60%" align="left"><span style="font-size:02.0em" ><font color="#808080"><br>@color[yellow](&#10102;<br><br>&#10103;<br><br>&#10104;<br><br>)@color[red](&#10105;)@color[yellow](<br><br>&#10106;<br><br>&#10107;)  </font></span></p>
+@snapend
+
+
+@snap[north-east span-90 fragment]
+<br>
+<br>
+<p style="line-height:60%" align="left"><span style="font-size:0.85em" ><br>&nbsp;@color[white](Create a New Project package directory)
+<br><br><br>&nbsp;@color[white](Create Build Files &lpar;DSC, DEC, and FDF&rpar;)
+<br><br><br>&nbsp;@color[white](Update target.txt to make your Project the default)
+<br><br><br>&nbsp;@color[yellow](Use UEFI PI phases to Port all project modules)
+<br><br><br>&nbsp;@color[white](Update DSC w/ new libraries, modules, and PCDs values)
+<br><br><br>&nbsp;@color[white](Minimums for UEFI Shell)</font></span></p>
+@snapend
+
+
+@snap[north-west span-10 fragment]
+<br>
+<br>
+<p style="line-height:60%" align="left"><span style="font-size:02.0em" ><font color="#808080"><br>@color[yellow](&#10102;<br><br>&#10103;<br><br>&#10104;<br><br>)&#10105;<br><br>&#10106;<br><br>&#10107;  </font></span></p>
+@snapend
+
+
+@snap[north-east span-90 fragment]
+<br>
+<br>
+<p style="line-height:60%" align="left"><span style="font-size:0.85em" ><br>&nbsp;@color[yellow](Create a New Project package directory)
+<br><br><br>&nbsp;@color[yellow](Create Build Files &lpar;DSC, DEC, and FDF&rpar;)
+<br><br><br>&nbsp;@color[yellow](Update target.txt to make your Project the default)
+<br><br><br>&nbsp;@color[gray](Use UEFI PI phases to Port all project modules)
+<br><br><br>&nbsp;@color[gray](Update DSC w/ new libraries, modules, and PCDs values)
+<br><br><br>&nbsp;@color[gray](Minimums for UEFI Shell)</font></span></p>
+@snapend
+
+
 Note:
 
 1. Create a New Project package directory
