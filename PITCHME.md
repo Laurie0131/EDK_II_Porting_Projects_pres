@@ -881,70 +881,21 @@ Note:
 
 <!---  next slide  -->
 
----?image=/assets/images/slides/Slide32.JPG
-<!-- .slide: data-transition="none" -->
-@title[Porting Task List Section]
-<p align="center"><span class="gold" ><b>Porting Task List</b></span></p>
-
-
-
-
-+++?image=/assets/images/slides/Slide33.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Porting Task List 02]
-<p align="center"><span class="gold" ><b>Porting Task List</b></span></p>
-
-Note:
-
-
-+++?image=/assets/images/slides/Slide34.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Porting Task List 03]
-<p align="center"><span class="gold" ><b>Porting Task List</b></span></p>
-
-Note:
-
-
-+++?image=/assets/images/slides/Slide35.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Porting Task List 04]
-<p align="center"><span class="gold" ><b>Porting Task List</b></span></p>
-
-Note:
-
-
-+++?image=/assets/images/slides/Slide36.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Porting Task List 05]
-<p align="center"><span class="gold" ><b>Porting Task List</b></span></p>
-
-Note:
-
-
-+++?image=/assets/images/slides/Slide37.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Porting Task List 06]
-<p align="center"><span class="gold" ><b>Porting Task List</b></span></p>
-
-Note:
-
-
 ---?image=/assets/images/slides/Slide39.JPG
 @title[New Directory Structure  ]
-<p align="right"><span class="gold" >New Directory Structure  </span></p>
+<p align="right"><span class="gold" ><b>New Directory Structure</b>  </span></p>
 
 Note:
+
+We will start with our example of Minnowboard Max and it's project directory
+
+Copy this directory
 
 
 ---?image=/assets/images/slides/Slide41_1.JPG
 <!-- .slide: data-transition="none" -->
 @title[Creating a New Project Directory]
-<p align="right"><span class="gold" >New Directory Structure  </span></p>
+<p align="right"><span class="gold" ><b>New Directory Structure </b> </span></p>
 
 Note:
 -  The platform package directory contains project files
@@ -960,13 +911,19 @@ Note:
 -  Library
 -  Etc…
 
+Copy the project directory that is working to a new directory
+
+Our example is NewProjectPkg
+
+
+
 
 
 +++?image=/assets/images/slides/Slide41_2.JPG
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[Creating a New Project Directory 02]
-<p align="right"><span class="gold" >New Directory Structure  </span></p>
+<p align="right"><span class="gold" ><b>New Directory Structure </b> </span></p>
 
 Note:
 -  The platform package directory contains project files
@@ -987,7 +944,7 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[Creating a New Project Directory 03]
-<p align="right"><span class="gold" >New Directory Structure  </span></p>
+<p align="right"><span class="gold" ><b>New Directory Structure  </b></span></p>
 
 Note:
 -  The platform package directory contains project files
@@ -1008,7 +965,7 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[Creating a New Project Directory 04]
-<p align="right"><span class="gold" >New Directory Structure  </span></p>
+<p align="right"><span class="gold" ><b>New Directory Structure  </b></span></p>
 
 Note:
 -  The platform package directory contains project files
@@ -1028,7 +985,7 @@ Note:
 ---?image=/assets/images/slides/Slide42.JPG
 <!-- .slide: data-transition="none" -->
 @title[PCD Example with New Project ]
-<p align="right"><span class="gold" >PCD Example with New Project   </span></p>
+<p align="right"><span class="gold" ><b>PCD Example with New Project  </b> </span></p>
 
 Note:
 
@@ -1048,6 +1005,108 @@ Note:
 -  PCDs are declared in corresponding Silicon and Chipset Packages, according to how they are used with default values in the package DEC files.
 
 -  PCDs are assigned values in the Project Package DSC file, overriding values in the DEC file.
+
+
+---?image=assets/images/binary-strings-black2.jpg
+<!-- .slide: data-transition="none" -->
+@title[Porting Task List Section 02]
+<p align="center"><span style="font-size:01.25em"><font color="#e49436"><b>Porting Task List</b></span></p>
+
+@snap[north-east span-90 ]
+<br>
+<br>
+<br>
+@box[bg-grey-15 text-white rounded my-box-pad2  ](<p style="line-height:60%" ><span style="font-size:0.9em; font-weight: bold;" > <br><br> <br><br><br><br><br><br><br><br><br><br><br><br><br>&nbsp;</span></p>)
+@snapend
+
+
+@snap[north-east span-15]
+![Porting_task_list.gif](/assets/images/tenor.gif)
+@snapend
+
+<!---  col of numbers  -->
+
+@snap[north-west span-10 ]
+<br>
+<br>
+<p style="line-height:60%" align="left"><span style="font-size:02.0em" ><font color="#808080"><br>@color[yellow](&#10102;<br><br>&#10103;<br><br>&#10104;<br><br>)@color[red](&#10105;)@color[yellow](<br><br>&#10106;<br><br>&#10107;)  </font></span></p>
+@snapend
+
+
+@snap[north-east span-90 ]
+<br>
+<br>
+<p style="line-height:60%" align="left"><span style="font-size:0.85em" ><br>&nbsp;@color[white](Create a New Project package directory)
+<br><br><br>&nbsp;@color[white](Create Build Files &lpar;DSC, DEC, and FDF&rpar;)
+<br><br><br>&nbsp;@color[white](Update target.txt to make your Project the default)
+<br><br><br>&nbsp;@color[yellow](Use UEFI PI phases to Port all project modules)
+<br><br><br>&nbsp;@color[white](Update DSC w/ new libraries, modules, and PCDs values)
+<br><br><br>&nbsp;@color[white](Minimums for UEFI Shell)</font></span></p>
+@snapend
+
+
+
+Note:
+
+1. Create a New Project package directory
+2. Create Build Files (DSC, DEC, and FDF)
+3. Update conf/target.txt to make your Project the default build (optional)  
+4. Port all required modules for your project through all UEFI Platform initialization phases
+5. Update build text (DSC, DEC, FDF) files with libraries, ported modules, and PCD values to configure modules
+6. Minimums for UEFI Shell
+
+
+
++++?image=assets/images/binary-strings-black2.jpg
+<!-- .slide: data-background-transition="none" -->
+<!-- .slide: data-transition="none" -->
+@title[Porting Task List Section 04]
+<p align="center"><span style="font-size:01.25em"><font color="#e49436"><b>Porting Task List</b></span></p>
+
+@snap[north-east span-90 ]
+<br>
+<br>
+<br>
+@box[bg-grey-15 text-white rounded my-box-pad2  ](<p style="line-height:60%" ><span style="font-size:0.9em; font-weight: bold;" > <br><br> <br><br><br><br><br><br><br><br><br><br><br><br><br>&nbsp;</span></p>)
+@snapend
+
+
+@snap[north-east span-15]
+![Porting_task_list.gif](/assets/images/tenor.gif)
+@snapend
+
+<!---  col of numbers  -->
+
+@snap[north-west span-10 ]
+<br>
+<br>
+<p style="line-height:60%" align="left"><span style="font-size:02.0em" ><font color="#808080"><br>@color[yellow](&#10102;<br><br>&#10103;<br><br>&#10104;<br><br>)@color[red](&#10105;)@color[yellow](<br><br>&#10106;<br><br>&#10107;)  </font></span></p>
+@snapend
+
+
+@snap[north-east span-90 ]
+<br>
+<br>
+<p style="line-height:60%" align="left"><span style="font-size:0.85em" ><br>&nbsp;@color[white](Create a New Project package directory)
+<br><br><br>&nbsp;@color[white](Create Build Files &lpar;DSC, DEC, and FDF&rpar;)
+<br><br><br>&nbsp;@color[white](Update target.txt to make your Project the default)
+<br><br><br>&nbsp;@color[yellow](Use UEFI PI phases to Port all project modules)
+<br><br><br>&nbsp;@color[white](Update DSC w/ new libraries, modules, and PCDs values)
+<br><br><br>&nbsp;@color[white](Minimums for UEFI Shell)</font></span></p>
+@snapend
+
+@snap[midpoint span-50 fragment]
+![boot-flow](/assets/images/boot-flow.png)
+@snapend
+
+Note:
+
+1. Create a New Project package directory
+2. Create Build Files (DSC, DEC, and FDF)
+3. Update conf/target.txt to make your Project the default build (optional)  
+4. Port all required modules for your project through all UEFI Platform initialization phases
+5. Update build text (DSC, DEC, FDF) files with libraries, ported modules, and PCD values to configure modules
+6. Minimums for UEFI Shell
 
 
 
