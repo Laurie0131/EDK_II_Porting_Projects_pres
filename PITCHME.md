@@ -624,50 +624,7 @@ Porting_task_list.gif
 
 
 
----?image=assets/images/binary-strings-black2.jpg
-@title[Porting Task List Section]
-<p align="center"><span style="font-size:01.25em"><font color="#e49436"><b>Porting Task List</b></span></p>
-
-@snap[north-east span-90 ]
-<br>
-<br>
-<br>
-@box[bg-grey-15 text-white rounded my-box-pad2  ](<p style="line-height:70%" ><span style="font-size:0.9em; font-weight: bold;" > <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>&nbsp;</span></p>)
-@snapend
-
-
-@snap[north-east span-15]
-![Porting_task_list.gif](/assets/images/tenor.gif)
-@snapend
-
-@snap[north-west span-10]
-<br>
-<br>
-<br>
-<p style="line-height:60%" align="left"><span style="font-size:02.0em" ><font color="#808080"><br>&#10102;<br><br>&#10103;<br><br>&#10104;<br><br>&#10105;<br><br>&#10106;<br><br>&#10107;  </font></span></p>
-@snapend
-
-
-@snap[north-west span-100 fragment]
-<br>
-<br>
-<br>
-<p style="line-height:60%" align="left"><font color="yellow"><span style="font-size:02.0em" ><br>&#10102;&nbsp; </span><span style="font-size:0.90em" >Create a New Project package directory</span><br><br></font></p>
-@snapend
-
-
-@snap[north-west span-100 fragment]
-<br>
-<br>
-<br>
-<p style="line-height:60%" align="left"><font color="yellow"><span style="font-size:02.0em" ><br>&#10102;&nbsp; </span><span style="font-size:0.90em" >Create a New Project package directory</span><br><br>
-<span style="font-size:02.0em" >&#10103;&nbsp; </span><span style="font-size:0.90em" > 
-Create Build Files &lpar;DSC, DEC, and FDF&rpar;
-</span><br><br></font></p>
-@snapend
-
-
-
+<!---  Section for Porting Task  -->
 
 ---?image=assets/images/binary-strings-black2.jpg
 <!-- .slide: data-transition="none" -->
