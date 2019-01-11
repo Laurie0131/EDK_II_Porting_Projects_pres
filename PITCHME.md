@@ -1066,10 +1066,17 @@ Note:
 
 
 
----?image=/assets/images/slides/Slide48.JPG
-<!-- .slide: data-transition="none" -->
+---?image=/assets/images/slides/Slide24_1.JPG
 @title[Platform Initialization: SEC Phase]
-<p align="right"><span class="gold" >Platform Initialization: SEC Phase</span></p>
+<p align="right"><span class="gold" ><b>Platform Initialization: SEC Phase</b></span></p>
+
+
+@snap[north-east span-90 fragment]
+<br>
+<br>
+@box[bg-royal text-white my-box-pad2  ](<p style="line-height:40%" align="left"><span style="font-size:0.80em" >&nbsp;&nbsp;x86 &lpar;IA32 &amp; x64&rpar;</span><br><span style="font-size:0.450em; font-family:Consolas; " >&nbsp;&nbsp;MyWorkDir<br>&nbsp;&nbsp;&nbsp;&nbsp;  /IA32FamilyCpuPkg<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /SecCore/Ia32<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /ResetVec.asm16<br>&nbsp;&nbsp;</span></p>)
+@snapend
+
 
 Note:
 -  Minimal code
@@ -1094,7 +1101,7 @@ Note:
 -  Currently we only have two processor architectures but if we had a third the “OtherArch” example would be where it would be located.
 
 
-
+---
 
 +++?image=/assets/images/slides/Slide49.JPG
 <!-- .slide: data-background-transition="none" -->
