@@ -863,6 +863,105 @@ Note:
 
 
 
++++?image=assets/images/binary-strings-black2.jpg
+@title[Porting Task List Section 02]
+<p align="center"><span style="font-size:01.25em"><font color="#e49436"><b>Porting Task List</b></span></p>
+
+@snap[north-east span-90 ]
+<br>
+<br>
+<br>
+@box[bg-grey-15 text-white rounded my-box-pad2  ](<p style="line-height:60%" ><span style="font-size:0.9em; font-weight: bold;" > <br><br> <br><br><br><br><br><br><br><br><br><br><br><br><br>&nbsp;</span></p>)
+@snapend
+
+
+@snap[north-east span-15]
+![Porting_task_list.gif](/assets/images/tenor.gif)
+@snapend
+
+<!---  col of numbers  -->
+
+@snap[north-west span-10 fragment]
+<br>
+<br>
+<p style="line-height:60%" align="left"><span style="font-size:02.0em" ><font color="#808080"><br>@color[yellow](&#10102;<br><br>&#10103;<br><br>&#10104;<br><br>)@color[red](&#10105;)@color[yellow](<br><br>&#10106;<br><br>&#10107;)  </font></span></p>
+@snapend
+
+
+@snap[north-east span-90 fragment]
+<br>
+<br>
+<p style="line-height:60%" align="left"><span style="font-size:0.85em" ><br>&nbsp;@color[white](Create a New Project package directory)
+<br><br><br>&nbsp;@color[white](Create Build Files &lpar;DSC, DEC, and FDF&rpar;)
+<br><br><br>&nbsp;@color[white](Update target.txt to make your Project the default)
+<br><br><br>&nbsp;@color[yellow](Use UEFI PI phases to Port all project modules)
+<br><br><br>&nbsp;@color[white](Update DSC w/ new libraries, modules, and PCDs values)
+<br><br><br>&nbsp;@color[white](Minimums for UEFI Shell)</font></span></p>
+@snapend
+
+
+
+Note:
+
+1. Create a New Project package directory
+2. Create Build Files (DSC, DEC, and FDF)
+3. Update conf/target.txt to make your Project the default build (optional)  
+4. Port all required modules for your project through all UEFI Platform initialization phases
+5. Update build text (DSC, DEC, FDF) files with libraries, ported modules, and PCD values to configure modules
+6. Minimums for UEFI Shell
+
+
+
++++?image=assets/images/binary-strings-black2.jpg
+@title[Porting Task List Section 02]
+<p align="center"><span style="font-size:01.25em"><font color="#e49436"><b>Porting Task List</b></span></p>
+
+@snap[north-east span-90 ]
+<br>
+<br>
+<br>
+@box[bg-grey-15 text-white rounded my-box-pad2  ](<p style="line-height:60%" ><span style="font-size:0.9em; font-weight: bold;" > <br><br> <br><br><br><br><br><br><br><br><br><br><br><br><br>&nbsp;</span></p>)
+@snapend
+
+
+@snap[north-east span-15]
+![Porting_task_list.gif](/assets/images/tenor.gif)
+@snapend
+
+<!---  col of numbers  -->
+
+
+@snap[north-west span-10 fragment]
+<br>
+<br>
+<p style="line-height:60%" align="left"><span style="font-size:02.0em" ><font color="#808080"><br>@color[yellow](&#10102;<br><br>&#10103;<br><br>&#10104;<br><br>)&#10105;<br><br>&#10106;<br><br>&#10107;  </font></span></p>
+@snapend
+
+
+@snap[north-east span-90 fragment]
+<br>
+<br>
+<p style="line-height:60%" align="left"><span style="font-size:0.85em" ><br>&nbsp;@color[yellow](Create a New Project package directory)
+<br><br><br>&nbsp;@color[yellow](Create Build Files &lpar;DSC, DEC, and FDF&rpar;)
+<br><br><br>&nbsp;@color[yellow](Update target.txt to make your Project the default)
+<br><br><br>&nbsp;@color[gray](Use UEFI PI phases to Port all project modules)
+<br><br><br>&nbsp;@color[gray](Update DSC w/ new libraries, modules, and PCDs values)
+<br><br><br>&nbsp;@color[gray](Minimums for UEFI Shell)</font></span></p>
+@snapend
+
+
+
+Note:
+
+1. Create a New Project package directory
+2. Create Build Files (DSC, DEC, and FDF)
+3. Update conf/target.txt to make your Project the default build (optional)  
+4. Port all required modules for your project through all UEFI Platform initialization phases
+5. Update build text (DSC, DEC, FDF) files with libraries, ported modules, and PCD values to configure modules
+6. Minimums for UEFI Shell
+
+<!---  next slide  -->
+
 ---?image=/assets/images/slides/Slide32.JPG
 <!-- .slide: data-transition="none" -->
 @title[Porting Task List Section]
