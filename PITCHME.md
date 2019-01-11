@@ -292,32 +292,11 @@ Infrastructure Summary <br>
 
 Note:
 
----
+---?image=/assets/images/slides/Slide7_1.JPG
 @title[Libraries]
 <p align="center"><span class="gold" ><b>Libraries</b></span></p>
 
 
-@snap[north-west span-25 ]
-<br>
-<br>
-@fa[book fa-3x  gp-bullet-cream]
-<br>
-<br>
-<br>
-@fa[book fa-3x  gp-bullet-cream]
-@snapend
-
-@snap[north-west span-25 ]
-<br>
-<br>
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp;@fa[book fa-3x  gp-bullet-gold]
-<br>
-<br>
-<br>
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp;@fa[book fa-3x  gp-bullet-ltgreen]
-@snapend
 
 @snap[north-east span-80 fragment ]
 <br>
