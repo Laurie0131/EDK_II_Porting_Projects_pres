@@ -1098,6 +1098,7 @@ Note:
 @snap[midpoint span-85 ]
 <br>
 <br>
+<br>
 ![boot-flow](/assets/images/boot-flow.png)
 @snapend
 
