@@ -1133,6 +1133,52 @@ Note:
 
 
 
+---?image=/assets/images/slides/Slide25_1.JPG
+@title[SEC Code Start]
+<p style="line-height:80%" align="right"><span class="gold" ><b>SEC Code Start</b><br>@color[white]( - Source Code Example)</span></p>
+<p style="line-height:80%" align="left"><span style="font-size:0.90em" >Location for MinnowBoard MAX:<br>&nbsp;&nbsp;`IA32FamilyCpuPkg/SecCore/Ia32/ResetVec.asm16`</span></p>
+
+@snap[north span-40 fragment]
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p style="line-height:80%" align="left"><span style="font-size:0.90em" >Entry point </span><span style="font-size:01.90em" >&#10144;</span></p>
+@snapend
+
+
+@snap[south span-20 fragment]
+<p style="line-height:80%" align="left"><span style="font-size:0.90em" >Binary of the compiled Firmware image at 4GB
+ </span><span style="font-size:01.90em" >&#10144;</span></p>
+@snapend
+
+Note:
+
+<pre>
+/**
+  This routine is invoked by main entry of PeiMain module during transition
+  from SEC to PEI. After switching stack in the PEI core, it will restart
+  with the old core data.
+
+  @param SecCoreData     Points to a data structure containing information about the PEI core's operating
+                         environment, such as the size and location of temporary RAM, the stack location and
+                         the BFV location.
+  @param PpiList         Points to a list of one or more PPI descriptors to be installed initially by the PEI core.
+                         An empty PPI list consists of a single descriptor with the end-tag
+                         EFI_PEI_PPI_DESCRIPTOR_TERMINATE_LIST. As part of its initialization
+                         phase, the PEI Foundation will add these SEC-hosted PPIs to its PPI database such
+                         that both the PEI Foundation and any modules can leverage the associated service
+                         calls and/or code in these early PPIs
+  @param Data            Pointer to old core data that is used to initialize the
+                         core's data areas.
+                         If NULL, it is first PeiCore entering.
+						 
+</pre>
+
+
 
 ---?image=/assets/images/slides/Slide52.JPG
 @title[SEC Code Start]
