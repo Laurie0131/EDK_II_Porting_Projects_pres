@@ -1108,6 +1108,7 @@ Note:
 
 
 Note:
+### SEC phase
 -  Minimal code
 -  Execute in place (XIP) from flash
 -  Execution started by reset vector
@@ -1125,72 +1126,12 @@ Note:
 -  Which will Enable the C Code
 -  And then it will finally Transfer control to PEI
 
+### entry point for SEC
 -  What we are showing at the right of the slide is the exact location in the EDK II source tree of the reset vector. For X86 Intel architecture all the code will be in the directory Ia32FamilyCpuPkg and the reset vector will be in the file ResetVec.asm16. for this particular file to reset Vector will start to execute the code in this file. There are approximately about three assembly language instructions before it will make a jump into a platform’s ported SEC library source code. This is where we would need to start to port our new platform code.
 -  The Middle example is for Itanium and would be similar to the X86 example. In this example there is the SALE_ENTRY.
 -  Currently we only have two processor architectures but if we had a third the “OtherArch” example would be where it would be located.
 
 
----
-
-+++?image=/assets/images/slides/Slide49.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Platform Initialization: SEC Phase 02]
-<p align="right"><span class="gold" >Platform Initialization: SEC Phase</span></p>
-
-
-Note:
--  Minimal code
--  Execute in place (XIP) from flash
--  Execution started by reset vector
--  Enables temp memory for C code (data & stack)
--  Transfers control to PEI
-
-
--  Let’s start with the SEC phase.
--  What do we need to be current sermon about in the SEC?
--  We will have Minimal code and we are most likely in assembly language for the particular processor architecture.
--  We will be executing from flash , so this means the code will not be compressed.
--  A point to take especially if you are going to be using a hardware debugger, is we will start Execution at the reset vector
--  It’s job is to Enables temp memory
--  Set up the Data and Stack Cached areas . This sets up our cache as RAM or our cache as no eviction mode.
--  Which will Enable the C Code
--  And then it will finally Transfer control to PEI
-
--  What we are showing at the right of the slide is the exact location in the EDK II source tree of the reset vector. For X86 Intel architecture all the code will be in the directory Ia32FamilyCpuPkg and the reset vector will be in the file ResetVec.asm16. for this particular file to reset Vector will start to execute the code in this file. There are approximately about three assembly language instructions before it will make a jump into a platform’s ported SEC library source code. This is where we would need to start to port our new platform code.
--  The Middle example is for Itanium and would be similar to the X86 example. In this example there is the SALE_ENTRY.
--  Currently we only have two processor architectures but if we had a third the “OtherArch” example would be where it would be located.
-
-
-
-+++?image=/assets/images/slides/Slide50.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Platform Initialization: SEC Phase 03]
-<p align="right"><span class="gold" >Platform Initialization: SEC Phase</span></p>
-
-
-Note:
--  Minimal code
--  Execute in place (XIP) from flash
--  Execution started by reset vector
--  Enables temp memory for C code (data & stack)
--  Transfers control to PEI
-
-
--  Let’s start with the SEC phase.
--  What do we need to be current sermon about in the SEC?
--  We will have Minimal code and we are most likely in assembly language for the particular processor architecture.
--  We will be executing from flash , so this means the code will not be compressed.
--  A point to take especially if you are going to be using a hardware debugger, is we will start Execution at the reset vector
--  It’s job is to Enables temp memory
--  Set up the Data and Stack Cached areas . This sets up our cache as RAM or our cache as no eviction mode.
--  Which will Enable the C Code
--  And then it will finally Transfer control to PEI
-
--  What we are showing at the right of the slide is the exact location in the EDK II source tree of the reset vector. For X86 Intel architecture all the code will be in the directory Ia32FamilyCpuPkg and the reset vector will be in the file ResetVec.asm16. for this particular file to reset Vector will start to execute the code in this file. There are approximately about three assembly language instructions before it will make a jump into a platform’s ported SEC library source code. This is where we would need to start to port our new platform code.
--  The Middle example is for Itanium and would be similar to the X86 example. In this example there is the SALE_ENTRY.
--  Currently we only have two processor architectures but if we had a third the “OtherArch” example would be where it would be located.
 
 
 ---?image=/assets/images/slides/Slide52.JPG
