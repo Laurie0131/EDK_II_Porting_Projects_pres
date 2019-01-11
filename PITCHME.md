@@ -1101,7 +1101,8 @@ Note:
 <br>
 <br>
 <br>
-@box[bg-grey-50 text-black my-box-pad2  ](<p style="line-height:40%" align="left"><span style="font-size:0.80em" >@color[white](&nbsp;&nbsp;Other Arch)</span><br><br><span style="font-size:0.50em; font-family:Consolas; " >&nbsp;&nbsp;&nbsp;&nbsp;/MyWorkDir<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  /XCpuPkg<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /SecCore/Xarch<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /XCpuPkg.x<br>&nbsp;&nbsp;</span></p>)
+<br>
+@box[bg-grey-50 text-black my-box-pad2  ](<p style="line-height:40%" align="left"><span style="font-size:0.80em" >@color[white](&nbsp;&nbsp;Other Arch)</span><br><br><span style="font-size:0.50em; font-family:Consolas; " >&nbsp;&nbsp;&nbsp;&nbsp;/MyWorkDir<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  /XCpuPkg<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /SecCore/Xarch<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;</span></p>)
 @snapend
 
 
