@@ -294,11 +294,14 @@ Note:
 
 ---?image=/assets/images/slides/Slide7_1.JPG
 @title[Libraries]
-<p align="center"><span class="gold" ><b>Libraries</b></span></p>
+<br>
+<p align="center"><span style="font-size:01.25em"><font color="#e49436"><b>Libraries</b></font></span></p>
 
 
 
 @snap[north-east span-80 fragment ]
+<br>
+<br>
 <br>
 <br>
 <p style="line-height:75%" align="left"><span style="font-size:0.9em">@color[yellow](DSC maps library class to library-instances)</span></p>
