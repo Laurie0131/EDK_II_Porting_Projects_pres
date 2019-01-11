@@ -311,7 +311,7 @@ Note:
 <br>
 <br>
 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;@fa[book fa-3x  gp-bullet-yellow]
+&nbsp;&nbsp;&nbsp;&nbsp;@fa[book fa-3x  gp-bullet-gold]
 <br>
 <br>
 <br>
