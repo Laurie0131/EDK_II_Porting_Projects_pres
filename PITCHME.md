@@ -636,8 +636,7 @@ Porting_task_list.gif
 <br>
 <br>
 <br>
-<br>
-<p style="line-height:60%"><span style="font-size:02.0em" ><font color="#808080">&#10102;<br><br>&#10103;<br><br>&#10104;<br><br>&#10105;<br><br>&#10106;<br><br>&#10107;  </font></span></p>
+<p style="line-height:60%" align="left"><span style="font-size:02.0em" ><font color="#808080"><br>&#10102;<br><br>&#10103;<br><br>&#10104;<br><br>&#10105;<br><br>&#10106;<br><br>&#10107;  </font></span></p>
 @snapend
 
 
