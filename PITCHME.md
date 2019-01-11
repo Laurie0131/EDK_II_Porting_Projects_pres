@@ -604,6 +604,7 @@ Note:
 <br>
 <br>
 <br>
+<br>
 @box[bg-royal text-white my-box-pad2  ](<p style="line-height:40%"><span style="font-size:01.1em" ><b>Find Similar EDK II Projects</b><br>&nbsp;</span></p>)
 @snapend
 
