@@ -780,7 +780,7 @@ Create Build Files &lpar;DSC, DEC, and FDF&rpar;
 @snap[north-east span-90 fragment]
 <br>
 <br>
-<p style="line-height:60%" align="left"><span style="font-size:0.85em" ><br>&nbsp;@color[white](Create a New Project package directory)
+<p style="line-height:50%" align="left"><span style="font-size:0.85em" ><br>&nbsp;@color[white](Create a New Project package directory)
 <br><br><br>&nbsp;@color[white](Create Build Files &lpar;DSC, DEC, and FDF&rpar;)
 <br><br><br>&nbsp;@color[white](Update target.txt to make your Project the default)
 <br><br><br>&nbsp;@color[white](Use UEFI PI phases to Port all project modules)
