@@ -631,8 +631,7 @@ Porting_task_list.gif
 ![Porting_task_list.gif](/assets/images/tenor.gif)
 @snapend
 
-@snap[north-west span-5]
-<br>
+@snap[north-west span-10]
 <br>
 <br>
 <br>
