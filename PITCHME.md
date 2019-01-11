@@ -720,7 +720,7 @@ Create Build Files &lpar;DSC, DEC, and FDF&rpar;
 <br>
 <br>
 <br>
-<p style="line-height:60%" align="left"><span style="font-size:0.90em" ><br>&nbsp;@color[white](Create a New Project package directory)<br><br>&nbsp;@color[white](Create Build Files &lpar;DSC, DEC, and FDF&rpar;)<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;  </font></span></p>
+<p style="line-height:60%" align="left"><span style="font-size:0.90em" ><br>&nbsp;@color[white](Create a New Project package directory)<br><br><br>&nbsp;@color[white](Create Build Files &lpar;DSC, DEC, and FDF&rpar;)<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;  </font></span></p>
 @snapend
 
 
