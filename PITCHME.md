@@ -367,29 +367,61 @@ Note:
 
 
 
+---
+@title[Library Classes in DSC ]
+<p align="right"><span class="gold" ><b>Library Classes Section in DSC<b></span></p>
+<br>
+<p style="line-height:70%" ><span style="font-size:0.9em; font-weight: bold;" >`DebugLib` class in `NewProjectPkg.dsc` </span></p>
+<br>
 
+```
+ [LibraryClasses]
+     DebugLib|MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull.inf
+     • • •
+ [LibraryClasses.common.DXE_CORE]
+         • • •
+    DebugLib|IntelFrameworkModulePkg/Library/PeiDxeDebugLibReportStatusCode/
+           PeiDxeDebugLibReportStatusCode.inf  
+        • • •
+ [LibraryClasses.common.DXE_SMM_DRIVER]
+    DebugLib|MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull.inf
 
----?image=/assets/images/slides/Slide17.JPG
-@title[Libraries]
-<p align="center"><span class="gold" ><b>Libraries</b></span></p>
+ [Components]
+      • • •
+ MyPath/MyModule.inf {
+  <LibraryClasses>
+    DebugLib|MdePkg/Library/BaseDebugLibSerialPort.inf
+ }
+ 
+``` 
 
 
 Note:
 
-- DSC maps library-class to library-instances
-- Global, by type, individual override based on desired implimentation
-- Effected by size, speed, built in, binary distribution 
-- PCI example
-  - PciCfg – Protocol function call by GUID (PEI)
-  - PciRootBridgeIo – Protocol function call by GUID (DXE)
-  - Syntax in DSC file
-  - 	[libraryclasses] 
-  - 	LibraryClassName|Path/To/LibInstanceNameInstance1.inf
-  
-  
-- another Note; Workspace relative paths!
-  -  Check for existing library instances.
-  - Search INF for string: LIBRARY_CLASS  =
+Example - 
+
+<pre>
+ DebugLib class in NewProjectPkg.dsc
+
+ [LibraryClasses]
+     DebugLib|MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull.inf
+     • • •
+ [LibraryClasses.common.DXE_CORE]
+         • • •
+    DebugLib|IntelFrameworkModulePkg/Library/PeiDxeDebugLibReportStatusCode/
+           PeiDxeDebugLibReportStatusCode.inf  
+        • • •
+ [LibraryClasses.common.DXE_SMM_DRIVER]
+    DebugLib|MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull.inf
+
+ [Components]
+      • • •
+ MyPath/MyModule.inf {
+  <LibraryClasses>
+    DebugLib|MdePkg/Library/BaseDebugLibSerialPort.inf
+ }
+</pre>
+
 
 
 
