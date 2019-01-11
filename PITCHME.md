@@ -1095,14 +1095,14 @@ Note:
 <br><br><br>&nbsp;@color[gray](Minimums for UEFI Shell)</font></span></p>
 @snapend
 
-@snap[midpoint span-85 ]
+@snap[midpoint span-80 ]
 <br>
 <br>
 ![boot-flow](/assets/images/boot-flow.png)
 @snapend
 
 @snap[south span-100 fragment]
-@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:80%"><span style="font-size:0.80em" >@color[yellow](Port all required modules for your project through all UEFI Platform initialization phases)</span></p>)
+@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:80%"><span style="font-size:0.80em" >Port all required modules for your project through all UEFI Platform initialization phases<br>&nbsp;</span></p>)
 @snapend
 
 Note:
@@ -1113,6 +1113,8 @@ Note:
 4. Port all required modules for your project through all UEFI Platform initialization phases
 5. Update build text (DSC, DEC, FDF) files with libraries, ported modules, and PCD values to configure modules
 6. Minimums for UEFI Shell
+
+### This will be the longest task and depending on the project may take several weeks
 
 
 
