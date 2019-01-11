@@ -638,6 +638,31 @@ Porting_task_list.gif
 <p style="line-height:60%" align="left"><span style="font-size:02.0em" ><font color="#808080"><br>&#10102;<br><br>&#10103;<br><br>&#10104;<br><br>&#10105;<br><br>&#10106;<br><br>&#10107;  </font></span></p>
 @snapend
 
+@snap[north-east span-90 ]
+<br>
+<br>
+<br>
+@box[bg-grey-15 text-white my-box-pad2  ](<p style="line-height:60%" align="left"><span style="font-size:0.90em" ><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>
+&nbsp;<br><br>&nbsp;<br><br>&nbsp;  </font></span></p>
+@snapend
+
+
+
+@snap[north-west span-10 fragment]
+<br>
+<br>
+<br>
+<p style="line-height:60%" align="left"><span style="font-size:02.0em" ><font color="#808080"><br>@color[yellow](&#10102;)<br><br>&#10103;<br><br>&#10104;<br><br>&#10105;<br><br>&#10106;<br><br>&#10107;  </font></span></p>
+@snapend
+
+
+@snap[north-east span-90 fragment]
+<br>
+<br>
+<br>
+<p style="line-height:60%" align="left"><span style="font-size:0.90em" ><br>Create a New Project package directory<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;  </font></span></p>
+@snapend
+
 
 
 ---?image=/assets/images/slides/Slide32.JPG
