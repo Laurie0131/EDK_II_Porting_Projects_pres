@@ -1418,6 +1418,18 @@ Note:
 
 @snapend 
 
+@snap[south-west span-100 fragment]
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p align="left" style="line-height:40%"><span style="font-size:0.8em; "><br></span></p>
+@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:70%"><span style="font-size:0.9em; " ><b>TIP</b> The DSC file will have the Modules used<br>&nbsp;&nbsp;</span></p>)
+@snapend 
 
 
 
@@ -1455,216 +1467,10 @@ Note:
     - Create FV HOB and Flash HOB
     - Install RecoveryModule and AtaController PPI  if  recovery boot mode.
 
----
 
-+++?image=/assets/images/slides/Slide65.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[PEI Phase 02 ]
-<p align="right"><span class="gold" >PEI Phase </span></p>
- 
-
-Note:
--  The main platform PEI code is in a subdirectory of the platform package. (PlatformPei)
--  It references PEIMs in other packages
--  PEI code is dependant on the PEI drivers for the platform for communication to the devices
-
-
--  Determine boot mode
-  -  S3 and S5 are the most common modes
-  -  Recovery mode
--  Low-level initialization of the platform
-  -  Find FVs that contain DXE
--  Discover and initialize main memory
--  Transfer control according to boot mode
-  -  If S5 hands control to DXE
-  -  If S3 uses waking vector
-
-
--  Platform PEI code can be divided into 3 phases:
-  1.  Pre-Memory Initialization
-    -  Initialize the memory controller
-    -  Detect boot mode.
-    -  Detect video adapter
-  2.  Memory Initialization (MRC)
-    -  Install  UEFI Memory.
-    -  Capsule coalesce, Capsule Boot.
-    -  Create HOB of system memory.
-  3.  Post-Memory initialization
-    -  PCH initialization after MRC.
-    -  SIO initialization.
-    - Install ResetSystem and FinvFv PPI, if  recovery boot mode.
-    - Set MTRR for PEI
-    - Create FV HOB and Flash HOB
-    - Install RecoveryModule and AtaController PPI  if  recovery boot mode.
-
-
-+++?image=/assets/images/slides/Slide66.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[PEI Phase 03 ]
-<p align="right"><span class="gold" >PEI Phase </span></p>
- 
-
-Note:
--  The main platform PEI code is in a subdirectory of the platform package. (PlatformPei)
--  It references PEIMs in other packages
--  PEI code is dependant on the PEI drivers for the platform for communication to the devices
-
-
--  Determine boot mode
-  -  S3 and S5 are the most common modes
-  -  Recovery mode
--  Low-level initialization of the platform
-  -  Find FVs that contain DXE
--  Discover and initialize main memory
--  Transfer control according to boot mode
-  -  If S5 hands control to DXE
-  -  If S3 uses waking vector
-
-
--  Platform PEI code can be divided into 3 phases:
-  1.  Pre-Memory Initialization
-    -  Initialize the memory controller
-    -  Detect boot mode.
-    -  Detect video adapter
-  2.  Memory Initialization (MRC)
-    -  Install  UEFI Memory.
-    -  Capsule coalesce, Capsule Boot.
-    -  Create HOB of system memory.
-  3.  Post-Memory initialization
-    -  PCH initialization after MRC.
-    -  SIO initialization.
-    - Install ResetSystem and FinvFv PPI, if  recovery boot mode.
-    - Set MTRR for PEI
-    - Create FV HOB and Flash HOB
-    - Install RecoveryModule and AtaController PPI  if  recovery boot mode.
-
-
-+++?image=/assets/images/slides/Slide67.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[PEI Phase 04 ]
-<p align="right"><span class="gold" >PEI Phase </span></p>
- 
-
-Note:
--  The main platform PEI code is in a subdirectory of the platform package. (PlatformPei)
--  It references PEIMs in other packages
--  PEI code is dependant on the PEI drivers for the platform for communication to the devices
-
-
--  Determine boot mode
-  -  S3 and S5 are the most common modes
-  -  Recovery mode
--  Low-level initialization of the platform
-  -  Find FVs that contain DXE
--  Discover and initialize main memory
--  Transfer control according to boot mode
-  -  If S5 hands control to DXE
-  -  If S3 uses waking vector
-
-
--  Platform PEI code can be divided into 3 phases:
-  1.  Pre-Memory Initialization
-    -  Initialize the memory controller
-    -  Detect boot mode.
-    -  Detect video adapter
-  2.  Memory Initialization (MRC)
-    -  Install  UEFI Memory.
-    -  Capsule coalesce, Capsule Boot.
-    -  Create HOB of system memory.
-  3.  Post-Memory initialization
-    -  PCH initialization after MRC.
-    -  SIO initialization.
-    - Install ResetSystem and FinvFv PPI, if  recovery boot mode.
-    - Set MTRR for PEI
-    - Create FV HOB and Flash HOB
-    - Install RecoveryModule and AtaController PPI  if  recovery boot mode.
-
-
-+++?image=/assets/images/slides/Slide68.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[PEI Phase 05 ]
-<p align="right"><span class="gold" >PEI Phase </span></p>
- 
-
-Note:
--  The main platform PEI code is in a subdirectory of the platform package. (PlatformPei)
--  It references PEIMs in other packages
--  PEI code is dependant on the PEI drivers for the platform for communication to the devices
-
-
--  Determine boot mode
-  -  S3 and S5 are the most common modes
-  -  Recovery mode
--  Low-level initialization of the platform
-  -  Find FVs that contain DXE
--  Discover and initialize main memory
--  Transfer control according to boot mode
-  -  If S5 hands control to DXE
-  -  If S3 uses waking vector
-
-
--  Platform PEI code can be divided into 3 phases:
-  1.  Pre-Memory Initialization
-    -  Initialize the memory controller
-    -  Detect boot mode.
-    -  Detect video adapter
-  2.  Memory Initialization (MRC)
-    -  Install  UEFI Memory.
-    -  Capsule coalesce, Capsule Boot.
-    -  Create HOB of system memory.
-  3.  Post-Memory initialization
-    -  PCH initialization after MRC.
-    -  SIO initialization.
-    - Install ResetSystem and FinvFv PPI, if  recovery boot mode.
-    - Set MTRR for PEI
-    - Create FV HOB and Flash HOB
-    - Install RecoveryModule and AtaController PPI  if  recovery boot mode.
-
-
-+++?image=/assets/images/slides/Slide69.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[PEI Phase 06 ]
-<p align="right"><span class="gold" >PEI Phase </span></p>
- 
-
-Note:
--  The main platform PEI code is in a subdirectory of the platform package. (PlatformPei)
--  It references PEIMs in other packages
--  PEI code is dependant on the PEI drivers for the platform for communication to the devices
-
-
--  Determine boot mode
-  -  S3 and S5 are the most common modes
-  -  Recovery mode
--  Low-level initialization of the platform
-  -  Find FVs that contain DXE
--  Discover and initialize main memory
--  Transfer control according to boot mode
-  -  If S5 hands control to DXE
-  -  If S3 uses waking vector
-
-
--  Platform PEI code can be divided into 3 phases:
-  1.  Pre-Memory Initialization
-    -  Initialize the memory controller
-    -  Detect boot mode.
-    -  Detect video adapter
-  2.  Memory Initialization (MRC)
-    -  Install  UEFI Memory.
-    -  Capsule coalesce, Capsule Boot.
-    -  Create HOB of system memory.
-  3.  Post-Memory initialization
-    -  PCH initialization after MRC.
-    -  SIO initialization.
-    - Install ResetSystem and FinvFv PPI, if  recovery boot mode.
-    - Set MTRR for PEI
-    - Create FV HOB and Flash HOB
-    - Install RecoveryModule and AtaController PPI  if  recovery boot mode.
+---?image=/assets/images/slides/Slide29_1.JPG
+@title[PEI Phase – MAX has 2 PEIM Modules ]
+<p align="right"><span class="gold" >PEI Phase – MAX has 2 PEIM Modules </span></p>
 
 
 ---?image=/assets/images/slides/Slide71.JPG
