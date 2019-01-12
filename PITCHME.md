@@ -1409,11 +1409,11 @@ Note:
 <br>
 <br>
 <br>
-<p align="left" style="line-height:40%"><span style="font-size:0.8em; "><br><br></span></p>
+<p align="left" style="line-height:40%"><span style="font-size:0.8em; "><br><br><br></span></p>
 <p align="left" style="line-height:70%"><span style="font-size:0.7em; ">
-@size[2.25](@color[#00ffff](&#10122;))&nbsp;&nbsp;Pre-Memory Initialization<br>
-@size[2.25](@color[yellow](&#10123;))&nbsp;&nbsp;Memory Initialization &lpar;MRC&rpar;<br>
-@size[2.25](@color[#87E2A9](&#10124;))&nbsp;&nbsp;Post-Memory Initialization
+@size[2.5](@color[#00ffff](&#10122;))&nbsp;&nbsp;Pre-Memory Initialization<br>
+@size[2.5](@color[yellow](&#10123;))&nbsp;&nbsp;Memory Initialization &lpar;MRC&rpar;<br>
+@size[2.5](@color[#87E2A9](&#10124;))&nbsp;&nbsp;Post-Memory Initialization
 <br>&nbsp;</span></p>
 
 @snapend 
