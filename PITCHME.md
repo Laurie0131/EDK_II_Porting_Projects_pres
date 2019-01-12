@@ -1381,7 +1381,6 @@ Note:
 <br>
 <br>
 <br>
-<br>
 <p align="left" style="line-height:40%"><span style="font-size:0.8em; "><br><br><br></span></p>
 @box[bg-green-pp text-white rounded my-box-pad2  ](<p style="line-height:70%"><span style="font-size:0.8em; " >PEI code is dependent on the PEI drivers<br>&nbsp;&nbsp;</span></p>)
 @snapend
@@ -1410,7 +1409,7 @@ Note:
 <br>
 <br>
 <br>
-<p align="left" style="line-height:40%"><span style="font-size:0.8em; "><br></span></p>
+<p align="left" style="line-height:40%"><span style="font-size:0.8em; "><br><br></span></p>
 <p align="left" style="line-height:70%"><span style="font-size:0.7em; ">
 @size[2.25](@color[#00ffff](&#10122;))&nbsp;&nbsp;Pre-Memory Initialization<br>
 @size[2.25](@color[yellow](&#10123;))&nbsp;&nbsp;Memory Initialization &lpar;MRC&rpar;<br>
