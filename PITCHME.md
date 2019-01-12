@@ -1049,7 +1049,7 @@ Note:
 @snapend
 
 @snap[south span-100 fragment]
-@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:80%"><span style="font-size:0.80em" >Port all required modules for your project using UEFI Platform Initialization phases as a guide<br>&nbsp;</span></p>)
+@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:80%"><span style="font-size:0.80em" >Port all required modules for your project using <br>UEFI Platform Initialization phases as a guide<br>&nbsp;</span></p>)
 @snapend
 
 Note:
@@ -1220,7 +1220,6 @@ ApStartup:
 <br>
 <br>
 <br>
-<br>
 <p style="line-height:70%" align="left"><span style="font-size:0.80em; ;color:green" ><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>`_ModuleEntryPoint` or <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Flat32Start`</b><br><br><br> </span>
 <span style="font-size:03.25em" >@color[red](<b>&ldca;</b>)</span><br>&nbsp;</p>
 @snapend
@@ -1273,6 +1272,7 @@ Note:
 
 ---?image=/assets/images/slides/Slide28_1.JPG
 @title[SEC Lib, PCD Example ]
+<!---  PCD Example   -->
 <p align="right"><span class="gold" ><b>SEC Lib, PCD Example</b> </span></p>
 
 
