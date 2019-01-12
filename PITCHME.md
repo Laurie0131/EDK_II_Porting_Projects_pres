@@ -1256,45 +1256,10 @@ Note:
 
 
 
----?image=/assets/images/slides/Slide54.JPG
-@title[Platform SEC Lib for MinnowBoard MAX]
-<p align="right"><span class="gold" >Platform SEC Lib for MinnowBoard MAX</span></p>
-
-
-Note:
-
--  Entry point after reset vector is platform specific
-  -  SecEntry.asm
-  -  ModuleEntryPoint
--  SecNewProject.asm calls entry for setting up temporary memory and APs
-  -  SecPlatformInitTram
-  -  SecPlatformApEntryPoint
--  SecCPU.Asm sets cache for no eviction mode
-  -  CPU & MTRR register defines
-  -  Ia32.inc
--  NewProjectSecLib.c SEC platform main (i.e. enable FWH decode)
-
--  Of this slide we have what we need to port our new package platform for the SEC  phase.
--  We find this code in our new platform package directory under the library directory under the directory called something like new platform SEC lib. Under this directory we see that we have a “C”, “H” and Inf files, And we also see another directory, in our case for our example platform, we have an IA32 directory. This directory would have assembly language source files for our port.
-
--  Let’s take a look at the details of these files:
-  -  After the reset vector and after those initial architecture specific instructions, a jump will be made into the new platform SEC library code. The Entry point after common reset vector is platform specific in SecEntry.asm  with the label ModuleEntryPoint.
-
--  The file SecNewProject.asm – calls the entry for setting up our temporary memory and the Application Processors
--  We will need to look at the code at the label SecPlatformInitTram where we would  make a call to set up our temporary memory. Probably the cache as RAM. But, it could be something different.
--  The label SecPlatformApEntryPoint is where we be setting up the entry point for our application processors.
--  The file SecCPU.Asm – is the actual code that Sets the Cache for no eviction mode or cache as RAM.
--  The include file  Ia32.inc – has Defines for the MTRR registers and processor specific defines  
-
--  Finally, the C. source code file NewProjectSecLib.c – and this file would have the Sec Platform MAIN entry– and it would be responsible for things like to Enable FWH decoding etc.
-
-
-
-
 
 ---?image=/assets/images/slides/Slide56.JPG
 @title[Temporary Memory Example]
-<p align="right"><span class="gold" >Temporary Memory Example</span></p>
+<p align="right"><span class="gold" ><b>Temporary Memory Example</b></span></p>
 
 
 Note:
@@ -1305,10 +1270,23 @@ Note:
   -  PcdTemporaryRamBase
 
 
+
 ---?image=/assets/images/slides/Slide58.JPG
 <!-- .slide: data-transition="none" -->
 @title[SEC Lib, PCD Example ]
-<p align="right"><span class="gold" >SEC Lib, PCD Example </span></p>
+<p align="right"><span class="gold" ><b>SEC Lib, PCD Example</b> </span></p>
+
+
+Note:
+-  SEC PCDs used to set up temp RAM size and location
+  -  PcdTemporaryRamSize
+  -  PcdTemporaryRamBase
+
+
+---?image=/assets/images/slides/Slide58.JPG
+<!-- .slide: data-transition="none" -->
+@title[SEC Lib, PCD Example ]
+<p align="right"><span class="gold" ><b>SEC Lib, PCD Example</b> </span></p>
 
 
 Note:
