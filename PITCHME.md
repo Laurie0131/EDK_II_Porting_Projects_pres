@@ -1213,15 +1213,13 @@ ApStartup:
 </span></p>
 @snapend
 
-@snap[north-east span-40 fragment]
+@snap[north-east span-50 fragment]
 <br>
 <br>
 <br>
 <br>
 <br>
-<br>
-<br>
-<p style="line-height:70%" align="left"><span style="font-size:0.80em; ;color:green" ><b>`_ModuleEntryPoint` or `Flat32Start`</b><br><br><br> </span>
+<p style="line-height:70%" align="left"><span style="font-size:0.80em; ;color:green" >&nbsp;&nbsp;&nbsp;&nbsp;<b>`_ModuleEntryPoint` or <br>&nbsp;&nbsp;&nbsp;&nbsp;`Flat32Start`</b><br><br><br> </span>
 <span style="font-size:03.25em" >@color[red](<b>&ldca;</b>)</span><br>&nbsp;</p>
 @snapend
 
