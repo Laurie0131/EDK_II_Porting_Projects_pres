@@ -1271,10 +1271,90 @@ Note:
 
 
 
----?image=/assets/images/slides/Slide58.JPG
-<!-- .slide: data-transition="none" -->
+---?image=/assets/images/slides/Slide28_1.JPG
 @title[SEC Lib, PCD Example ]
 <p align="right"><span class="gold" ><b>SEC Lib, PCD Example</b> </span></p>
+
+
+@snap[north-east span-90 fragment]
+<p align="left" style="line-height:40%"><span style="font-size:0.9em; ">
+<br>
+<br>
+Defined in Package DEC @color[blue]('NewProjectPkg.dec')</span></p>
+@box[bg-black text-white my-box-pad2  ](<p style="line-height:40%" align="left"><span style="font-size:0.450em; font-family:Consolas; " >&nbsp;&nbsp;[PcdsFixedAtBuild]<br>&nbsp;&nbsp;gPlatformModulePkgTokenSpaceGuid.@color[red](PcdFlashMicroCodeAddress)|0xFFFF0000|UINT32|0x2000015<br>&nbsp;&nbsp;</span></p>)
+@snapend
+
+@snap[north-east span-90 fragment]
+<br>
+<p align="left" style="line-height:40%"><span style="font-size:0.9em; ">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+Module INF lists which PCDs get accessed</span></p>
+@box[bg-black text-white my-box-pad2  ](<p style="line-height:40%" align="left"><span style="font-size:0.450em; font-family:Consolas; " >&nbsp;&nbsp;NewProjectPkg/Library/PlatformSecLib/PlatformSecLib.inf<br>&nbsp;&nbsp;[Pcd]<br>&nbsp;&nbsp;gPlatformModulePkgTokenSpaceGuid.@color[red](PcdFlashMicroCodeAddress) <br>&nbsp;&nbsp;</span></p>)
+@snapend
+
+
+@snap[north-east span-90 fragment]
+<br>
+<br>
+<br>
+<p align="left" style="line-height:40%"><span style="font-size:0.9em; "><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+Value to use in Project @color[blue]('NewProjectPkg.dsc') </span></p>
+@box[bg-black text-white my-box-pad2  ](<p style="line-height:40%" align="left"><span style="font-size:0.450em; font-family:Consolas; " >&nbsp;&nbsp;[PcdsFixedAtBuild]
+<br>&nbsp;&nbsp;gPlatformModulePkgTokenSpaceGuid.@color[red](PcdFlashMicroCodeAddress)|<font color="cyan">0xfff90000</font><br>&nbsp;&nbsp;</span></p>)
+@snapend
+
+
+@snap[north-east span-90 fragment]
+<br>
+<br>
+<br>
+<br>
+<p align="left" style="line-height:40%"><span style="font-size:0.9em; "><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+SEC - Referenced in the SEC library code </span></p>
+@box[bg-black text-white my-box-pad2  ](<p style="line-height:40%" align="left"><span style="font-size:0.450em; font-family:Consolas; " >&nbsp;&nbsp;NewProjectPkg/Library/PlatformSecLib/Ia32/flat.asm<br>&nbsp;&nbsp; ; Get the Flash Microcode address<br>&nbsp;&nbsp; mov     esi, PcdGet32 (@color[red](PcdFlashMicroCodeAddress))<br>&nbsp;&nbsp;&nbsp;&nbsp;</span></p>)
+<br>
+@snapend
+
+
 
 
 Note:
