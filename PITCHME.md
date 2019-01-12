@@ -1363,11 +1363,60 @@ Note:
 
 
 
----?image=/assets/images/slides/Slide64.JPG
+---?image=/assets/images/slides/Slide29_1.JPG
 <!-- .slide: data-transition="none" -->
 @title[PEI Phase ]
 <p align="right"><span class="gold" >PEI Phase </span></p>
- 
+
+@snap[north-east span-90 fragment]
+<br>
+<br>
+<p align="left" style="line-height:40%"><span style="font-size:0.8em; "><br></span></p>
+@box[bg-royal text-white my-box-pad2  ](<p style="line-height:70%"><span style="font-size:0.8em; " >Main platform PEI code is in `PlatformPei` and `PlatformInitPei`<br>&nbsp;&nbsp;</span></p>)
+@snapend
+
+
+
+@snap[north-east span-90 fragment]
+<br>
+<br>
+<br>
+<br>
+<p align="left" style="line-height:40%"><span style="font-size:0.8em; "><br></span></p>
+@box[bg-green-pp text-white my-box-pad2  ](<p style="line-height:70%"><span style="font-size:0.8em; " >PEI code is dependent on the PEI drivers<br>&nbsp;&nbsp;</span></p>)
+@snapend
+
+@snap[north-east span-90 fragment]
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p align="left" style="line-height:40%"><span style="font-size:0.8em; "><br></span></p>
+@box[bg-gold2 text-white my-box-pad2  ](<p style="line-height:70%"><span style="font-size:0.8em; " >Platform PEI code can be divided into 3 phases<br>&nbsp;&nbsp;</span></p>)
+@snapend 
+
+@snap[north-east span-50 fragment]
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p align="left" style="line-height:40%"><span style="font-size:0.8em; "><br></span></p>
+<p align="left" style="line-height:70%"><span style="font-size:0.7em; ">
+@size[1.5](@color[green](&#10122;))&nbsp;&nbsp;Pre-Memory Initialization<br>
+@size[1.5](@color[yellow](&#10123;))&nbsp;&nbsp;Memory Initialization &lpar;MRC&rpar;<br>
+@size[1.5](@color[blue](&#10124;))&nbsp;&nbsp;Post-Memory Initialization
+<br>&nbsp;</span></p>
+
+@snapend 
+
+
+
 
 Note:
 -  The main platform PEI code is in a subdirectory of the platform package. (PlatformPei)
