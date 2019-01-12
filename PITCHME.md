@@ -1366,27 +1366,27 @@ Note:
 ---?image=/assets/images/slides/Slide29_1.JPG
 <!-- .slide: data-transition="none" -->
 @title[PEI Phase ]
-<p align="right"><span class="gold" >PEI Phase </span></p>
+<p align="right"><span class="gold" ><b>PEI Phase</b> </span></p>
 
-@snap[north-east span-90 fragment]
+@snap[north-east span-80 fragment]
 <br>
 <br>
 <p align="left" style="line-height:40%"><span style="font-size:0.8em; "><br></span></p>
-@box[bg-royal text-white my-box-pad2  ](<p style="line-height:70%"><span style="font-size:0.8em; " >Main platform PEI code is in `PlatformPei` and `PlatformInitPei`<br>&nbsp;&nbsp;</span></p>)
+@box[bg-royal text-white rounded my-box-pad2  ](<p style="line-height:70%"><span style="font-size:0.8em; " >Main platform PEI code is in `PlatformPei` and `PlatformInitPei`<br>&nbsp;&nbsp;</span></p>)
 @snapend
 
 
 
-@snap[north-east span-90 fragment]
+@snap[north-east span-80 fragment]
 <br>
 <br>
 <br>
 <br>
-<p align="left" style="line-height:40%"><span style="font-size:0.8em; "><br></span></p>
-@box[bg-green-pp text-white my-box-pad2  ](<p style="line-height:70%"><span style="font-size:0.8em; " >PEI code is dependent on the PEI drivers<br>&nbsp;&nbsp;</span></p>)
+<p align="left" style="line-height:40%"><span style="font-size:0.8em; "><br><br><br></span></p>
+@box[bg-green-pp text-white rounded my-box-pad2  ](<p style="line-height:70%"><span style="font-size:0.8em; " >PEI code is dependent on the PEI drivers<br>&nbsp;&nbsp;</span></p>)
 @snapend
 
-@snap[north-east span-90 fragment]
+@snap[north-east span-80 fragment]
 <br>
 <br>
 <br>
@@ -1395,7 +1395,7 @@ Note:
 <br>
 <br>
 <p align="left" style="line-height:40%"><span style="font-size:0.8em; "><br></span></p>
-@box[bg-gold2 text-white my-box-pad2  ](<p style="line-height:70%"><span style="font-size:0.8em; " >Platform PEI code can be divided into 3 phases<br>&nbsp;&nbsp;</span></p>)
+@box[bg-gold2 text-white rounded my-box-pad2  ](<p style="line-height:70%"><span style="font-size:0.8em; " >Platform PEI code can be divided into 3 phases<br>&nbsp;&nbsp;</span></p>)
 @snapend 
 
 @snap[north-east span-50 fragment]
@@ -1406,11 +1406,15 @@ Note:
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
+<br>
 <p align="left" style="line-height:40%"><span style="font-size:0.8em; "><br></span></p>
 <p align="left" style="line-height:70%"><span style="font-size:0.7em; ">
-@size[1.5](@color[green](&#10122;))&nbsp;&nbsp;Pre-Memory Initialization<br>
-@size[1.5](@color[yellow](&#10123;))&nbsp;&nbsp;Memory Initialization &lpar;MRC&rpar;<br>
-@size[1.5](@color[blue](&#10124;))&nbsp;&nbsp;Post-Memory Initialization
+@size[2.25](@color[#00ffff](&#10122;))&nbsp;&nbsp;Pre-Memory Initialization<br>
+@size[2.25](@color[yellow](&#10123;))&nbsp;&nbsp;Memory Initialization &lpar;MRC&rpar;<br>
+@size[2.25](@color[#00b0f0](&#10124;))&nbsp;&nbsp;Post-Memory Initialization
 <br>&nbsp;</span></p>
 
 @snapend 
@@ -1452,6 +1456,7 @@ Note:
     - Create FV HOB and Flash HOB
     - Install RecoveryModule and AtaController PPI  if  recovery boot mode.
 
+---
 
 +++?image=/assets/images/slides/Slide65.JPG
 <!-- .slide: data-background-transition="none" -->
