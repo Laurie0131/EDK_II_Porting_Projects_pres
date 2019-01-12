@@ -1220,7 +1220,7 @@ ApStartup:
 <br>
 <br>
 <br>
-<p style="line-height:70%" align="left"><span style="font-size:0.80em; ;color:green" ><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>`_ModuleEntryPoint` or <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Flat32Start`</b><br><br><br> </span>
+<p style="line-height:70%" align="left"><span style="font-size:0.80em; ;color:green" ><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>`_ModuleEntryPoint` or <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Flat32Start`</b><br><br><br> </span>
 <span style="font-size:03.25em" >@color[red](<b>&ldca;</b>)</span><br>&nbsp;</p>
 @snapend
 
