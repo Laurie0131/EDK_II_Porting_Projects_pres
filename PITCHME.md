@@ -1280,8 +1280,9 @@ Note:
 <p align="left" style="line-height:40%"><span style="font-size:0.8em; ">
 <br>
 <br>
+<br>
 Defined in Package DEC @color[yellow](`NewProjectPkg.dec`)</span></p>
-@box[bg-black text-white my-box-pad2  ](<p style="line-height:40%" align="left"><span style="font-size:0.450em; font-family:Consolas; " >&nbsp;&nbsp;[PcdsFixedAtBuild]<br>&nbsp;&nbsp;gPlatformModulePkgTokenSpaceGuid.@color[red](PcdFlashMicroCodeAddress)|0xFFFF0000|UINT32|0x2000015<br>&nbsp;&nbsp;</span></p>)
+@box[bg-black text-white my-box-pad2  ](<p style="line-height:40%" align="left"><span style="font-size:0.450em; font-family:Consolas; " >&nbsp;&nbsp;[PcdsFixedAtBuild]<br>&nbsp;&nbsp;gPlatformModulePkgTokenSpaceGuid.@color[red](PcdFlashMicroCodeAddress)|0xFFFF0000|UINT32|0x20x&nbsp;&nbsp;</span></p>)
 @snapend
 
 @snap[north-east span-90 fragment]
@@ -1318,7 +1319,7 @@ Module INF lists which PCDs get accessed</span></p>
 <br>
 <br>
 <br>
-Value to use in Project @color[yellow](`NewProjectPkg.dsc`) </span></p>
+<br>Value to use in Project @color[yellow](`NewProjectPkg.dsc`) </span></p>
 @box[bg-black text-white my-box-pad2  ](<p style="line-height:40%" align="left"><span style="font-size:0.450em; font-family:Consolas; " >&nbsp;&nbsp;[PcdsFixedAtBuild]<br>&nbsp;&nbsp;gPlatformModulePkgTokenSpaceGuid.@color[red](PcdFlashMicroCodeAddress)|<font color="cyan">0xfff90000</font><br>&nbsp;&nbsp;</span></p>)
 @snapend
 
