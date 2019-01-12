@@ -1198,18 +1198,18 @@ ApStartup:
 <br>
 <br>
 <p style="line-height:75%" align="left"><span style="font-size:0.75em; font-family:Consolas; ;color:black" ><br>&nbsp; &nbsp; 
-&nbsp;&nbsp;NewProjectPkg/<br>&nbsp; &nbsp; 
-&nbsp;&nbsp;&nbsp;&nbsp; Library/<br>&nbsp; &nbsp; 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    PlatformSecLib/<br>&nbsp; &nbsp; 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    PlatformSecLib.c<br>&nbsp; &nbsp; 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    PlatformSecLib.h<br>&nbsp; &nbsp; 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    PlatformSecLib.inf<br>&nbsp; &nbsp; 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    IA32/<br>&nbsp; &nbsp; 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#0558ff">     	Chipset.inc<br>&nbsp; &nbsp; 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		Flat32.asm<br>&nbsp; &nbsp; 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		Platform.inc<br>&nbsp; &nbsp; 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		SecCore.inc<br>&nbsp; &nbsp; 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		Ia32.inc<br>&nbsp; <br>&nbsp; </font>
+&nbsp;NewProjectPkg/<br>&nbsp; &nbsp; 
+&nbsp;&nbsp;&nbsp; Library/<br>&nbsp; &nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    PlatformSecLib/<br>&nbsp; &nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    PlatformSecLib.c<br>&nbsp; &nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    PlatformSecLib.h<br>&nbsp; &nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    PlatformSecLib.inf<br>&nbsp; &nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    IA32/<br>&nbsp; &nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#0558ff">     	Chipset.inc<br>&nbsp; &nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		Flat32.asm<br>&nbsp; &nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		Platform.inc<br>&nbsp; &nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		SecCore.inc<br>&nbsp; &nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		Ia32.inc<br>&nbsp; <br>&nbsp; </font>
 </span></p>
 @snapend
 
