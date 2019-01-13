@@ -1711,7 +1711,7 @@ Module INF lists which PCDs get accessed</span></p>
 <br>
 <br>
 PEI - Referenced in the PEI code </span></p>
-@box[bg-black text-white my-box-pad2  ](<p style="line-height:40%" align="left"><span style="font-size:0.450em; font-family:Consolas; " >&nbsp;&nbsp;/PlatformInitPei/PchInitPeim.c   InstallPeiPchUsbPolicy&lpar;&rpar;<br>&nbsp;&nbsp; &nbsp;&nbsp;PeiPchUsbPolicyPpi-&gt;EhciMemBaseAddr = <br>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; PcdGet32&lpar;PcdPeiIchEhciControllerMemoryBaseAddress&rpar;;<br>&nbsp;&nbsp;&nbsp;&nbsp;</span></p>)
+@box[bg-black text-white my-box-pad2  ](<p style="line-height:40%" align="left"><span style="font-size:0.450em; font-family:Consolas; " >&nbsp;&nbsp;/PlatformInitPei/PchInitPeim.c &nbsp;&nbsp;&nbsp;&nbsp;  InstallPeiPchUsbPolicy&lpar;&rpar;<br>&nbsp;&nbsp; &nbsp;&nbsp;PeiPchUsbPolicyPpi-&gt;EhciMemBaseAddr = <br>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; PcdGet32&lpar;@color[red](PcdPeiIchEhciControllerMemoryBaseAddress)&rpar;;<br>&nbsp;&nbsp;&nbsp;&nbsp;</span></p>)
 <br>
 @snapend
 
