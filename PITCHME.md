@@ -1559,19 +1559,10 @@ Note:
 -  PEI code is dependant on the PEI drivers for the platform for communication to the devices
 
 
----?image=/assets/images/slides/Slide73.JPG
-@title[PEI Phase – MAX has 2 PEIM Modules ]
-<p align="right"><span class="gold" >PEI Phase – MAX has 2 PEIM Modules </span></p>
-
-Note:
--   The main platform PEI code is in a subdirectory of the platform package. (PlatformPei)
--  It references PEIMs in other packages
--  PEI code is dependant on the PEI drivers for the platform for communication to the devices
-
 
 ---?image=/assets/images/slides/Slide75.JPG
 @title[Recommended PEI Addresses]
-<p align="right"><span class="gold" >Recommended PEI Addresses </span></p>
+<p align="right"><span class="gold" >@size[01.9em](<b>Recommended PEI Addresses</b> )</span></p>
 
 Note:
 
