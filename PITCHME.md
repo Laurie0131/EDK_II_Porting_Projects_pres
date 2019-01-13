@@ -1796,9 +1796,9 @@ Note:
 
 
 
----?image=/assets/images/slides/Slide96.JPG
+---?image=/assets/images/slides/Slide42_1.JPG
 @title[DXE Phase]
-<p align="center"><span class="gold" >DXE Phase </span></p>
+<p align="center"><span class="gold" ><b>DXE Phase</b> </span></p>
 <div class="left-1">
 <span style="font-size:0.8em" > &nbsp;</span>
 </div>
@@ -1826,7 +1826,7 @@ Note:
 
 ---?image=/assets/images/slides/Slide99.JPG
 @title[DXE Architectural Protocols ]
-<p align="right"><span class="gold" >DXE Architectural Protocols (AP)</span></p>
+<p align="right"><span class="gold" ><b>DXE Architectural Protocols (AP)</b></span></p>
 
 
 Note:
