@@ -1724,78 +1724,10 @@ Note:
   -  PcdTemporaryRamBase
 
 
----?image=/assets/images/slides/Slide85.JPG
-<!-- .slide: data-transition="none" -->
-@title[PEI Memory Base Address, PCD Example  ]
-<p align="right"><span class="gold" >PEI Memory Base Address, PCD Example  </span></p>
-
-Note:
--  Lets take a look at a PEI PCD example
-
--  Here we see that we are using the SMBUS  base address
-
--  It IS Defined in ICH X Package DEC
-	  -  [PcdsFixedAtBuild.common]
-	  -  gEfiIchTokenSpaceGuid.PcdIchSmbusIoPortBaseAddress|0xEFFF|UINT16|0x3000000f
-
--  The Module INF lists which PCDs get accessed
-	-  [Pcd]
-	-  gEfiIchTokenSpaceGuid.PcdIchSmbusIoPortBaseAddress
-
--  The Value to use is in the Project New Package DSC
-	-  [PcdsFixedAtBuild.IA32]
-	-  gEfiIchTokenSpaceGuid.PcdIchSmbusIoPortBaseAddress|0xEFA0
-
--  The example in the code:
-  -  PEI - Referenced in the PEI code IntelIchXLib.c
-  -  	PciWrite32 (PCI_ICH_SMBUS_ADDRESS (R_ICH_SMBUS_SMB_BASE), 
-			-  (UINT32) PcdGet16 (PcdIchSmbusIoPortBase
-
-
-+++?image=/assets/images/slides/Slide86.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[PEI Memory Base Address, PCD Example 02  ]
-<p align="right"><span class="gold" >PEI Memory Base Address, PCD Example  </span></p>
-
-
-Note:
-
-
-+++?image=/assets/images/slides/Slide87.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[PEI Memory Base Address, PCD Example 03  ]
-<p align="right"><span class="gold" >PEI Memory Base Address, PCD Example  </span></p>
-
-
-Note:
-
-
-+++?image=/assets/images/slides/Slide88.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[PEI Memory Base Address, PCD Example 04  ]
-<p align="right"><span class="gold" >PEI Memory Base Address, PCD Example  </span></p>
-
-
-Note:
-
-
-+++?image=/assets/images/slides/Slide89.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[PEI Memory Base Address, PCD Example 05 ]
-<p align="right"><span class="gold" >PEI Memory Base Address, PCD Example  </span></p>
-
-
-Note:
-
-
 
 ---?image=/assets/images/slides/Slide91.JPG
 @title[Critical PEIMs]
-<p align="right"><span class="gold" >Critical PEIMs  </span></p>
+<p align="right"><span class="gold" ><b>Critical PEIMs  </b></span></p>
 
 
 Note:
