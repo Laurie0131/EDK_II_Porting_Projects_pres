@@ -1755,9 +1755,9 @@ Note:
 
 
 
----?image=/assets/images/slides/Slide93.JPG
+---?image=/assets/images/slides/Slide41_X.JPG
 @title[Initial Program Load (IPL) PEIM for DXE]
-<p align="right"><span class="gold" >Initial Program Load (IPL) PEIM for DXE  </span></p>
+<p align="right"><span class="gold" ><b>Initial Program Load (IPL) PEIM for DXE </b> </span></p>
 <br>
 <div class="left">
 <span style="font-size:0.8em" > &nbsp;</span>
