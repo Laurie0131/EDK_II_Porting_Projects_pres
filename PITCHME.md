@@ -1461,7 +1461,7 @@ Note:
 
 
 ---?image=/assets/images/slides/Slide29_1.JPG
-@title[PEI Phase – MAX has 2 PEIM Modules ]
+@title[PEI Phase – MAX has 2 PEIM Modules 01]
 <p align="right"><span class="gold" ><b>PEI Phase – MAX has 2 PEIM Modules </b></span></p>
 @snap[north-east span-85 ]
 <br>
@@ -1474,9 +1474,9 @@ Note:
 <p align="left" style="line-height:40%"><span style="font-size:0.8em; "><br></span></p>
 <p align="left" style="line-height:60%"><span style="font-size:0.65em; font-family:Consolas;  " >
 NewProjectPkg/<br>
-&nbsp;&nbsp;     @color[yellow]( . . .)<br><br>
+&nbsp;&nbsp;     @color[cyan]( . . .)<br><br>
 PlatformInitPei/<br>
-&nbsp;&nbsp; PlatformEarlyInit.inf<br>
+&nbsp;&nbsp; @color[red](PlatformEarlyInit.inf)<br>
 &nbsp;&nbsp; BootMode.c<br>
 &nbsp;&nbsp; CpuInitPeim.c<br>
 &nbsp;&nbsp; PchInitPeim.c<br>
@@ -1491,7 +1491,7 @@ PlatformInitPei/<br>
 <br>
 <p align="left" style="line-height:40%"><span style="font-size:0.8em; "><br></span></p>
 <p align="left" style="line-height:60%"><span style="font-size:0.65em;  font-family:Consolas; " >
-&nbsp;&nbsp;   @color[yellow](   . . .)<br><br>
+&nbsp;&nbsp;   @color[cyan](   . . .)<br><br>
 &nbsp;&nbsp; PlatformEarlyInit.c<br>
 &nbsp;&nbsp; PlatformEarlyInit.h<br>
 &nbsp;&nbsp; PlatformInfoInit.c<br>
@@ -1516,15 +1516,47 @@ Note:
 -  PEI code is dependant on the PEI drivers for the platform for communication to the devices
 
 
----?image=/assets/images/slides/Slide71.JPG
-@title[PEI Phase – MAX has 2 PEIM Modules ]
-<p align="right"><span class="gold" >PEI Phase – MAX has 2 PEIM Modules </span></p>
+
+---?image=/assets/images/slides/Slide29_1.JPG
+@title[PEI Phase – MAX has 2 PEIM Modules 02]
+<p align="right"><span class="gold" ><b>PEI Phase – MAX has 2 PEIM Modules</b> </span></p>
+
+@snap[north-east span-85 ]
+<br>
+<p align="left" style="line-height:40%"><span style="font-size:0.8em; "><br></span></p>
+@box[bg-black text-white rounded my-box-pad2  ](<p style="line-height:50%"><span style="font-size:0.8em; " ><br><br><br><br><br><br><br><br><br><br><br><br><br><br>&nbsp;&nbsp;</span></p>)
+@snapend
+
+@snap[north-east span-60 ]
+<br>
+<p align="left" style="line-height:40%"><span style="font-size:0.8em; "><br></span></p>
+<p align="left" style="line-height:60%"><span style="font-size:0.65em; font-family:Consolas;  " >
+NewProjectPkg/<br>
+&nbsp;&nbsp;     @color[cyan]( . . .)<br><br>
+PlatformPei/<br>
+&nbsp;&nbsp; @color[red]( PlatformPeiBB.inf)<br>
+&nbsp;&nbsp; Platform.c<br>
+&nbsp;&nbsp; Platform.h<br>
+&nbsp;&nbsp; MemoryCallback.c<br>
+&nbsp;&nbsp; CommonHeader.h<br>
+&nbsp;&nbsp; Stall.c<br>
+&nbsp;&nbsp; BootMode.c<br>
+<br>&nbsp;&nbsp;</span></p>
+@snapend
+
+
+
+
+@snap[south-east span-85 fragment]
+<p align="left" style="line-height:40%"><span style="font-size:0.8em; "><br></span></p>
+@box[bg-blue-pp text-white rounded my-box-pad2  ](<p align="left" style="line-height:50%"><span style="font-size:0.45em; color:yellow " >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@size[01.9em](NewProject.DSC file: )<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`[Components.IA32]`<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`NewProject/PlatformPei/PlatformBB.inf`<br>&nbsp;&nbsp;</span></p>)
+@snapend 
+
 
 Note:
 -   The main platform PEI code is in a subdirectory of the platform package. (PlatformPei)
 -  It references PEIMs in other packages
 -  PEI code is dependant on the PEI drivers for the platform for communication to the devices
-
 
 
 ---?image=/assets/images/slides/Slide73.JPG
