@@ -1562,7 +1562,7 @@ Note:
 
 ---?image=/assets/images/slides/Slide75.JPG
 @title[Recommended PEI Addresses]
-<p align="right"><span class="gold" >@size[01.9em](<b>Recommended PEI Addresses</b> )</span></p>
+<p align="right"><span class="gold" >@size[01.25em](<b>Recommended PEI Addresses</b> )</span></p>
 
 Note:
 
@@ -1578,18 +1578,18 @@ Note:
 
 ---?image=/assets/images/slides/Slide77.JPG
 @title[How to search Workspace]
-<p align="right"><span class="gold" >How to search for Addresses in the Workspace</span></p>
+<p align="right"><span class="gold" ><b>How to search for Addresses in the Workspace</b></span></p>
 
 Note:
 
 -  How to search for GPIOs for NewProjectPkg 
- -    KEY - search the workspace for a string and work back to Data structures declaring then use the DSC for which moduls are included
+ -    KEY - search the workspace for a string and work back to Data structures declaring then use the DSC for which modules are included
 
 
 ---?image=/assets/images/slides/Slide79.JPG
 <!-- .slide: data-transition="none" -->
 @title[How to search for GPIOs for NewProjectPkg]
-<p align="right"><span class="gold" >How to search for GPIOs for NewProjectPkg</span></p>
+<p align="right"><span class="gold" ><b>How to search for GPIOs for NewProjectPkg</b></span></p>
 
 
 
@@ -1597,7 +1597,7 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[How to search for GPIOs for NewProjectPkg 02]
-<p align="right"><span class="gold" >How to search for GPIOs for NewProjectPkg</span></p>
+<p align="right"><span class="gold" ><b>How to search for GPIOs for NewProjectPkg</b></span></p>
 
 Note:
 
@@ -1606,7 +1606,7 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[How to search for GPIOs for NewProjectPkg 03]
-<p align="right"><span class="gold" >How to search for GPIOs for NewProjectPkg</span></p>
+<p align="right"><span class="gold" ><b>How to search for GPIOs for NewProjectPkg</b></span></p>
 
 Note:
 
@@ -1615,7 +1615,7 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[How to search for GPIOs for NewProjectPkg 04]
-<p align="right"><span class="gold" >How to search for GPIOs for NewProjectPkg</span></p>
+<p align="right"><span class="gold" ><b>How to search for GPIOs for NewProjectPkg</b></span></p>
 
 Note:
 
@@ -1624,10 +1624,104 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[How to search for GPIOs for NewProjectPkg 05]
-<p align="right"><span class="gold" >How to search for GPIOs for NewProjectPkg</span></p>
+<p align="right"><span class="gold" ><b>How to search for GPIOs for NewProjectPkg</b></span></p>
 
 Note:
 
+
+
+
+---?image=/assets/images/slides/Slide28_1.JPG
+@title[SEC Lib, PCD Example ]
+<!---  PCD Example   -->
+<p align="right"><span class="gold" ><b>PEI Memory Base Address, PCD Example</b> </span></p>
+
+
+@snap[north-east span-90 fragment]
+<p align="left" style="line-height:40%"><span style="font-size:0.8em; ">
+<br>
+<br>
+<br>
+Defined in Package DEC @color[yellow](`NewProjectPkg.dec`)</span></p>
+@box[bg-black text-white my-box-pad2  ](<p style="line-height:40%" align="left"><span style="font-size:0.450em; font-family:Consolas; " >&nbsp;&nbsp;[PcdsFixedAtBuild]<br>&nbsp;&nbsp;gEfiIchPkgTokenSpaceGuid.@color[red](PcdPeiIchEhciControllerMemoryBaseAddress)|0|UINT32|0x03x&nbsp;&nbsp;</span></p>)
+@snapend
+
+@snap[north-east span-90 fragment]
+<br>
+<p align="left" style="line-height:40%"><span style="font-size:0.8em; ">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+Module INF lists which PCDs get accessed</span></p>
+@box[bg-black text-white my-box-pad2  ](<p style="line-height:40%" align="left"><span style="font-size:0.450em; font-family:Consolas; " >&nbsp;&nbsp;PlatformInitPei/PlatformEarlyInit.inf<br>&nbsp;&nbsp;[Pcd]<br>&nbsp;&nbsp;gEfiIchTokenSpaceGuid.@color[red](PcdPeiIchEhciControllerMemoryBaseAddress) <br>&nbsp;&nbsp;</span></p>)
+@snapend
+
+
+@snap[north-east span-90 fragment]
+<br>
+<br>
+<br>
+<p align="left" style="line-height:40%"><span style="font-size:0.8em; "><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>Value to use in Project @color[yellow](`NewProjectPkg.dsc`) </span></p>
+@box[bg-black text-white my-box-pad2  ](<p style="line-height:40%" align="left"><span style="font-size:0.450em; font-family:Consolas; " >&nbsp;&nbsp;[PcdsFixedAtBuild]<br>&nbsp;&nbsp;gEifIchTokenSpaceGuid.@color[red](PcdPeiIchEhciControllerMemoryBaseAddress)|<font color="cyan">0xFC000000</font><br>&nbsp;&nbsp;</span></p>)
+@snapend
+
+
+@snap[north-east span-90 fragment]
+<br>
+<br>
+<br>
+<br>
+<p align="left" style="line-height:40%"><span style="font-size:0.8em; "><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+PEI - Referenced in the PEI code </span></p>
+@box[bg-black text-white my-box-pad2  ](<p style="line-height:40%" align="left"><span style="font-size:0.450em; font-family:Consolas; " >&nbsp;&nbsp;/PlatformInitPei/PchInitPeim.c   InstallPeiPchUsbPolicy&lpar;&rpar;<br>&nbsp;&nbsp; &nbsp;&nbsp;PeiPchUsbPolicyPpi-&gt;EhciMemBaseAddr = <br>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; PcdGet32&lpar;PcdPeiIchEhciControllerMemoryBaseAddress&rpar;;<br>&nbsp;&nbsp;&nbsp;&nbsp;</span></p>)
+<br>
+@snapend
+
+
+
+
+Note:
+-  SEC PCDs used to set up temp RAM size and location
+  -  PcdTemporaryRamSize
+  -  PcdTemporaryRamBase
 
 
 ---?image=/assets/images/slides/Slide85.JPG
