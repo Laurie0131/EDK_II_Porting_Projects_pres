@@ -1419,16 +1419,8 @@ Note:
 @snapend 
 
 @snap[south-west span-100 fragment]
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 <p align="left" style="line-height:40%"><span style="font-size:0.8em; "><br></span></p>
-@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:70%"><span style="font-size:0.9em; " ><b>TIP</b> The DSC file will have the Modules used<br>&nbsp;&nbsp;</span></p>)
+@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:70%"><span style="font-size:0.9em; " ><b>TIP :</b> Check the DSC file for the PEI Modules used<br>&nbsp;&nbsp;</span></p>)
 @snapend 
 
 
@@ -1470,7 +1462,58 @@ Note:
 
 ---?image=/assets/images/slides/Slide29_1.JPG
 @title[PEI Phase – MAX has 2 PEIM Modules ]
-<p align="right"><span class="gold" >PEI Phase – MAX has 2 PEIM Modules </span></p>
+<p align="right"><span class="gold" ><b>PEI Phase – MAX has 2 PEIM Modules </b></span></p>
+@snap[north-east span-85 ]
+<br>
+<p align="left" style="line-height:40%"><span style="font-size:0.8em; "><br></span></p>
+@box[bg-black text-white rounded my-box-pad2  ](<p style="line-height:50%"><span style="font-size:0.8em; " ><br><br><br><br><br><br><br><br><br><br><br><br>&nbsp;&nbsp;</span></p>)
+@snapend
+
+@snap[north-east span-80 ]
+<br>
+<p align="left" style="line-height:40%"><span style="font-size:0.8em; "><br></span></p>
+<p style="line-height:60%"><span style="font-size:0.65em; " >
+NewProjectPkg/<br>
+&nbsp;&nbsp;      . . .<br>
+PlatformInitPei/<br>
+&nbsp;&nbsp; PlatformEarlyInit.inf<br>
+&nbsp;&nbsp; BootMode.c<br>
+&nbsp;&nbsp; CpuInitPeim.c<br>
+&nbsp;&nbsp; PchInitPeim.c<br>
+&nbsp;&nbsp; MchInit.c<br>
+&nbsp;&nbsp; MemoryCallback.c<br>
+&nbsp;&nbsp; MemoryPeim.c<br>
+<br>&nbsp;&nbsp;</span></p>
+@snapend
+
+
+@snap[north-east span-25 ]
+<br>
+<p align="left" style="line-height:40%"><span style="font-size:0.8em; "><br></span></p>
+<p style="line-height:60%"><span style="font-size:0.65em; " >
+&nbsp;&nbsp;      . . .<br>
+&nbsp;&nbsp; PlatformEarlyInit.c<br>
+&nbsp;&nbsp; PlatformEarlyInit.h<br>
+&nbsp;&nbsp; PlatformInfoInit.c<br>
+&nbsp;&nbsp; LegacySpeaker.c<br>
+&nbsp;&nbsp; LegacySpeaker.h<br>
+&nbsp;&nbsp; Stall.c<br>
+&nbsp;&nbsp; PowerFailureHandle.c<br>
+&nbsp;&nbsp; PlatformSsaInitPeim.c<br>
+&nbsp;&nbsp; IsctWakeReason.c<br> 
+<br>&nbsp;&nbsp;</span></p>
+@snapend
+
+
+@snap[south-west span-100 fragment]
+<p align="left" style="line-height:40%"><span style="font-size:0.8em; "><br></span></p>
+@box[bg-blue-pp text-white rounded my-box-pad2  ](<p align="left" style="line-height:50%"><span style="font-size:0.45em; color:yellow " >&nbsp;&nbsp;NewProject.DSC file: <br>&nbsp;&nbsp;`[Components.IA32]`<br>&nbsp;&nbsp;`NewProject/PlatformInitPei/PlatformEarlyInit.inf`<br>&nbsp;&nbsp;</span></p>)
+@snapend 
+
+Note:
+-   The main platform PEI code is in a subdirectory of the platform package. (PlatformPei)
+-  It references PEIMs in other packages
+-  PEI code is dependant on the PEI drivers for the platform for communication to the devices
 
 
 ---?image=/assets/images/slides/Slide71.JPG
