@@ -2050,6 +2050,7 @@ Note:
 @box[bg-black text-white rounded my-box-pad2  ](<p style="line-height:40%"><span style="font-size:0.7em; " >@color[yellow](CPU)<br><br><br><br><br><br><br><br><br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;</span></p>)
 @snapend
 
+
 @snap[north-east span-30 ]
 <p style="line-height:50%" ><br>&nbsp;&nbsp;</p>
 @box[bg-black text-white rounded my-box-pad2  ](<p style="line-height:40%"><span style="font-size:0.7em; " >@color[yellow](North Cluster)<br><br><br><br><br><br><br><br><br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;</span></p>)
@@ -2061,6 +2062,26 @@ Note:
 <p style="line-height:50%" ><br><br>&nbsp;<br>&nbsp;</p>
 @box[bg-black text-white rounded my-box-pad2  ](<p style="line-height:40%"><span style="font-size:0.7em; " >@color[yellow](South Cluster)<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;</span></p>)
 @snapend
+
+@snap[north-west span-35 ]
+<p style="line-height:50%" ><br>&nbsp;&nbsp;</p>
+<p style="line-height:70%" align="left"><span style="font-size:0.8em; " >
+&nbsp;&nbsp;`Vlv2DeviceRefCodePkg`/<br>
+&nbsp;&nbsp;&nbsp;&nbsp;   `ValleyView2Soc`/ <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CPU /<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`NorthCluster` /<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`SouthCluster` /
+</span></p>
+@snapend
+
+@snap[south-west span-35 ]
+<p style="line-height:70%" align="left"><span style="font-size:0.7em; " >
+Other SOC <br>
+&nbsp;&nbsp;&nbsp;&nbsp;Broxton Silicon Reference package<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`BroxtonSoc/BroxtonSiPkg`/ <br>
+</span></p>
+@snapend
+
 
 @snap[north span-30 ]
 <p style="line-height:50%" ><br>&nbsp;<br>&nbsp;</p>
