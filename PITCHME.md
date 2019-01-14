@@ -2367,13 +2367,13 @@ Note:
 <br>
 <p align="left" style="line-height:40%"><span style="font-size:0.8em; "><br><br><br><br></span></p>
 <p align="left" style="line-height:60%"><span style="font-size:0.7em; ">@color[yellow](&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&larr;&nbsp;&nbsp;<b>PCD Values - Library)
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; @color[yellow](classes</b>)</span></p>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; @color[yellow](classes</b>)</span></p>
 @snapend
 
 
 @snap[south-east span-40 fragment]
 <p align="left" style="line-height:80%"><span style="font-size:0.7em; ">@color[yellow](&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&larr;&nbsp;&nbsp;<b>Defines for a platform</b>)</span></p>
-<p align="left" style="line-height:40%"><span style="font-size:0.8em; "><br><br></span></p>
+<p align="left" style="line-height:40%"><span style="font-size:0.8em; "><br></span></p>
 <br>
 <br>
 @snapend
