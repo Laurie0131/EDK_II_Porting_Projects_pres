@@ -2152,26 +2152,6 @@ Note:
 
 
 
-
----?image=/assets/images/slides/Slide116.JPG
-@title[MinnowBoard Max SoC Specific Modules ]
-<p align="right"><span class="gold" ><b>MinnowBoard Max SoC Specific Modules</b></span></p>
-
-Note:
--  Vlv2DeviceRefCodePkg/
-  -  ValleyView2Soc/ 
-    -  CPU
-    -  NorthCluster
-    -  SouthCluster
-
--  Other SOC 
-	  -  Broxton Silicon Ref package
-	  -  BroxtonSoc/BroxtonSiPkg/ 
-
-
-
-
-
 ---?image=/assets/images/slides/Slide28_1.JPG
 @title[DXE Base Address, PCD Example ]
 <!---  PCD Example   -->
