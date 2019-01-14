@@ -1839,14 +1839,14 @@ Note:
 
 ---?image=/assets/images/slides/Slide101.JPG
 @title[How to Search for AP Modules  top]
-<p align="right"><span class="gold" >How to Search for AP Modules </span></p>
+<p align="right"><span class="gold" ><b>How to Search for AP Modules </b></span></p>
 
 
 
 ---?image=/assets/images/slides/Slide103.JPG
 <!-- .slide: data-transition="none" -->
 @title[How to Search for AP Modules 01 ]
-<p align="right"><span class="gold" >How to Search for AP Modules in the Project </span></p>
+<p align="right"><span class="gold" ><b>How to Search for AP Modules in the Project </b></span></p>
 
 Note:
 -  Search the Work Space .INF files  for the Architectural Protocols  - key word “Produces”
@@ -1869,7 +1869,7 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[How to Search for AP Modules 02 ]
-<p align="right"><span class="gold" >How to Search for AP Modules in the Project </span></p>
+<p align="right"><span class="gold" ><b>How to Search for AP Modules in the Project </b></span></p>
 
 Note:
 -  Search the Work Space .INF files  for the Architectural Protocols  - key word “Produces”
@@ -1890,7 +1890,7 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[How to Search for AP Modules 03 ]
-<p align="right"><span class="gold" >How to Search for AP Modules in the Project </span></p>
+<p align="right"><span class="gold" ><b>How to Search for AP Modules in the Project </b></span></p>
 
 Note:
 -  Search the Work Space .INF files  for the Architectural Protocols  - key word “Produces”
@@ -1911,7 +1911,7 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[How to Search for AP Modules 04 ]
-<p align="right"><span class="gold" >How to Search for AP Modules in the Project </span></p>
+<p align="right"><span class="gold" ><b>How to Search for AP Modules in the Project </b></span></p>
 
 Note:
 -  Search the Work Space .INF files  for the Architectural Protocols  - key word “Produces”
@@ -1930,7 +1930,7 @@ Note:
 
 ---?image=/assets/images/slides/Slide78_1.JPG
 @title[Location of APs for MAX]
-<p align="right"><span class="gold" >Location of Architectural Protocols for MAX</span></p>
+<p align="right"><span class="gold" ><b>Location of Architectural Protocols for MAX</b></span></p>
 
 
 Note:
@@ -1951,10 +1951,85 @@ Note:
 
 
 
+
+---
+<!-- .slide: data-transition="none" -->
+@title[Platform-Dependent DXE Drivers ]
+<p align="right"><span class="gold" ><b>Platform-Dependent DXE Drivers<b></span></p>
+
+
+@snap[north-west span-100 fragment]
+<br>
+<br>
+<br>
+<p style="line-height:70%" align="left" ><span style="font-size:0.9em; font-weight: bold;" >@color[#00b0f0](Host Bridge Driver)</span></p>
+@box[bg-lt-blue-pp text-white rounded my-box-pad2  ](<p style="line-height:70%" align="left" ><span style="font-size:0.450em; font-family:Consolas; " >&nbsp;&nbsp;&nbsp;&nbsp; NewProjectPkg/PciPlatformDxe/PciPlatform.c<br>&nbsp;&nbsp; &lt;@color[yellow](Memory Controller North)&rt;Pkg/PciHostBridgeDxe/<br><br>&nbsp;</span></p>)
+<br>
+@snapend
+
+
+@snap[north-west span-100 fragment]
+<br>
+<br>
+<br>
+<p style="line-height:50%" ><br><br><br>&nbsp;</p>
+<p style="line-height:70%" align="left" ><span style="font-size:0.9em; font-weight: bold;" >@color[green](PCH Initialize Driver)</span></p>
+@box[bg-green text-white rounded my-box-pad2  ](<p style="line-height:70%" align="left" ><span style="font-size:0.450em; font-family:Consolas; " >&nbsp;&nbsp;&nbsp;&nbsp; NewProjectPkg/LegacyBiosDxe/Platform.c<br>&nbsp;&nbsp; &lt;@color[yellow](I/O Controller South)&rt;Pkg/PchInitDxe/<br><br>&nbsp;</span></p>)
+<br>
+@snapend
+
+
+@snap[north-west span-100 fragment]
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p style="line-height:50%" ><br><br><br>&nbsp;</p>
+<p style="line-height:70%" align="left" ><span style="font-size:0.9em; font-weight: bold;" >@color[blue](SATA Controller Driver)</span></p>
+@box[bg-royal text-white rounded my-box-pad2  ](<p style="line-height:70%" align="left" ><span style="font-size:0.450em; font-family:Consolas; " >&nbsp;&nbsp;&nbsp;&nbsp;&lt;@color[yellow](I/O Controller South)&rt;Pkg/SataConrollerDxe/PchSataController<br><br>&nbsp;</span></p>)
+<br>
+@snapend
+
+
+
+@snap[north-west span-100 fragment]
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p style="line-height:50%" ><br><br><br><br>&nbsp;<br>&nbsp;</p>
+<p style="line-height:70%" align="left" ><span style="font-size:0.9em; font-weight: bold;" >@color[gray](Super I/O Driver)</span></p>
+@box[bg-grey-50 text-white rounded my-box-pad2  ](<p style="line-height:70%" align="left" ><span style="font-size:0.450em; font-family:Consolas; " >&nbsp;&nbsp;&nbsp;&nbsp; &lt;@color[yellow](XSioXVer)&rt;Pkg/XSioXVerDxe/<br><br>&nbsp;</span></p>)
+<br>
+@snapend
+
+
+@snap[south-east span-80 fragment]
+<p style="line-height:50%" ><br><br><br><br>&nbsp;<br>&nbsp;</p>
+@box[bg-black text-white my-box-pad2  ](<p style="line-height:40%" align="left"><span style="font-size:0.650em; " >&nbsp;&nbsp;MinnowBoard Max Silicon</span><br><span style="font-size:0.450em; font-family:Consolas; " >&nbsp;&nbsp;&lt;Memory Cntrl North&rt; <br>&nbsp;&nbsp;&nbsp;&nbsp;Vlv2DeviceRefCodePkg/ValleyView2Soc/NorthCluster<br>&nbsp;&nbsp;&lt;I/O Cntrl South&rt; <br>&nbsp;&nbsp;&nbsp;&nbsp;Vlv2DeviceRefCodePkg/ValleyView2Soc/SouthCluster<br><br>&nbsp;&nbsp;&nbsp;&nbsp;</span></p>)
+@snapend
+
+
+
+
+
+Note:
+
+-  MinnowBoard Max
+  -  <Memory Cntrl> Vlv2DeviceRefCodePkg/ValleyView2Soc/NorthCluster
+  -  <PchX South> Vlv2DeviceRefCodePkg/ValleyView2Soc/SouthCluster
+
+
 ---?image=/assets/images/slides/Slide113.JPG
 <!-- .slide: data-transition="none" -->
 @title[Platform-Dependent DXE Drivers ]
-<p align="right"><span class="gold" >Platform-Dependent DXE Drivers</span></p>
+<p align="right"><span class="gold" ><b>Platform-Dependent DXE Drivers<b></span></p>
 
 Note:
 
