@@ -2046,24 +2046,24 @@ Note:
 <p align="right"><span class="gold" ><b>MinnowBoard Max SoC Specific Modules</b></span></p>
 
 @snap[north span-30 ]
-<p style="line-height:50%" ><br>&nbsp;<br>&nbsp;</p>
-@box[bg-black text-white rounded my-box-pad2  ](<p style="line-height:40%"><span style="font-size:0.7em; " >@color[yellow](CPU)<br><br><br><br><br><br><br><br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;</span></p>)
+<p style="line-height:50%" ><br>&nbsp;&nbsp;</p>
+@box[bg-black text-white rounded my-box-pad2  ](<p style="line-height:40%"><span style="font-size:0.7em; " >@color[yellow](CPU)<br><br><br><br><br><br><br><br><br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;</span></p>)
 @snapend
 
 @snap[north-east span-30 ]
-<p style="line-height:50%" ><br>&nbsp;<br>&nbsp;</p>
-@box[bg-black text-white rounded my-box-pad2  ](<p style="line-height:40%"><span style="font-size:0.7em; " >@color[yellow](North Cluster)<br><br><br><br><br><br><br><br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;</span></p>)
+<p style="line-height:50%" ><br>&nbsp;&nbsp;</p>
+@box[bg-black text-white rounded my-box-pad2  ](<p style="line-height:40%"><span style="font-size:0.7em; " >@color[yellow](North Cluster)<br><br><br><br><br><br><br><br><br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;</span></p>)
 @snapend
 
 
 @snap[north-east span-70 ]
 <br><br><br><br><br>
 <p style="line-height:50%" ><br><br>&nbsp;<br>&nbsp;</p>
-@box[bg-black text-white rounded my-box-pad2  ](<p style="line-height:40%"><span style="font-size:0.7em; " >@color[yellow](South Cluster)<br><br><br><br><br><br><br><br><br><br><br><br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;</span></p>)
+@box[bg-black text-white rounded my-box-pad2  ](<p style="line-height:40%"><span style="font-size:0.7em; " >@color[yellow](South Cluster)<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;</span></p>)
 @snapend
 
 @snap[north span-30 ]
-<p style="line-height:50%" ><br>&nbsp;<br><br>&nbsp;</p>
+<p style="line-height:50%" ><br>&nbsp;<br>&nbsp;</p>
 <p style="line-height:40%" align="left"><span style="font-size:0.450em; font-family:Consolas; " >&nbsp;&nbsp;<br>&nbsp;&nbsp;
 CpuInit&nbsp;&nbsp;<br>&nbsp;&nbsp;
 CpuS3&nbsp;&nbsp;<br>&nbsp;&nbsp;
@@ -2076,7 +2076,7 @@ SmmControl
 @snapend
 
 @snap[north-east span-30 ]
-<p style="line-height:50%" ><br>&nbsp;<br><br>&nbsp;</p>
+<p style="line-height:50%" ><br>&nbsp;<br>&nbsp;</p>
 <p style="line-height:40%" align="left"><span style="font-size:0.450em; font-family:Consolas; " >&nbsp;&nbsp;<br>&nbsp;&nbsp;
 ISPDxe&nbsp;&nbsp;<br>&nbsp;&nbsp;
 MemoryInit&nbsp;&nbsp;<br>&nbsp;&nbsp;
@@ -2088,7 +2088,7 @@ VlvInit
 
 @snap[north-east span-65 ]
 <br><br><br><br><br><br>
-<p style="line-height:50%" ><br><br>&nbsp;<br><br>&nbsp;</p>
+<p style="line-height:50%" ><br><br>&nbsp;<br>&nbsp;</p>
 <p style="line-height:40%" align="left"><span style="font-size:0.450em; font-family:Consolas; " ><br>&nbsp;&nbsp;
 PchInit&nbsp;&nbsp;<br>&nbsp;&nbsp;
 Smbus&nbsp;&nbsp;<br>&nbsp;&nbsp;
