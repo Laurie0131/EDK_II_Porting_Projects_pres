@@ -1982,6 +1982,7 @@ Note:
 <br>
 <br>
 <br>
+<br>
 <p style="line-height:50%" ><br><br><br><br>&nbsp;</p>
 <p style="line-height:70%" align="left" ><span style="font-size:0.9em; font-weight: bold;" >@color[blue](SATA Controller Driver)</span></p>
 @box[bg-royal text-white rounded my-box-pad2  ](<p style="line-height:40%" align="left" ><span style="font-size:0.450em; font-family:Consolas; " >&nbsp;&nbsp;&nbsp;&nbsp;&lt;@color[yellow](I/O Controller South)&gt;Pkg/SataConrollerDxe/PchSataController<br>&nbsp;</span></p>)
@@ -1991,6 +1992,7 @@ Note:
 
 
 @snap[north-west span-100 fragment]
+<br>
 <br>
 <br>
 <br>
