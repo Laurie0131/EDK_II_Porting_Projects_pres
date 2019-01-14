@@ -2041,6 +2041,43 @@ Note:
   -  <PchX South> Vlv2DeviceRefCodePkg/ValleyView2Soc/SouthCluster
 
 
+---
+@title[MinnowBoard Max SoC Specific Modules ]
+<p align="right"><span class="gold" ><b>MinnowBoard Max SoC Specific Modules</b></span></p>
+
+@snap[north span-35 ]
+<p style="line-height:50%" ><br><br>&nbsp;<br>&nbsp;</p>
+@box[bg-black text-white my-box-pad2  ](<p style="line-height:40%"><span style="font-size:0.7em; " >@color[yellow](CPU)<br><br><br><br><br><br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;</span></p>)
+@snapend
+
+@snap[north-east span-35 ]
+<p style="line-height:50%" ><br><br>&nbsp;<br>&nbsp;</p>
+@box[bg-black text-white my-box-pad2  ](<p style="line-height:40%"><span style="font-size:0.7em; " >@color[yellow](North Cluster)<br><br><br><br><br><br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;</span></p>)
+@snapend
+
+
+@snap[north-east span-70 ]
+<br><br><br><br><br><br><br><br><br><br><br>
+<p style="line-height:50%" ><br><br>&nbsp;<br>&nbsp;</p>
+@box[bg-black text-white my-box-pad2  ](<p style="line-height:40%"><span style="font-size:0.7em; " >@color[yellow](Sourth Cluster)<br><br><br><br><br><br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;</span></p>)
+@snapend
+
+
+
+
+
+Note:
+-  Vlv2DeviceRefCodePkg/
+  -  ValleyView2Soc/ 
+    -  CPU
+    -  NorthCluster
+    -  SouthCluster
+
+-  Other SOC 
+	  -  Broxton Silicon Ref package
+	  -  BroxtonSoc/BroxtonSiPkg/ 
+
+
 
 
 ---?image=/assets/images/slides/Slide116.JPG
