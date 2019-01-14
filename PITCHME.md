@@ -2068,18 +2068,18 @@ Note:
 <p style="line-height:60%" align="left"><span style="font-size:0.6em; " >
 &nbsp;&nbsp;`Vlv2DeviceRefCodePkg`/<br>
 &nbsp;&nbsp;&nbsp;&nbsp;   `ValleyView2Soc`/ <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CPU /<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`NorthCluster` /<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`SouthCluster` /
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CPU /<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`NorthCluster` /<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`SouthCluster` /
 </span></p>
 @snapend
 
 @snap[south-west span-35 ]
 <p style="line-height:50%" align="left"><span style="font-size:0.5em; " >
-Other SOC <br>
+@color[yellow](Other SOC )<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Broxton Silicon <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reference package<br>
-&nbsp;&nbsp;&nbsp;&nbsp;`BroxtonSoc/BroxtonSiPkg`/ <br>
+&nbsp;&nbsp;&nbsp;&nbsp;Reference package<br>
+&nbsp;`BroxtonSoc/BroxtonSiPkg`/ <br>
 </span></p>
 @snapend
 
