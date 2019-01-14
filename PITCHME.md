@@ -2065,7 +2065,7 @@ Note:
 
 @snap[north-west span-35 ]
 <p style="line-height:50%" ><br>&nbsp;&nbsp;</p>
-<p style="line-height:70%" align="left"><span style="font-size:0.8em; " >
+<p style="line-height:60%" align="left"><span style="font-size:0.6em; " >
 &nbsp;&nbsp;`Vlv2DeviceRefCodePkg`/<br>
 &nbsp;&nbsp;&nbsp;&nbsp;   `ValleyView2Soc`/ <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CPU /<br>
@@ -2075,9 +2075,10 @@ Note:
 @snapend
 
 @snap[south-west span-35 ]
-<p style="line-height:70%" align="left"><span style="font-size:0.7em; " >
+<p style="line-height:50%" align="left"><span style="font-size:0.5em; " >
 Other SOC <br>
-&nbsp;&nbsp;&nbsp;&nbsp;Broxton Silicon Reference package<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Broxton Silicon <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reference package<br>
 &nbsp;&nbsp;&nbsp;&nbsp;`BroxtonSoc/BroxtonSiPkg`/ <br>
 </span></p>
 @snapend
