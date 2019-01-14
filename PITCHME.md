@@ -2652,16 +2652,16 @@ Just be aware of Shell libraries that would be interfacing with the platform for
 @snapend
 
 
-@snap[north-east span-50 fragment]
+@snap[north-east span-60 fragment]
 <br>
 <p align="left" style="line-height:40%"><span style="font-size:0.8em; "><br></span></p>
 <p style="line-height:80%" align="left"><span style="font-size:0.70em; " >
-<br><br><br><br><br>
+<br><br><br>
 <br>&nbsp;&nbsp;&nbsp;&nbsp;
 @size[1.2em](@fa[star gp-bullet-green])&nbsp;&nbsp;All ported libraries
 <br><br>&nbsp;&nbsp;&nbsp;&nbsp;
 @size[1.2em](@fa[star gp-bullet-green])&nbsp;&nbsp;All ported Drivers
-<br><br>&nbsp;&nbsp;&nbsp;&nbsp;
+<br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;
 @size[1.2em](@fa[star gp-bullet-green])&nbsp;&nbsp;Values – Library classes
 <br><br>&nbsp;&nbsp;&nbsp;&nbsp;
 @size[1.2em](@fa[star gp-bullet-green])&nbsp;&nbsp;Flash Map layout
