@@ -2076,8 +2076,7 @@ Note:
 
 @snap[south-west span-35 ]
 <p style="line-height:50%" align="left"><span style="font-size:0.5em; " >
-@color[yellow](Other SOC )<br>
-&nbsp;&nbsp;&nbsp;&nbsp;Broxton Silicon <br>
+@color[yellow](Other SOC )&nbsp;&nbsp;- &nbsp;&nbsp;Broxton Silicon <br>
 &nbsp;&nbsp;&nbsp;&nbsp;Reference package<br>
 &nbsp;`BroxtonSoc/BroxtonSiPkg`/ <br>
 </span></p>
