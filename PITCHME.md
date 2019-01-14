@@ -2066,8 +2066,8 @@ Note:
 @snap[north-west span-35 ]
 <p style="line-height:50%" ><br>&nbsp;&nbsp;</p>
 <p style="line-height:60%" align="left"><span style="font-size:0.6em; " >
-&nbsp;&nbsp;`Vlv2DeviceRefCodePkg`/<br>
-&nbsp;&nbsp;&nbsp;&nbsp;   `ValleyView2Soc`/ <br>
+`Vlv2DeviceRefCodePkg`/<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`ValleyView2Soc`/ <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CPU /<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`NorthCluster` /<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`SouthCluster` /
