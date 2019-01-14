@@ -2632,7 +2632,50 @@ Just be aware of Shell libraries that would be interfacing with the platform for
 -  MinnowBoard Max
   -  <I/O Cntrl South> Vlv2DeviceRefCodePkg/ValleyView2Soc/SouthCluster
 
+---?
+@title[Porting Summary: New Package Directory]
+<p align="right"><span class="gold" ><b>Porting Summary: New Package Directory</b></span></p>
 
+@snap[north-west span-50]
+<br>
+<p align="left" style="line-height:40%"><span style="font-size:0.8em; "><br><br></span></p>
+@box[bg-black text-white rounded my-box-pad2  ](<p style="line-height:80%" align="left"><span style="font-size:0.70em; font-family:Consolas; " >&nbsp;&nbsp;MyWorkSpace/<br>&nbsp;&nbsp;&nbsp;&nbsp;	NewProjectPkg/<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		Include/<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		Library/<br>&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		PlatformDrivers/<br><br>&nbsp;&nbsp;	<br>	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		NewProjectPkg.DSC<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		NewProjectPkg.FDF<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		NewProjectPkg.DEC<br>&nbsp;&nbsp;&nbsp;&nbsp;</span></p>)
+<br>
+@snapend
+
+
+@snap[north-east span-50]
+<br>
+<p align="left" style="line-height:40%"><span style="font-size:0.8em; "><br></span></p>
+<p style="line-height:80%" align="left"><span style="font-size:0.90em;" >Ported Package</span></p>
+<br>
+@snapend
+
+
+@snap[north-west span-50 fragment]
+<br>
+<p align="left" style="line-height:40%"><span style="font-size:0.8em; "><br><br></span></p>
+<p style="line-height:80%" align="left"><span style="font-size:0.70em; " >
+<br><br><br><br><br>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;
+@size[1.2em](@fa[star gp-bullet-green])&nbsp;&nbsp;All ported libraries
+<br>&nbsp;&nbsp;&nbsp;&nbsp;
+@size[1.2em](@fa[star gp-bullet-green])&nbsp;&nbsp;All ported Drivers
+<br>&nbsp;&nbsp;&nbsp;&nbsp;
+@size[1.2em](@fa[star gp-bullet-green])&nbsp;&nbsp;Values – Library classes
+<br>&nbsp;&nbsp;&nbsp;&nbsp;
+@size[1.2em](@fa[star gp-bullet-green])&nbsp;&nbsp;Flash Map layout
+<br>&nbsp;&nbsp;&nbsp;&nbsp;
+@size[1.2em](@fa[star gp-bullet-green])&nbsp;&nbsp;Defines per platform
+</span></p>
+<br>
+@snapend
+
+
+
+
+
+Note:
 
 ---?image=/assets/images/slides/Slide154.JPG
 <!-- .slide: data-transition="none" -->
