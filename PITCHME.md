@@ -1971,7 +1971,7 @@ Note:
 <br>
 <p style="line-height:50%" ><br><br><br><br>&nbsp;</p>
 <p style="line-height:70%" align="left" ><span style="font-size:0.9em; font-weight: bold;" >@color[#87E2A9](PCH Initialize Driver)</span></p>
-@box[bg-green-pp text-white rounded my-box-pad2  ](<p style="line-height:40%" align="left" ><span style="font-size:0.450em; font-family:Consolas; " >&nbsp;&nbsp;&nbsp;&nbsp; NewProjectPkg/LegacyBiosDxe/Platform.c<br>&nbsp;&nbsp;&nbsp;&nbsp; &lt;@color[yellow](I/O Controller South)&gt;Pkg/PchInitDxe/<br>&nbsp;</span></p>)
+@box[bg-green2 text-white rounded my-box-pad2  ](<p style="line-height:40%" align="left" ><span style="font-size:0.450em; font-family:Consolas; " >&nbsp;&nbsp;&nbsp;&nbsp; NewProjectPkg/LegacyBiosDxe/Platform.c<br>&nbsp;&nbsp;&nbsp;&nbsp; &lt;@color[yellow](I/O Controller South)&gt;Pkg/PchInitDxe/<br>&nbsp;</span></p>)
 <br>
 @snapend
 
@@ -2003,7 +2003,7 @@ Note:
 <br>
 <p style="line-height:50%" ><br><br><br><br>&nbsp;<br>&nbsp;</p>
 <p style="line-height:70%" align="left" ><span style="font-size:0.9em; font-weight: bold;" >@color[gray](Super I/O Driver)</span></p>
-@box[bg-grey-50 text-white rounded my-box-pad2  ](<p style="line-height:40%" align="left" ><span style="font-size:0.450em; font-family:Consolas; " >&nbsp;&nbsp;&nbsp;&nbsp; &lt;@color[yellow](XSioXVer)&rt;Pkg/XSioXVerDxe/<br>&nbsp;</span></p>)
+@box[bg-grey-50 text-white rounded my-box-pad2  ](<p style="line-height:40%" align="left" ><span style="font-size:0.450em; font-family:Consolas; " >&nbsp;&nbsp;&nbsp;&nbsp; &lt;@color[yellow](XSioXVer)&gt;Pkg/XSioXVerDxe/<br>&nbsp;</span></p>)
 <br>
 @snapend
 
