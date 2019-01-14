@@ -2655,7 +2655,7 @@ Just be aware of Shell libraries that would be interfacing with the platform for
 @snap[north-east span-55 fragment]
 <br>
 <p align="left" style="line-height:40%"><span style="font-size:0.8em; "><br></span></p>
-<p style="line-height:75%" align="left"><span style="font-size:0.80em; " ><font color="yellow">
+<p style="line-height:70%" align="left"><span style="font-size:0.80em; " ><font color="yellow">
 <br><br><br>
 <br>&nbsp;&nbsp;&nbsp;&nbsp;
 @size[1.52em](@fa[star gp-bullet-green])&nbsp;&nbsp;All ported libraries
