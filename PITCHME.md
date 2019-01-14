@@ -2333,30 +2333,50 @@ Note:
 6. Minimums for UEFI Shell
 
 
-
----?image=/assets/images/slides/Slide135.JPG
-@title[Porting Task List Section]
-<p align="center"><span class="gold" ><b>Porting Task List</b></span></p>
-
-
-Note:
-- Section 5 of the Porting Task List
+### Section 5 of the Porting Task List
  -  Update build text files with libraries, ported modules, and PCD values to configure modules
+
 
 
 ---?image=/assets/images/slides/Slide137.JPG
 @title[Build Text Files for the Platform]
 <p align="right"><span class="gold" >Build Text Files for the Platform</span></p>
-<br> 
-<br> 
-<br> 
-<br> 
-<br> 
-<br> 
-<br> 
-<br> 
-<br> 
+
+@snap[north span-40 ]
+<br>
+<br>
+<p align="left" style="line-height:40%"><span style="font-size:0.8em; "><br></span></p>
+@box[bg-black text-white rounded my-box-pad2  ](<p style="line-height:40%" align="left"><span style="font-size:0.50em; font-family:Consolas; " >&nbsp;&nbsp;MyWorkSpace/<br>&nbsp;&nbsp;&nbsp;&nbsp;	NewProjectPkg/<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		Include/<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		Library/<br>&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		PlatformDrivers/<br>&nbsp;&nbsp;	<br>	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		NewProjectPkg.DSC<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		NewProjectPkg.FDF<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		NewProjectPkg.DEC<br><br>&nbsp;&nbsp;&nbsp;&nbsp;</span></p>)
+<br>
+@snapend
+
+
+@snap[west span-40 fragment]
+<br>
+<br>
+<p align="left" style="line-height:40%"><span style="font-size:0.8em; "><br></span></p>
+<p align="left" style="line-height:80%"><span style="font-size:0.8em; ">@color[yellow](<b>Flash Map Layout</b>)</span></p>
+@snapend
+
+@snap[east span-40 fragment]
+<br>
+<br>
+<p align="left" style="line-height:40%"><span style="font-size:0.8em; "><br></span></p>
+<p align="left" style="line-height:80%"><span style="font-size:0.8em; ">@color[yellow](<b>PCD Values - Library classes</b>)</span></p>
+@snapend
+
+
+@snap[south-east span-40 fragment]
+<p align="left" style="line-height:80%"><span style="font-size:0.8em; ">@color[yellow](<b>Defines for a platform</b>)</span></p>
+<p align="left" style="line-height:40%"><span style="font-size:0.8em; "><br></span></p>
+<br>
+<br>@snapend
+
+
+@snap[south-west span-60 ]
 <span style="font-size:0.5em" >Check the <a href="https://github.com/tianocore/tianocore.github.io/wiki/EDK-II-Specifications">EDK II Specifications</a> </span>
+@snapend
+
 
 Note:
 -  Specs:
