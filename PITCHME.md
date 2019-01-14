@@ -2722,83 +2722,9 @@ Just be aware of Shell libraries that would be interfacing with the platform for
 @snapend
 
 
-
-@snap[north-east span-50 fragment]
-<br>
-<p align="left" style="line-height:40%"><span style="font-size:0.8em; "><br></span></p>
-<p style="line-height:70%" align="left"><span style="font-size:0.80em; " ><font color="yellow">
-<br><br><br>
-<br>&nbsp;&nbsp;&nbsp;&nbsp;
-@size[1.52em](@fa[star gp-bullet-ltgreen])&nbsp;&nbsp;All ported libraries
-<br><br>&nbsp;&nbsp;&nbsp;&nbsp;
-@size[1.52em](@fa[star gp-bullet-gold])&nbsp;&nbsp;All ported Drivers
-<br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;
-@size[1.52em](@fa[star gp-bullet-purple])&nbsp;&nbsp;Values – Library classes
-<br><br>&nbsp;&nbsp;&nbsp;&nbsp;
-@size[1.52em](@fa[star gp-bullet-yellow])&nbsp;&nbsp;Flash Map layout
-<br><br>&nbsp;&nbsp;&nbsp;&nbsp;
-@size[1.52em](@fa[star gp-bullet-blue])&nbsp;&nbsp;Defines per platform
-</font></span></p>
-<br>
-@snapend
-
-
-
-
-
-Note:
-
----?image=/assets/images/slides/Slide154.JPG
-<!-- .slide: data-transition="none" -->
-@title[Porting Summary: New Package Directory]
-<p align="right"><span class="gold" >Porting Summary: New Package Directory</span></p>
-
 Note:
 
 
-+++?image=/assets/images/slides/Slide155.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Porting Summary: New Package Directory 02]
-<p align="right"><span class="gold" >Porting Summary: New Package Directory</span></p>
-
-Note:
-
-+++?image=/assets/images/slides/Slide156.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Porting Summary: New Package Directory 03]
-<p align="right"><span class="gold" >Porting Summary: New Package Directory</span></p>
-
-Note:
-
-
-+++?image=/assets/images/slides/Slide157.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Porting Summary: New Package Directory 04]
-<p align="right"><span class="gold" >Porting Summary: New Package Directory</span></p>
-
-Note:
-
-+++?image=/assets/images/slides/Slide158.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Porting Summary: New Package Directory 05]
-<p align="right"><span class="gold" >Porting Summary: New Package Directory</span></p>
-
-Note:
-
-+++?image=/assets/images/slides/Slide159.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Porting Summary: New Package Directory 06]
-<p align="right"><span class="gold" >Porting Summary: New Package Directory</span></p>
-
-Note:
-
-
-  
 
 
   
