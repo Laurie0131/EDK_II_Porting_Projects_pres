@@ -2064,13 +2064,13 @@ Note:
 
 @snap[north span-30 ]
 <p style="line-height:50%" ><br>&nbsp;<br>&nbsp;</p>
-<p style="line-height:40%" align="left"><span style="font-size:0.450em; font-family:Consolas; " >&nbsp;&nbsp;<br>&nbsp;&nbsp;
-CpuInit&nbsp;&nbsp;<br>&nbsp;&nbsp;
-CpuS3&nbsp;&nbsp;<br>&nbsp;&nbsp;
-Dts&nbsp;&nbsp;<br>&nbsp;&nbsp;
-EcpOnly&nbsp;&nbsp;<br>&nbsp;&nbsp;
-PowerManagement<br>&nbsp;&nbsp;
-SmmAccess&nbsp;&nbsp;<br>&nbsp;&nbsp;
+<p style="line-height:40%" align="left"><span style="font-size:0.450em; font-family:Consolas; " >&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;
+CpuInit&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;
+CpuS3&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;
+Dts&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;
+EcpOnly&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;
+PowerManagement<br>&nbsp;&nbsp;&nbsp;&nbsp;
+SmmAccess&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;
 SmmControl
 </span></p>
 @snapend
