@@ -2396,7 +2396,7 @@ Note:
 
 ---?image=/assets/images/slides/Slide139.JPG
 @title[Update the New Project DEC File]
-<p align="right"><span class="gold" >Update the New Project DEC File</span></p>
+<p align="right"><span class="gold" ><b>Update the New Project DEC File</b></span></p>
 <br> 
 <br> 
 <br> 
@@ -2422,11 +2422,12 @@ Note:
 
 Note:
  This is an example of the NewProjectPkg.dec file
+ Look at the GUID, Protocol and PCD declarations
 
 
 ---?image=/assets/images/slides/Slide141.JPG
 @title[Update the New Project DSC File]
-<p align="right"><span class="gold" >Update the New Project DSC File</span></p>
+<p align="right"><span class="gold" ><b>Update the New Project DSC File</b></span></p>
 <br> 
 <br> 
 <br> 
@@ -2457,7 +2458,7 @@ Note:
 ---?image=/assets/images/slides/Slide143.JPG
 <!-- .slide: data-transition="none" -->
 @title[Update the New Project FDF File]
-<p align="right"><span class="gold" >Update the New Project FDF File</span></p>
+<p align="right"><span class="gold" ><b>Update the New Project FDF File</b></span></p>
 <br> 
 <br> 
 <br> 
@@ -2483,7 +2484,7 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[Update the New Project FDF File Layout]
-<p align="right"><span class="gold" >Update the New Project FDF File - Layout</span></p>
+<p align="right"><span class="gold" ><b>Update the New Project FDF File - Layout</b></span></p>
 
 
 
@@ -2546,19 +2547,68 @@ INF $(SAMPLE)/Universal/Network/ SnpNt32Dxe/SnpNt32Dxe.inf
 ```
 
 
----?image=/assets/images/slides/Slide148.JPG
-@title[Porting Task List Section 06]
-<p align="center"><span class="gold" ><b>Porting Task List</b></span></p>
 
+
+
+
+---?image=assets/images/binary-strings-black2.jpg
+@title[Porting Task List Section 06]
+<p align="center"><span style="font-size:01.25em"><font color="#e49436"><b>Porting Task List</b></span></p>
+
+@snap[north-east span-90 ]
+<br>
+<br>
+<br>
+@box[bg-grey-15 text-white rounded my-box-pad2  ](<p style="line-height:60%" ><span style="font-size:0.9em; font-weight: bold;" > <br><br> <br><br><br><br><br><br><br><br><br><br><br><br><br>&nbsp;</span></p>)
+@snapend
+
+
+@snap[north-east span-15]
+![Porting_task_list.gif](/assets/images/tenor.gif)
+@snapend
+
+<!---  col of numbers  -->
+
+@snap[north-west span-10 ]
+<br>
+<br>
+<p style="line-height:60%" align="left"><span style="font-size:02.0em" ><font color="#808080"><br>@color[yellow](&#10102;<br><br>&#10103;<br><br>&#10104;<br><br>&#10105;<br><br>&#10106;)<br><br>@color[red](&#10107;)  </font></span></p>
+@snapend
+
+
+@snap[north-east span-90 ]
+<br>
+<br>
+<p style="line-height:60%" align="left"><span style="font-size:0.85em" ><br>&nbsp;@color[gray](Create a New Project package directory)
+<br><br><br>&nbsp;@color[gray](Create Build Files &lpar;DSC, DEC, and FDF&rpar;)
+<br><br><br>&nbsp;@color[gray](Update target.txt to make your Project the default)
+<br><br><br>&nbsp;@color[gray](Use UEFI PI phases to Port all project modules)
+<br><br><br>&nbsp;@color[gray](Update DSC w/ new libraries, modules, and PCDs values)
+<br><br><br>&nbsp;@color[yellow](Minimums for UEFI Shell)</font></span></p>
+@snapend
+
+
+@snap[south span-100 fragment]
+@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:80%"><span style="font-size:0.80em" >Double check the Protocol and Driver dependencies to boot to the UEFI Shell<br>&nbsp;</span></p>)
+@snapend
 
 Note:
-- Section 6 of the Porting Task List
+
+1. Create a New Project package directory
+2. Create Build Files (DSC, DEC, and FDF)
+3. Update conf/target.txt to make your Project the default build (optional)  
+4. Port all required modules for your project through all UEFI Platform initialization phases
+5. Update build text (DSC, DEC, FDF) files with libraries, ported modules, and PCD values to configure modules
+6. Minimums for UEFI Shell
+
+### Section 6 of the Porting Task List
  -  Minimums for UEFI Shell
+
 
 
 ---?image=/assets/images/slides/Slide150.JPG
 @title[Minimum Drivers for UEFI Shell]
-<p align="right"><span class="gold" >Minimum Drivers for UEFI Shell</span></p>
+<p align="right"><span class="gold" ><b>Minimum Drivers for UEFI Shell</b></span></p>
 
 Note:
 Here we have a summary of the drivers that will most likely need changing for your port to a new platform to bring up the EFI shell. As you can see the list is not that long. If your platform is similar to one of our reference platforms (same chipset typically) then your porting effort will mostly be in the area of MRC, Super I/O and PCI infrastructure (servers may have multiple root bus bridges)
@@ -2574,7 +2624,7 @@ The goodness about this is that you can bring the shell up and then via serial p
 
 ---?image=/assets/images/slides/Slide152.JPG
 @title[Minimum Libraries for UEFI Shell]
-<p align="right"><span class="gold" >Minimum Libraries for UEFI Shell</span></p>
+<p align="right"><span class="gold" ><b>Minimum Libraries for UEFI Shell</b></span></p>
 
 Note:
 Just be aware of Shell libraries that would be interfacing with the platform for porting
