@@ -2059,12 +2059,64 @@ Note:
 @snap[north-east span-70 ]
 <br><br><br><br><br><br>
 <p style="line-height:50%" ><br><br>&nbsp;<br>&nbsp;</p>
-@box[bg-black text-white rounded my-box-pad2  ](<p style="line-height:40%"><span style="font-size:0.7em; " >@color[yellow](Sourth Cluster)<br><br><br><br><br><br><br><br><br><br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;</span></p>)
+@box[bg-black text-white rounded my-box-pad2  ](<p style="line-height:40%"><span style="font-size:0.7em; " >@color[yellow](South Cluster)<br><br><br><br><br><br><br><br><br><br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;</span></p>)
 @snapend
 
+@snap[north span-30 ]
+<p style="line-height:50%" ><br>&nbsp;<br>&nbsp;</p>
+<p style="line-height:40%" align="left"><span style="font-size:0.450em; font-family:Consolas; " >&nbsp;&nbsp;<br>&nbsp;&nbsp;
+CpuInit&nbsp;&nbsp;<br>&nbsp;&nbsp;
+CpuS3&nbsp;&nbsp;<br>&nbsp;&nbsp;
+Dts&nbsp;&nbsp;<br>&nbsp;&nbsp;
+EcpOnly&nbsp;&nbsp;<br>&nbsp;&nbsp;
+PowerManagement<br>&nbsp;&nbsp;
+SmmAccess&nbsp;&nbsp;<br>&nbsp;&nbsp;
+SmmControl
+</span></p>
+@snapend
 
+@snap[north-east span-30 ]
+<p style="line-height:50%" ><br>&nbsp;<br>&nbsp;</p>
+<p style="line-height:40%" align="left"><span style="font-size:0.450em; font-family:Consolas; " >&nbsp;&nbsp;<br>&nbsp;&nbsp;
+ISPDxe&nbsp;&nbsp;<br>&nbsp;&nbsp;
+MemoryInit&nbsp;&nbsp;<br>&nbsp;&nbsp;
+PciHostBridge&nbsp;&nbsp;<br>&nbsp;&nbsp;
+SmBiosMemory&nbsp;&nbsp;<br>&nbsp;&nbsp;
+VlvInit
+</span></p>
+@snapend
 
+@snap[north-east span-70 ]
+<br><br><br><br><br><br>
+<p style="line-height:50%" ><br><br>&nbsp;<br>&nbsp;</p>
+<p style="line-height:40%" align="left"><span style="font-size:0.450em; font-family:Consolas; " ><br>&nbsp;&nbsp;
+PchInit&nbsp;&nbsp;<br>&nbsp;&nbsp;
+Smbus&nbsp;&nbsp;<br>&nbsp;&nbsp;
+Spi&nbsp;&nbsp;<br>&nbsp;&nbsp;
+SmmControl&nbsp;&nbsp;<br>&nbsp;&nbsp;
+Usb&nbsp;&nbsp;<br>&nbsp;&nbsp;
+S3Support&nbsp;&nbsp;<br>&nbsp;&nbsp;
+SmartTimer&nbsp;&nbsp;<br>&nbsp;&nbsp;
+LegacyInterrupt&nbsp;&nbsp;<br>&nbsp;&nbsp;
+ActiveBios&nbsp;&nbsp;<br>&nbsp;&nbsp;
+</span></p>
+@snapend
 
+@snap[north-east span-30 ]
+<br><br><br><br><br><br>
+<p style="line-height:50%" ><br><br>&nbsp;<br>&nbsp;</p>
+<p style="line-height:40%" align="left"><span style="font-size:0.450em; font-family:Consolas; " ><br>&nbsp;&nbsp;
+Reset<br>&nbsp;&nbsp;
+PchSmiDispatcher<br>&nbsp;&nbsp;
+Pcie&nbsp;&nbsp;<br>&nbsp;&nbsp;
+Pnp&nbsp;&nbsp;<br>&nbsp;&nbsp;
+SDControllerDxe<br>&nbsp;&nbsp;
+SDMediaDeviceDxe<br>&nbsp;&nbsp;
+SataControler<br>&nbsp;&nbsp;
+SysFwUpdateCapsule<br>&nbsp;&nbsp;
+I2cStack
+</span></p>
+@snapend
 
 Note:
 -  Vlv2DeviceRefCodePkg/
