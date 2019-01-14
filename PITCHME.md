@@ -2188,7 +2188,7 @@ Note:
 
 ---?image=/assets/images/slides/Slide128.JPG
 @title[BDS Phase - stack]
-<p align="right"><span class="gold" >BDS Phase</span></p>
+<p align="right"><span class="gold" ><b>BDS Phase</b></span></p>
  
 Note:
 
@@ -2204,7 +2204,7 @@ Note:
 
 ---?image=/assets/images/slides/Slide130.JPG
 @title[Serial Terminal Console Drivers]
-<p align="right"><span class="gold" >Serial Terminal Console Drivers</span></p>
+<p align="right"><span class="gold" ><b>Serial Terminal Console Drivers</b></span></p>
  
 Note:
 
@@ -2215,6 +2215,52 @@ Note:
 -  The orange ones (or chipset specific) are the base protocols that need platform porting if yours is different than our reference implementation
  
  
+
+---?
+@title[Porting Serial Terminal Console]
+<p align="right"><span class="gold" ><b>Porting Serial Terminal Console</b></span></p>
+
+@snap[north-west span-90 ]
+<br>
+<br>
+<p align="left" style="line-height:40%"><span style="font-size:0.8em; "><br></span></p>
+@box[bg-black text-yellow rounded my-box-pad2  ](<p style="line-height:40%" align="left"><span style="font-size:0.450em; font-family:Consolas; " >&nbsp;&nbsp;@color[white](NewProjectPkg/)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PlatformDxe/<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   PlatformSetupDxe /<br>&nbsp;&nbsp;&nbsp;&nbsp;	 . . .<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   Library/<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      PlatformBdsLib/<br>&nbsp;&nbsp;&nbsp;&nbsp;</span></p>)
+<br>
+@snapend
+
+
+@snap[north-west span-90 ]
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p align="left" style="line-height:40%"><span style="font-size:0.8em; "><br></span></p>
+@box[bg-black text-yellow rounded my-box-pad2  ](<p style="line-height:40%" align="left"><span style="font-size:0.450em; font-family:Consolas; " >&nbsp;&nbsp;@color[white](MdeModulePkg/)<br>&nbsp;&nbsp;&nbsp;&nbsp; Universal/<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Console/<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ConPlatformDxe/<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ConSplitterDxe/<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  GraphicsConsoleDxe/<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  TerminalDxe/<br>&nbsp;&nbsp;&nbsp;&nbsp;</span></p>)
+<br>
+@snapend
+
+
+
+@snap[north-east span-25 fragment ]
+<br>
+<br>
+<br>
+<p align="left" style="line-height:40%"><span style="font-size:0.8em; "><br></span></p>
+![Platform](/assets/images/platform.png)
+<br>
+![OpenSource](/assets/images/OpenSource.png)
+@snapend
+
+ 
+Note:
+-  Example platform
+-  specific location
+  -  EDK II Open
+  -  Source location
 
 
 ---?image=/assets/images/slides/Slide132.JPG
