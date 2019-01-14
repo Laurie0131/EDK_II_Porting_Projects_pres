@@ -2024,34 +2024,11 @@ Note:
   -  <PchX South> Vlv2DeviceRefCodePkg/ValleyView2Soc/SouthCluster
 
 
----?image=/assets/images/slides/Slide113.JPG
-<!-- .slide: data-transition="none" -->
-@title[Platform-Dependent DXE Drivers ]
-<p align="right"><span class="gold" ><b>Platform-Dependent DXE Drivers<b></span></p>
-
-Note:
-
--  MinnowBoard Max
-  -  <Memory Cntrl> Vlv2DeviceRefCodePkg/ValleyView2Soc/NorthCluster
-  -  <PchX South> Vlv2DeviceRefCodePkg/ValleyView2Soc/SouthCluster
-
-
-+++?image=/assets/images/slides/Slide114.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Platform-Dependent DXE Drivers 02]
-<p align="right"><span class="gold" >Platform-Dependent DXE Drivers</span></p>
-
-Note:
-
--  MinnowBoard Max
-  -  <Memory Cntrl> Vlv2DeviceRefCodePkg/ValleyView2Soc/NorthCluster
-  -  <PchX South> Vlv2DeviceRefCodePkg/ValleyView2Soc/SouthCluster
 
 
 ---?image=/assets/images/slides/Slide116.JPG
 @title[MinnowBoard Max SoC Specific Modules ]
-<p align="right"><span class="gold" >MinnowBoard Max SoC Specific Modules</span></p>
+<p align="right"><span class="gold" ><b>MinnowBoard Max SoC Specific Modules</b></span></p>
 
 Note:
 -  Vlv2DeviceRefCodePkg/
@@ -2064,6 +2041,117 @@ Note:
 	  -  Broxton Silicon Ref package
 	  -  BroxtonSoc/BroxtonSiPkg/ 
 
+
+
+
+
+---?image=/assets/images/slides/Slide28_1.JPG
+@title[DXE Base Address, PCD Example ]
+<!---  PCD Example   -->
+<p align="right"><span class="gold" ><b>DXE Base Address, PCD Example</b></span></p>
+
+
+@snap[north-east span-90 fragment]
+<p align="left" style="line-height:40%"><span style="font-size:0.8em; ">
+<br>
+<br>
+<br>
+Defined in Package MdePkg DEC </span></p>
+@box[bg-black text-white my-box-pad2  ](<p style="line-height:40%" align="left"><span style="font-size:0.450em; font-family:Consolas; " >&nbsp;&nbsp;[PcdsFixedAtBuildPcds, PatchableInModule, PcdsDynamic, PcdsDynamicEx]<br>&nbsp;&nbsp;gEfiMdePkgTokenSpaceGuid.@color[red](PcdPciExpressBaseAddress)|0|UINT64|0x0000ax&nbsp;&nbsp;</span></p>)
+@snapend
+
+@snap[north-east span-90 fragment]
+<br>
+<p align="left" style="line-height:40%"><span style="font-size:0.8em; ">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+Module INF lists which PCDs get accessed</span></p>
+@box[bg-black text-white my-box-pad2  ](<p style="line-height:40%" align="left"><span style="font-size:0.450em; font-family:Consolas; " >&nbsp;&nbsp;&lt;Pchx&gt;Pkg/Library/DxeRuntimePciLibPciExpress.inf<br>&nbsp;&nbsp;[Pcd]<br>&nbsp;&nbsp;gEfiMdeTokenSpaceGuid.@color[red](PcdPciExpressBaseAddress) <br>&nbsp;&nbsp;</span></p>)
+@snapend
+
+
+@snap[north-east span-90 fragment]
+<br>
+<br>
+<br>
+<p align="left" style="line-height:40%"><span style="font-size:0.8em; "><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>Value to use in Project @color[yellow](`NewProjectPkg.dsc`) </span></p>
+@box[bg-black text-white my-box-pad2  ](<p style="line-height:40%" align="left"><span style="font-size:0.450em; font-family:Consolas; " >&nbsp;&nbsp;[PcdsPatchableInModule]<br>&nbsp;&nbsp;gEifMdeTokenSpaceGuid.@color[red](PcdPciExpressBaseAddres)|<font color="cyan">0xE0000000</font><br>&nbsp;&nbsp;</span></p>)
+@snapend
+
+
+@snap[north-east span-90 fragment]
+<br>
+<br>
+<br>
+<br>
+<p align="left" style="line-height:40%"><span style="font-size:0.8em; "><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+DXE - Referenced in the DXE code in </span></p>
+@box[bg-black text-white my-box-pad2  ](<p style="line-height:40%" align="left"><span style="font-size:0.450em; font-family:Consolas; " >&nbsp;&nbsp;&lt;PchX&gt;Pkg/Library/DxeRuntimePciLibPciExpress.c &nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp; &nbsp;&nbsp;mPciExpressBaseAddress = &lpar;UINTN&rpar; PatchPcdGet64 <br>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &lpar;@color[red](PcdPciExpressBaseAddress)&rpar;;<br>&nbsp;&nbsp;&nbsp;&nbsp;</span></p>)
+<br>
+@snapend
+
+
+
+
+
+
+Note:
+-  Example of a PCD during DXE
+
+-  Defined in ICH X Package DEC
+	-  [PcdsDynamic.common]
+     -  	gEfiIchTokenSpaceGuid.PcdIchSataPataConfigs|0|UINT8|0x40000016
+-  The Module INF lists which PCDs get accessed
+	  -  [Pcd]
+	    -  gEfiIchTokenSpaceGuid.PcdIchSataPataConfigs
+-  The Value to use in New Project Package DSC
+	  -  [PcdsDynamicDefault.common.DEFAULT]
+	    -  gEfiIchTokenSpaceGuid.PcdIchSataPataConfigs|0
+
+-  Here is an example used in the CODE
+-  DXE - Referenced in the DXE code in NewProjectPkg/ SetupDxe/Platform.c
+	 
+  -  	IchSataPataConfigs.Uint8 = PcdGet8(PcdIchSataPataConfigs);
+  -  	PcdSet8(PcdIchSataPataConfigs, IchSataPataConfigs.Uint8);
 
 
 ---?image=/assets/images/slides/Slide118.JPG
