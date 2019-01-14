@@ -2681,11 +2681,11 @@ Just be aware of Shell libraries that would be interfacing with the platform for
 <br>
 <p align="left" style="line-height:40%"><span style="font-size:0.8em; "><br></span></p>
 <p style="line-height:70%" align="left"><span style="font-size:0.80em; " ><font color="yellow">
-<br><br><br>
+<br><br><br><br>
 <br>&nbsp;&nbsp;&nbsp;&nbsp;
 <br><br>&nbsp;&nbsp;&nbsp;&nbsp;
 <br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;
-@size[1.52em](@fa[star gp-bullet-purple])&nbsp;&nbsp;Values – Library classes
+@size[1.52em](@fa[star gp-bullet-magenta])&nbsp;&nbsp;Values – Library classes
 </font></span></p>
 <br>
 @snapend
@@ -2695,12 +2695,12 @@ Just be aware of Shell libraries that would be interfacing with the platform for
 <br>
 <p align="left" style="line-height:40%"><span style="font-size:0.8em; "><br></span></p>
 <p style="line-height:70%" align="left"><span style="font-size:0.80em; " ><font color="yellow">
-<br><br><br>
+<br><br><br><br>
 <br>&nbsp;&nbsp;&nbsp;&nbsp;
 <br><br>&nbsp;&nbsp;&nbsp;&nbsp;
 <br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;
 <br><br>&nbsp;&nbsp;&nbsp;&nbsp;
-@size[1.52em](@fa[star gp-bullet-yellow])&nbsp;&nbsp;Flash Map layout
+@size[1.52em](@fa[star gp-bullet-cyan])&nbsp;&nbsp;Flash Map layout
 </font></span></p>
 <br>
 @snapend
@@ -2710,7 +2710,7 @@ Just be aware of Shell libraries that would be interfacing with the platform for
 <br>
 <p align="left" style="line-height:40%"><span style="font-size:0.8em; "><br></span></p>
 <p style="line-height:70%" align="left"><span style="font-size:0.80em; " ><font color="yellow">
-<br><br><br>
+<br><br><br><br>
 <br>&nbsp;&nbsp;&nbsp;&nbsp;
 <br><br>&nbsp;&nbsp;&nbsp;&nbsp;
 <br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;
