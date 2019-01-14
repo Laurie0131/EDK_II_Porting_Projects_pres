@@ -2589,7 +2589,7 @@ INF $(SAMPLE)/Universal/Network/ SnpNt32Dxe/SnpNt32Dxe.inf
 
 
 @snap[south span-100 fragment]
-@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:80%"><span style="font-size:0.80em" >Double check the Protocol and Driver dependencies to boot to the UEFI Shell<br>&nbsp;</span></p>)
+@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:80%"><span style="font-size:0.80em" >Double check the Protocol, Driver dependencies and libraries<br> to boot to the UEFI Shell<br>&nbsp;</span></p>)
 @snapend
 
 Note:
