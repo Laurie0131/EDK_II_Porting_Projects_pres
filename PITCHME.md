@@ -2224,7 +2224,7 @@ Note:
 <br>
 <br>
 <p align="left" style="line-height:40%"><span style="font-size:0.8em; "><br></span></p>
-@box[bg-black text-yellow rounded my-box-pad2  ](<p style="line-height:40%" align="left"><span style="font-size:0.450em; font-family:Consolas; " >&nbsp;&nbsp;@color[white](NewProjectPkg/)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PlatformDxe/<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   PlatformSetupDxe /<br>&nbsp;&nbsp;&nbsp;&nbsp;	 . . .<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   Library/<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      PlatformBdsLib/<br>&nbsp;&nbsp;&nbsp;&nbsp;</span></p>)
+@box[bg-black text-yellow rounded my-box-pad2  ](<p style="line-height:40%" align="left"><span style="font-size:0.50em; font-family:Consolas; " >&nbsp;&nbsp;@color[white](NewProjectPkg/)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PlatformDxe/<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   PlatformSetupDxe /<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	@color[red](. . .)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   Library/<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      PlatformBdsLib/<br>&nbsp;&nbsp;&nbsp;&nbsp;</span></p>)
 <br>
 @snapend
 
@@ -2239,13 +2239,15 @@ Note:
 <br>
 <br>
 <p align="left" style="line-height:40%"><span style="font-size:0.8em; "><br></span></p>
-@box[bg-black text-yellow rounded my-box-pad2  ](<p style="line-height:40%" align="left"><span style="font-size:0.450em; font-family:Consolas; " >&nbsp;&nbsp;@color[white](MdeModulePkg/)<br>&nbsp;&nbsp;&nbsp;&nbsp; Universal/<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Console/<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ConPlatformDxe/<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ConSplitterDxe/<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  GraphicsConsoleDxe/<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  TerminalDxe/<br>&nbsp;&nbsp;&nbsp;&nbsp;</span></p>)
+@box[bg-black text-white rounded my-box-pad2  ](<p style="line-height:40%" align="left"><span style="font-size:0.50em; font-family:Consolas; " ><font color="cyan">&nbsp;&nbsp;@color[white](MdeModulePkg/)<br>&nbsp;&nbsp;&nbsp;&nbsp; Universal/<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Console/<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ConPlatformDxe/<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ConSplitterDxe/<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  GraphicsConsoleDxe/<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  TerminalDxe/<br>&nbsp;&nbsp;&nbsp;&nbsp;</font></span></p>)
 <br>
 @snapend
 
 
 
-@snap[north-east span-25 fragment ]
+@snap[north span-30 fragment ]
+<br>
+<br>
 <br>
 <br>
 <br>
