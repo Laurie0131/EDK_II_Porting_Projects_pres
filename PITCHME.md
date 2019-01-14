@@ -2693,7 +2693,7 @@ Just be aware of Shell libraries that would be interfacing with the platform for
 
 @snap[north-east span-50 fragment]
 <br>
-<p align="left" style="line-height:40%"><span style="font-size:0.8em; "><br><br></span></p>
+<p align="left" style="line-height:40%"><span style="font-size:0.8em; "><br></span></p>
 <p style="line-height:70%" align="left"><span style="font-size:0.80em; " ><font color="yellow">
 <br><br><br><br>
 <br>&nbsp;&nbsp;&nbsp;&nbsp;
