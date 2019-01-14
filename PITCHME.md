@@ -2344,7 +2344,7 @@ Note:
 @title[Build Text Files for the Platform]
 <p align="right"><span class="gold" ><b>Build Text Files for the Platform</b></span></p>
 
-@snap[north span-40 ]
+@snap[north span-50]
 <br>
 <br>
 <br>
