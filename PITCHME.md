@@ -2647,12 +2647,12 @@ Just be aware of Shell libraries that would be interfacing with the platform for
 @snap[north-east span-40]
 <br>
 <p align="left" style="line-height:40%"><span style="font-size:0.8em; "><br></span></p>
-<p style="line-height:80%" align="left"><span style="font-size:0.90em;" >Ported Package</span></p>
+<p style="line-height:80%" align="left"><span style="font-size:01.20em;" >Ported Package</span></p>
 <br>
 @snapend
 
 
-@snap[north-east span-55 fragment]
+@snap[north-east span-50 fragment]
 <br>
 <p align="left" style="line-height:40%"><span style="font-size:0.8em; "><br></span></p>
 <p style="line-height:70%" align="left"><span style="font-size:0.80em; " ><font color="yellow">
