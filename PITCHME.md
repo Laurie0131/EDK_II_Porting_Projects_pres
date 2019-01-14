@@ -2322,7 +2322,9 @@ Note:
 @snapend
 
 
-
+@snap[south span-100 fragment]
+@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:80%"><span style="font-size:0.80em" >Update build text files with libraries, ported modules, and PCD values to configure modules<br>&nbsp;</span></p>)
+@snapend
 Note:
 
 1. Create a New Project package directory
@@ -2338,11 +2340,12 @@ Note:
 
 
 
----?image=/assets/images/slides/Slide137.JPG
+---
 @title[Build Text Files for the Platform]
 <p align="right"><span class="gold" >Build Text Files for the Platform</span></p>
 
 @snap[north span-40 ]
+<br>
 <br>
 <br>
 <p align="left" style="line-height:40%"><span style="font-size:0.8em; "><br></span></p>
@@ -2355,19 +2358,19 @@ Note:
 <br>
 <br>
 <p align="left" style="line-height:40%"><span style="font-size:0.8em; "><br></span></p>
-<p align="left" style="line-height:80%"><span style="font-size:0.8em; ">@color[yellow](<b>Flash Map Layout</b>)</span></p>
+<p align="left" style="line-height:80%"><span style="font-size:0.7em; ">@color[yellow](<b>Flash Map Layout</b>)</span></p>
 @snapend
 
-@snap[east span-40 fragment]
+@snap[east span-30 fragment]
 <br>
 <br>
 <p align="left" style="line-height:40%"><span style="font-size:0.8em; "><br></span></p>
-<p align="left" style="line-height:80%"><span style="font-size:0.8em; ">@color[yellow](<b>PCD Values - Library classes</b>)</span></p>
+<p align="left" style="line-height:80%"><span style="font-size:0.7em; ">@color[yellow](<b>PCD Values - Library classes</b>)</span></p>
 @snapend
 
 
-@snap[south-east span-40 fragment]
-<p align="left" style="line-height:80%"><span style="font-size:0.8em; ">@color[yellow](<b>Defines for a platform</b>)</span></p>
+@snap[south-east span-30 fragment]
+<p align="left" style="line-height:80%"><span style="font-size:0.7em; ">@color[yellow](<b>Defines for a platform</b>)</span></p>
 <p align="left" style="line-height:40%"><span style="font-size:0.8em; "><br></span></p>
 <br>
 <br>@snapend
