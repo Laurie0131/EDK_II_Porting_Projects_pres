@@ -2154,7 +2154,7 @@ Note:
   -  	PcdSet8(PcdIchSataPataConfigs, IchSataPataConfigs.Uint8);
 
 
----?image=/assets/images/slides/Slide125.JPG
+---?image=/assets/images/slides/Slide53_1.JPG
 @title[BDS Phase:]
 <p align="center"><span class="gold" >BDS Phase:</span></p>
  
