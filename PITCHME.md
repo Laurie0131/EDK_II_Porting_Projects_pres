@@ -2342,14 +2342,14 @@ Note:
 
 ---
 @title[Build Text Files for the Platform]
-<p align="right"><span class="gold" >Build Text Files for the Platform</span></p>
+<p align="right"><span class="gold" ><b>Build Text Files for the Platform</b></span></p>
 
 @snap[north span-40 ]
 <br>
 <br>
 <br>
 <p align="left" style="line-height:40%"><span style="font-size:0.8em; "><br></span></p>
-@box[bg-black text-white rounded my-box-pad2  ](<p style="line-height:40%" align="left"><span style="font-size:0.50em; font-family:Consolas; " >&nbsp;&nbsp;MyWorkSpace/<br>&nbsp;&nbsp;&nbsp;&nbsp;	NewProjectPkg/<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		Include/<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		Library/<br>&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		PlatformDrivers/<br>&nbsp;&nbsp;	<br>	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		NewProjectPkg.DSC<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		NewProjectPkg.FDF<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		NewProjectPkg.DEC<br><br>&nbsp;&nbsp;&nbsp;&nbsp;</span></p>)
+@box[bg-black text-white rounded my-box-pad2  ](<p style="line-height:40%" align="left"><span style="font-size:0.60em; font-family:Consolas; " >&nbsp;&nbsp;MyWorkSpace/<br>&nbsp;&nbsp;&nbsp;&nbsp;	NewProjectPkg/<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		Include/<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		Library/<br>&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		PlatformDrivers/<br>&nbsp;&nbsp;	<br>	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		NewProjectPkg.DSC<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		NewProjectPkg.FDF<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		NewProjectPkg.DEC<br><br>&nbsp;&nbsp;&nbsp;&nbsp;</span></p>)
 <br>
 @snapend
 
@@ -2358,10 +2358,10 @@ Note:
 <br>
 <br>
 <p align="left" style="line-height:40%"><span style="font-size:0.8em; "><br></span></p>
-<p align="left" style="line-height:80%"><span style="font-size:0.7em; ">@color[yellow](<b>Flash Map Layout</b>)</span></p>
+<p align="right" style="line-height:80%"><span style="font-size:0.7em; ">@color[yellow](<b>Flash Map Layout</b>)</span></p>
 @snapend
 
-@snap[east span-30 fragment]
+@snap[east span-40 fragment]
 <br>
 <br>
 <p align="left" style="line-height:40%"><span style="font-size:0.8em; "><br></span></p>
@@ -2369,11 +2369,15 @@ Note:
 @snapend
 
 
-@snap[south-east span-30 fragment]
+@snap[south-east span-40 fragment]
 <p align="left" style="line-height:80%"><span style="font-size:0.7em; ">@color[yellow](<b>Defines for a platform</b>)</span></p>
 <p align="left" style="line-height:40%"><span style="font-size:0.8em; "><br></span></p>
 <br>
-<br>@snapend
+<br>
+<br>
+<br>
+<br>
+@snapend
 
 
 @snap[south-west span-60 ]
