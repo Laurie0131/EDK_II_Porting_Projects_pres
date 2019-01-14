@@ -1961,7 +1961,7 @@ Note:
 @snap[north-west span-100 fragment]
 <br>
 <p style="line-height:70%" align="left" ><span style="font-size:0.9em; font-weight: bold;" >@color[#00b0f0](Host Bridge Driver)</span></p>
-@box[bg-lt-blue-pp text-white rounded my-box-pad2  ](<p style="line-height:40%" align="left" ><span style="font-size:0.450em; font-family:Consolas; " >&nbsp;&nbsp;&nbsp;&nbsp; NewProjectPkg/PciPlatformDxe/PciPlatform.c<br>&nbsp;&nbsp; &lt;@color[yellow](Memory Controller North)&gt;Pkg/PciHostBridgeDxe/<br>&nbsp;</span></p>)
+@box[bg-lt-blue-pp text-white rounded my-box-pad2  ](<p style="line-height:40%" align="left" ><span style="font-size:0.450em; font-family:Consolas; " >&nbsp;&nbsp;&nbsp;&nbsp; NewProjectPkg/PciPlatformDxe/PciPlatform.c<br>&nbsp;&nbsp;&nbsp;&nbsp; &lt;@color[yellow](Memory Controller North)&gt;Pkg/PciHostBridgeDxe/<br>&nbsp;</span></p>)
 <br>
 @snapend
 
@@ -1969,9 +1969,9 @@ Note:
 @snap[north-west span-100 fragment]
 <br>
 <br>
-<p style="line-height:50%" ><br><br><br>&nbsp;</p>
-<p style="line-height:70%" align="left" ><span style="font-size:0.9em; font-weight: bold;" >@color[green](PCH Initialize Driver)</span></p>
-@box[bg-green text-white rounded my-box-pad2  ](<p style="line-height:40%" align="left" ><span style="font-size:0.450em; font-family:Consolas; " >&nbsp;&nbsp;&nbsp;&nbsp; NewProjectPkg/LegacyBiosDxe/Platform.c<br>&nbsp;&nbsp; &lt;@color[yellow](I/O Controller South)&gt;Pkg/PchInitDxe/<br>&nbsp;</span></p>)
+<p style="line-height:50%" ><br><br><br><br>&nbsp;</p>
+<p style="line-height:70%" align="left" ><span style="font-size:0.9em; font-weight: bold;" >@color[#87E2A9](PCH Initialize Driver)</span></p>
+@box[bg-green text-white rounded my-box-pad2  ](<p style="line-height:40%" align="left" ><span style="font-size:0.450em; font-family:Consolas; " >&nbsp;&nbsp;&nbsp;&nbsp; NewProjectPkg/LegacyBiosDxe/Platform.c<br>&nbsp;&nbsp;&nbsp;&nbsp; &lt;@color[yellow](I/O Controller South)&gt;Pkg/PchInitDxe/<br>&nbsp;</span></p>)
 <br>
 @snapend
 
@@ -1981,7 +1981,8 @@ Note:
 <br>
 <br>
 <br>
-<p style="line-height:50%" ><br><br><br>&nbsp;</p>
+<br>
+<p style="line-height:50%" ><br><br><br><br>&nbsp;</p>
 <p style="line-height:70%" align="left" ><span style="font-size:0.9em; font-weight: bold;" >@color[blue](SATA Controller Driver)</span></p>
 @box[bg-royal text-white rounded my-box-pad2  ](<p style="line-height:40%" align="left" ><span style="font-size:0.450em; font-family:Consolas; " >&nbsp;&nbsp;&nbsp;&nbsp;&lt;@color[yellow](I/O Controller South)&gt;Pkg/SataConrollerDxe/PchSataController<br>&nbsp;</span></p>)
 <br>
@@ -2007,7 +2008,7 @@ Note:
 
 @snap[south-east span-60 fragment]
 <p style="line-height:50%" ><br><br><br><br>&nbsp;<br>&nbsp;</p>
-@box[bg-grey-15 text-white my-box-pad2  ](<p style="line-height:40%" align="left"><span style="font-size:0.650em; " >&nbsp;&nbsp;MinnowBoard Max Silicon</span><br><span style="font-size:0.450em; font-family:Consolas; " >&nbsp;&nbsp;&lt;Memory Cntrl North&gt; <br>&nbsp;&nbsp;&nbsp;&nbsp;Vlv2DeviceRefCodePkg/ValleyView2Soc/NorthCluster<br>&nbsp;&nbsp;&lt;I/O Cntrl South &gt; <br>&nbsp;&nbsp;&nbsp;&nbsp;Vlv2DeviceRefCodePkg/ValleyView2Soc/SouthCluster<br>&nbsp;&nbsp;&nbsp;&nbsp;</span></p>)
+@box[bg-grey-05 text-white my-box-pad2  ](<p style="line-height:40%" align="left"><span style="font-size:0.650em; " >&nbsp;&nbsp;MinnowBoard Max Silicon</span><br><span style="font-size:0.450em; font-family:Consolas; " >&nbsp;&nbsp;&lt;Memory Cntrl North&gt; <br>&nbsp;&nbsp;&nbsp;&nbsp;Vlv2DeviceRefCodePkg/ValleyView2Soc/NorthCluster<br>&nbsp;&nbsp;&lt;I/O Cntrl South &gt; <br>&nbsp;&nbsp;&nbsp;&nbsp;Vlv2DeviceRefCodePkg/ValleyView2Soc/SouthCluster<br>&nbsp;&nbsp;&nbsp;&nbsp;</span></p>)
 @snapend
 
 
