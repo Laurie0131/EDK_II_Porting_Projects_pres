@@ -2358,7 +2358,7 @@ Note:
 <br>
 <br>
 <p align="left" style="line-height:40%"><span style="font-size:0.8em; "><br></span></p>
-<p align="right" style="line-height:80%"><span style="font-size:0.7em; ">@color[yellow](<b>Flash Map Layout</b>&nbsp;&nbsp;&nbsp;&nbsp;)</span></p>
+<p align="right" style="line-height:80%"><span style="font-size:0.7em; "><br>@color[yellow](<b>Flash Map Layout</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)</span></p>
 @snapend
 
 @snap[east span-40 fragment]
@@ -2366,12 +2366,12 @@ Note:
 <br>
 <br>
 <p align="left" style="line-height:40%"><span style="font-size:0.8em; "><br></span></p>
-<p align="left" style="line-height:80%"><span style="font-size:0.7em; ">@color[yellow](&nbsp;&nbsp;&nbsp;&nbsp;<b>PCD Values - Library classes</b>)</span></p>
+<p align="left" style="line-height:80%"><span style="font-size:0.7em; "><br>@color[yellow](&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>PCD Values - Library classes</b>)</span></p>
 @snapend
 
 
 @snap[south-east span-40 fragment]
-<p align="left" style="line-height:80%"><span style="font-size:0.7em; ">@color[yellow](&nbsp;&nbsp;&nbsp;&nbsp;<b>Defines for a platform</b>)</span></p>
+<p align="left" style="line-height:80%"><span style="font-size:0.7em; ">@color[yellow](&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Defines for a platform</b>)</span></p>
 <p align="left" style="line-height:40%"><span style="font-size:0.8em; "><br></span></p>
 <br>
 <br>
