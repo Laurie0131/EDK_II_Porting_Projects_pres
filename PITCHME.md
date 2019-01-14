@@ -2047,19 +2047,19 @@ Note:
 
 @snap[north span-30 ]
 <p style="line-height:50%" ><br><br>&nbsp;<br>&nbsp;</p>
-@box[bg-black text-white rounded my-box-pad2  ](<p style="line-height:40%"><span style="font-size:0.7em; " >@color[yellow](CPU)<br><br><br><br><br><br><br><br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;</span></p>)
+@box[bg-black text-white rounded my-box-pad2  ](<p style="line-height:40%"><span style="font-size:0.7em; " >@color[yellow](CPU)<br><br><br><br><br><br><br><br><br><br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;</span></p>)
 @snapend
 
 @snap[north-east span-30 ]
 <p style="line-height:50%" ><br><br>&nbsp;<br>&nbsp;</p>
-@box[bg-black text-white rounded my-box-pad2  ](<p style="line-height:40%"><span style="font-size:0.7em; " >@color[yellow](North Cluster)<br><br><br><br><br><br><br><br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;</span></p>)
+@box[bg-black text-white rounded my-box-pad2  ](<p style="line-height:40%"><span style="font-size:0.7em; " >@color[yellow](North Cluster)<br><br><br><br><br><br><br><br><br><br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;</span></p>)
 @snapend
 
 
 @snap[north-east span-70 ]
-<br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br>
 <p style="line-height:50%" ><br><br>&nbsp;<br>&nbsp;</p>
-@box[bg-black text-white rounded my-box-pad2  ](<p style="line-height:40%"><span style="font-size:0.7em; " >@color[yellow](Sourth Cluster)<br><br><br><br><br><br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;</span></p>)
+@box[bg-black text-white rounded my-box-pad2  ](<p style="line-height:40%"><span style="font-size:0.7em; " >@color[yellow](Sourth Cluster)<br><br><br><br><br><br><br><br><br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;</span></p>)
 @snapend
 
 
