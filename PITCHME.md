@@ -1632,7 +1632,7 @@ Note:
 
 
 ---?image=/assets/images/slides/Slide28_1.JPG
-@title[SEC Lib, PCD Example ]
+@title[PEI Memory Base Address, PCD Example ]
 <!---  PCD Example   -->
 <p align="right"><span class="gold" ><b>PEI Memory Base Address, PCD Example</b> </span></p>
 
@@ -1719,10 +1719,27 @@ PEI - Referenced in the PEI code </span></p>
 
 
 Note:
--  SEC PCDs used to set up temp RAM size and location
-  -  PcdTemporaryRamSize
-  -  PcdTemporaryRamBase
+Lets take a look at a PEI PCD example
 
+Here we see that we are using the PEI Memory Base Address for PeiIchEhciControllerMemoryBaseAddress
+
+It IS Defined in ICH X Package DEC
+- [PcdsFixedAtBuild] 
+  - gEfiIchTokenSpaceGuid.PcdPeiIchEhciControllerMemoryBaseAddress|0|UINT32|0x39
+
+The Module INF lists which PCDs get accessed in the 
+  PlatformInitPei/PlatformEarlyInit.inf
+- [Pcd]   
+  - gEfiIchTokenSpaceGuid.PcdPeiIchEhciControllerMemoryBaseAddress
+
+The Value to use is in the Project New Package DSC
+	[PcdsFixedAtBuild]
+     gEfiIchTokenSpaceGuid.PcdPeiIchEhciControllerMemoryBaseAddress|0xFC000000
+
+The example in the code:
+PEI - Referenced in the PEI code -    /PlatformInitPei/PchInitPeim.c    in function  InstallPeiPchUsbPolicy()
+  -   PeiPchUsbPolicyPpi->EhciMemBaseAddr = 
+    -    PcdGet32(PcdPeiIchEhciControllerMemoryBaseAddress);
 
 
 ---?image=/assets/images/slides/Slide91.JPG
@@ -2265,29 +2282,55 @@ Note:
   -  Source location
 
 
----?image=/assets/images/slides/Slide132.JPG
-<!-- .slide: data-transition="none" -->
-@title[Porting Serial Terminal Console]
-<p align="right"><span class="gold" >Porting Serial Terminal Console</span></p>
- 
-Note:
--  Example platform
--  specific location
-  -  EDK II Open
-  -  Source location
 
 
-+++?image=/assets/images/slides/Slide133.JPG
-<!-- .slide: data-background-transition="none" -->
+---?image=assets/images/binary-strings-black2.jpg
 <!-- .slide: data-transition="none" -->
-@title[Porting Serial Terminal Console 02]
-<p align="right"><span class="gold" >Porting Serial Terminal Console</span></p>
- 
+@title[Porting Task List Section 05]
+<p align="center"><span style="font-size:01.25em"><font color="#e49436"><b>Porting Task List</b></span></p>
+
+@snap[north-east span-90 ]
+<br>
+<br>
+<br>
+@box[bg-grey-15 text-white rounded my-box-pad2  ](<p style="line-height:60%" ><span style="font-size:0.9em; font-weight: bold;" > <br><br> <br><br><br><br><br><br><br><br><br><br><br><br><br>&nbsp;</span></p>)
+@snapend
+
+
+@snap[north-east span-15]
+![Porting_task_list.gif](/assets/images/tenor.gif)
+@snapend
+
+<!---  col of numbers  -->
+
+@snap[north-west span-10 ]
+<br>
+<br>
+<p style="line-height:60%" align="left"><span style="font-size:02.0em" ><font color="#808080"><br>@color[yellow](&#10102;<br><br>&#10103;<br><br>&#10104;<br><br>&#10105;)<br><br>@color[red](&#10106;)<br><br>@color[#808080](&#10107;)  </font></span></p>
+@snapend
+
+
+@snap[north-east span-90 ]
+<br>
+<br>
+<p style="line-height:60%" align="left"><span style="font-size:0.85em" ><br>&nbsp;@color[gray](Create a New Project package directory)
+<br><br><br>&nbsp;@color[gray](Create Build Files &lpar;DSC, DEC, and FDF&rpar;)
+<br><br><br>&nbsp;@color[gray](Update target.txt to make your Project the default)
+<br><br><br>&nbsp;@color[gray](Use UEFI PI phases to Port all project modules)
+<br><br><br>&nbsp;@color[yellow](Update DSC w/ new libraries, modules, and PCDs values)
+<br><br><br>&nbsp;@color[gray](Minimums for UEFI Shell)</font></span></p>
+@snapend
+
+
+
 Note:
--  Example platform
--  specific location
-  -  EDK II Open
-  -  Source location
+
+1. Create a New Project package directory
+2. Create Build Files (DSC, DEC, and FDF)
+3. Update conf/target.txt to make your Project the default build (optional)  
+4. Port all required modules for your project through all UEFI Platform initialization phases
+5. Update build text (DSC, DEC, FDF) files with libraries, ported modules, and PCD values to configure modules
+6. Minimums for UEFI Shell
 
 
 
