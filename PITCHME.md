@@ -2156,7 +2156,7 @@ Note:
 
 ---?image=/assets/images/slides/Slide53_1.JPG
 @title[BDS Phase:]
-<p align="center"><span class="gold" >BDS Phase:</span></p>
+<p align="center"><span class="gold" ><b>BDS Phase:</b></span></p>
  
 <div class="left-2">
 <span style="font-size:0.8em" > &nbsp;</span>
